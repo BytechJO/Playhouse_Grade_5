@@ -1,0 +1,23 @@
+/* -------------------------------------------------------------------- */
+/* CSS إضافي بس للـ layout:2 (جدولين جنب بعض) - ضيفوها لـ SB_G5_U1_P9_4.css */
+/* أو لأي ملف CSS مشترك تبع نشاط fillin.                                  */
+/* -------------------------------------------------------------------- */
+.fillin_table_group {
+    min-width: 260px;
+}
+
+.fillin_table_group table {
+    width: 100%;
+}
+
+.word_cell {
+    font-weight: 600;
+    padding: 8px 12px;
+}
+
+@media (max-width: 767px) {
+    .fillin_table_group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

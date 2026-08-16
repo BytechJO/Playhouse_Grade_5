@@ -1,0 +1,438 @@
+/* Style for the currently dragging selection */
+.cell.selected {
+    background-color: rgba(0, 204, 255, 0.5); /* Semi-transparent yellow highlight */
+}
+
+/* Optional: Add distinct styles for start/end cells */
+.cell.selected.start {
+    border-left: 3px solid rgba(0, 204, 255, 0.986);
+}
+.cell.selected.end {
+    border-right: 3px solid rgb(0, 204, 255);
+}
+
+/* Style for permanently found words */
+.cell.found {
+    background-color: #4CAF50 !important; /* Green highlight for found words */
+    color: white;
+    font-weight: bold;
+}
+
+/* General color #6e2a80 */
+body{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+
+:root {
+    --temp: orange;
+    --light: #c6eafb;
+}
+
+.options {
+    /* height: 575px; */
+}
+.all_cont{
+    width:100%;
+   
+    /* border: 1px solid green; */
+}
+.wordsearch_wrap{
+	width:85%;
+}
+.wordsearch_wrap{
+    position:relative;
+}
+.wordmatrix_holder{
+    position: relative;
+    /* margin: auto; */
+    width: 60%;
+    height: 100%;
+    min-width:320px;
+    min-height:320px;
+    /* overflow: hidden; */
+    /* border: 1px solid blue; */
+}
+.wordmatrix{  
+    position:relative;
+    width: fit-content;
+   
+    /*padding: 1px; */
+    margin: auto;
+    margin-top: 0 !important;
+}
+.wordmatrix .ws_row{
+    background-color: white;  
+}
+.wordmatrix .ws_row .ws_col{
+    width: 40px !important;
+    height: 40px !important;
+    max-width: 60px;
+    max-height: 60px;
+    /* border: 1px solid var(--temp); */
+   /* padding: 5px;*/
+    text-align: center;
+    position: relative;  
+    cursor: pointer;
+    display: table;
+}
+.wordmatrix .ws_row .ws_col p{
+    display:table-cell;
+    height:100%;
+    width:100%;
+    vertical-align:middle;
+	margin:0;
+    font-size: 32px;
+}
+.wordmatrix1 .ws_row .ws_col p{
+    font-family: Arcon;    
+    font-size:35px;   
+    font-weight: 500;
+    
+    position: absolute;
+    text-align: center;
+
+      margin: 0;
+      margin-top: -5px;
+      /* height:100%;
+      width:100%; */
+      /* border: 1px solid #f8a141; */
+    /*height:100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0; */
+
+    /*font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+    text-transform: capitalize;
+}
+.wordlist{    
+    width: 900px;
+    font-family: Arcon;
+    font-size: 22px;
+    text-align: left;
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    margin-top: 0 !important;
+    padding: 4px 30px 4px 60px;
+    /* margin: auto;    */
+    /* margin-top: 0; */
+    /* margin-left:10px; */
+    /* margin-right: 150px; */
+    background-color: #fff;
+    border: 2px solid rgba(0, 153, 255, 0.699);
+    /* box-shadow: 13px 30px 35px #aaa9aab8; */
+    border-radius: 10px;
+    /* width: fit-content; */
+    overflow-y:auto;
+    /* height:fit-content; */
+    /* max-height:60vh; */
+    
+}
+.wordlist .word{
+    position: relative;
+}
+.wordlist .word p{
+    margin: 7px 0px;
+    width: 500px !important;
+    font-size: 28px;
+}
+.wordlist .word .fa{
+    position: absolute;
+    top: 10px;
+    left: -45px;
+    font-weight: 500;
+}
+.wordlist_but{
+    color:black;
+    background-color: var(--temp);
+    border-radius: 10px;
+    padding:5px;
+    font-size:15px;   
+   font-weight:600;
+    position: fixed;
+    top: 120px;
+    right: 10px;
+    cursor:pointer; 
+}
+.onPop{
+    position: fixed;
+    z-index: 2;
+    top: 200px;   
+    margin: auto;
+    bottom: 183px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+}
+
+.rect, .corr{
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius:5px;
+    border:1px solid var(--temp);
+
+}
+.corr{
+    border-color: var(--temp);
+    background-color: var(--light);
+}
+
+  /**End**/
+
+/* ====================================================== */
+/*              Media Queries Start                       */
+/* ====================================================== */
+/* ------------------------------------------------ */
+/*              M Q max-width: 1799.98px */
+/* ------------------------------------------------*/ 
+/* // Large devices (desktops, less than 1800px) */   
+@media (max-width: 1799.98px) {      
+    .wordmatrix_holder{       
+        width: 50vw;
+    }
+    
+   }
+  /* ------------------------------------------------ */
+  /*              M Q max-width: 1399.98px */
+  /* ------------------------------------------------*/    
+  @media (max-width: 1399.98px) {    
+   .wordmatrix .ws_row .ws_col p{           
+    /* margin-top: 0; */
+    font-size: 29px;
+
+    }
+
+  
+  }
+   
+    /* ------------------------------------------------ */
+    /*              M Q max-width: 1199.98px */
+    /* ------------------------------------------------*/
+    /* // Large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) {
+        .wordmatrix .ws_row .ws_col p {            
+            font-size: 18px
+        }  
+        
+    }
+    /* ------------------------------------------------ */
+    /*              M Q max-width: 991.98px */
+    /* ------------------------------------------------*/
+    /* // Medium devices (tablets, less than 992px) 768 to 991.98 */
+    @media (max-width: 991.98px) {  
+        .wordmatrix .ws_row .ws_col p {         
+            font-size: 14px;
+        }  
+            
+    }
+    /* ------------------------------------------------ */
+    /* M Q max-width: 767.98px */
+    /* ------------------------------------------------*/
+    /* // Small devices (landscape phones, less than 768px) 576 to 767.98*/
+    @media (max-width: 767.98px) {
+           
+    }
+    /* ------------------------------------------------ */
+    /* M Q max-width: 575.98px */
+    /* ------------------------------------------------*/
+    /* // Extra small devices (portrait phones, less than 576px) 476 to 575*/
+    @media (max-width: 575.98px) {
+       .activity_wrap{
+		   padding:0;
+	   }
+    }
+    /* ------------------------------------------------ */
+    /*              M Q max-width: 475.98px             */
+    /* ------------------------------------------------*/
+    /* body working fine 320 to 475 */
+    @media (max-width: 475.98px) {  
+        .wordlist_but {           
+            top: 126px;
+        }        
+    }
+    /* ==========================================================
+   Add / merge these rules into fillin_square.css (or wherever
+   the word-search grid styles currently live).
+   Assumes each grid cell is a fixed-size box (.ws_col) set via
+   inline width/height in JS (ob.boxSize).
+   ========================================================== */
+
+.ws_col.cell {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    touch-action: none; /* important: stops the page from scrolling while tracing on mobile */
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Decorative filler cell (the "*" placeholder, e.g. the blue box in the book) */
+.ws_col.filler {
+    background: #2fa5c9;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+/* Cell currently part of the in-progress drag */
+.ws_col.cell.selected {
+    background-color: #cdeeff;
+    color: #0a4a66;
+}
+
+/* Cell that belongs to an already-confirmed word */
+.ws_col.cell.found {
+    background-color: transparent;
+    /* color: #9aa0a6; */
+    text-decoration: line-through;
+}
+
+/* Momentary feedback flashes */
+.ws_col.cell.correct-flash {
+    background-color: #8be28b !important;
+    color: #0b4a0b !important;
+}
+.ws_col.cell.wrong-flash {
+    background-color: #f3a1a1 !important;
+    color: #6b0f0f !important;
+    animation: ws_shake 0.35s ease;
+}
+@keyframes ws_shake {
+    0%, 100% { transform: translateX(0); }
+    25%      { transform: translateX(-3px); }
+    75%      { transform: translateX(3px); }
+}
+
+/* Connecting line between the current cell and the previous one in the
+   path, drawn with a pseudo-element rotated per direction. Requires the
+   JS to set data-dir="u|d|l|r|ul|ur|dl|dr" on each cell after the first
+   in the path (already implemented in wordsearch_draw.js). */
+.ws_col.cell.selected[data-dir]::after,
+.ws_col.cell.found[data-dir]::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 6px;
+    background: currentColor;
+    opacity: 0.55;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+}
+.ws_col.cell[data-dir="r"]::after  { transform: translate(-50%, -50%) rotate(0deg); }
+.ws_col.cell[data-dir="l"]::after  { transform: translate(-50%, -50%) rotate(180deg); }
+.ws_col.cell[data-dir="u"]::after  { transform: translate(-50%, -50%) rotate(-90deg); }
+.ws_col.cell[data-dir="d"]::after  { transform: translate(-50%, -50%) rotate(90deg); }
+.ws_col.cell[data-dir="ur"]::after { transform: translate(-50%, -50%) rotate(-45deg); }
+.ws_col.cell[data-dir="dl"]::after { transform: translate(-50%, -50%) rotate(135deg); }
+.ws_col.cell[data-dir="ul"]::after { transform: translate(-50%, -50%) rotate(-135deg); }
+.ws_col.cell[data-dir="dr"]::after { transform: translate(-50%, -50%) rotate(45deg); }
+
+/* Start / end markers so the student can see where a stroke began/ended */
+.ws_col.cell.start {
+    box-shadow: inset 0 0 0 3px #1e88e5;
+}
+.ws_col.cell.end {
+    box-shadow: inset 0 0 0 3px #1e88e5;
+}
+
+/* Story text mirror in the word list panel: each word highlights /
+   strikes through as it's found in the grid, giving a second, clearer
+   confirmation of progress than the grid alone. */
+.ws_story {
+    /* font-size: 1.1rem; */
+    line-height: 1.8;
+}
+.ws_story_word {
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 3px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.ws_story_word.found {
+    color: #9aa0a6;
+    text-decoration: line-through;
+    text-decoration-color: #2fa5c9;
+    text-decoration-thickness: 2px;
+}
+
+/* ==========================================================
+   Add to fillin_square.css (or wherever wordsearch_ux.css was
+   already merged). New rules only — nothing here touches the
+   .ws_col / .ws_story rules from the grid task.
+   ========================================================== */
+
+.paragraphHolder {
+    width: 100%;
+    margin-top: 24px;
+    padding: 16px 24px;
+    background: #fff;
+    border: 2px solid rgba(0, 153, 255, 0.4);
+    border-radius: 10px;
+}
+
+.sv_paragraph {
+    font-size: 1.15rem;
+    line-height: 2.1;
+}
+
+.sv_word {
+    display: inline-block;
+    padding: 1px 3px;
+    margin: 0 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+.sv_word:hover {
+    background-color: #eef7fb;
+}
+
+/* Student's current selection, before Check is pressed */
+.sv_word.underlined {
+    text-decoration: underline;
+    text-decoration-color: #1e88e5;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+}
+
+/* After Check: feedback colors (kept on top of the underline itself) */
+.sv_word.sv-correct {
+    text-decoration-color: #2e9e44;
+    background-color: #e9f8ec;
+}
+.sv_word.sv-wrong {
+    background-color: #fdeaea;
+    box-shadow: inset 0 0 0 1px #e46a6a;
+}
+
+@media (max-width: 767.98px) {
+    .sv_paragraph {
+        font-size: 1rem;
+        line-height: 1.9;
+    }
+}
