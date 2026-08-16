@@ -405,6 +405,45 @@ function buildQuestionsPopup(listen4Data) {
   setTimeout(function () {
     var popupElement = $(".readHilightsPanel4_1");
 
+    /*
+     * ------------------------------------------------------------ //
+     * بنجمع كل الإجابات الصح من كل الأسئلة سوا بمجموعة وحدة (pool)،
+     * عشان أي كلمة يكتبها الطالب بأي خانة - إذا كانت من ضمن هاد
+     * المجموعة - تنعتبر صح، بغض النظر عن مكانها/ترتيبها الأصلي.
+     * ------------------------------------------------------------ //
+     */
+    var allCorrectAnswersPool = [];
+
+    questions.forEach(function (q) {
+      var correctAnswers = q.answer || [];
+      var alternateAnswers = q.alternateanswer || [];
+
+      allCorrectAnswersPool = allCorrectAnswersPool.concat(correctAnswers);
+
+      alternateAnswers.forEach(function (answersGroup) {
+        if (Array.isArray(answersGroup)) {
+          allCorrectAnswersPool = allCorrectAnswersPool.concat(answersGroup);
+        } else if (answersGroup) {
+          allCorrectAnswersPool.push(answersGroup);
+        }
+      });
+    });
+
+    /*
+     * ------------------------------------------------------------ //
+     * creditedWordOwner: خارج الـ click handler قصدياً، عشان تضل
+     * "عايشة" طول ما البوب أب مفتوح - مش بترتاس كل ضغطة Check من
+     * جديد. مفتاحها الكلمة (normalized)، وقيمتها رقم الفراغ يلي
+     * آخدها. بترتاس بس لما يدوس الطالب Reset.
+     * ------------------------------------------------------------ //
+     */
+    var creditedWordOwner = {};
+
+    function normalizeVal(currentQuestion, val) {
+      var strictCase = currentQuestion.strictcase === "yes";
+      return strictCase ? val : val.toLowerCase();
+    }
+
     popupElement
       .off("click.unscrambleCheck", ".check_unscramble_btn")
       .on("click.unscrambleCheck", ".check_unscramble_btn", function (event) {
@@ -414,7 +453,35 @@ function buildQuestionsPopup(listen4Data) {
          */
         event.stopPropagation();
 
-        popupElement.find(".unscramble_question").each(function (index) {
+        var $allQuestions = popupElement.find(".unscramble_question");
+
+        // ---------------------------------------------------------- //
+        // خطوة 1: أي فراغ تغيّر محتواه وما عاد يطابق الكلمة يلي كانت
+        // مسجلة إله، منحرر الكلمة هاي عشان تصير متاحة لفراغ تاني.
+        // ---------------------------------------------------------- //
+        $allQuestions.each(function (index) {
+          var currentQuestion = questions[index];
+          if (!currentQuestion) {
+            return;
+          }
+          var currentVal = normalizeVal(
+            currentQuestion,
+            $(this).find(".unscramble_input").val().trim(),
+          );
+
+          Object.keys(creditedWordOwner).forEach(function (word) {
+            if (creditedWordOwner[word] === index && word !== currentVal) {
+              delete creditedWordOwner[word];
+            }
+          });
+        });
+
+        // ---------------------------------------------------------- //
+        // خطوة 2: نفحص كل فراغ. الكلمة تنعتبر صح إذا كانت من ضمن
+        // allCorrectAnswersPool وإما ما حدا آخدها قبل، أو نفس الفراغ
+        // هو يلي آخدها أصلاً (يعني ضلت متل ما هي من ضغطة سابقة).
+        // ---------------------------------------------------------- //
+        $allQuestions.each(function (index) {
           var currentQuestion = questions[index];
 
           if (!currentQuestion) {
@@ -422,52 +489,38 @@ function buildQuestionsPopup(listen4Data) {
           }
 
           var inputElement = $(this).find(".unscramble_input");
-
           var userAnswer = inputElement.val().trim();
-
-          var correctAnswers = currentQuestion.answer || [];
-
-          var alternateAnswers = currentQuestion.alternateanswer || [];
-
-          var allAnswers = correctAnswers.slice();
-
-          alternateAnswers.forEach(function (answersGroup) {
-            if (Array.isArray(answersGroup)) {
-              allAnswers = allAnswers.concat(answersGroup);
-            } else if (answersGroup) {
-              allAnswers.push(answersGroup);
-            }
-          });
-
-          var strictCase = currentQuestion.strictcase === "yes";
-
-          var normalizedUserAnswer = strictCase
-            ? userAnswer
-            : userAnswer.toLowerCase();
-
-          var isCorrect = allAnswers.some(function (correctAnswer) {
-            var normalizedCorrectAnswer = strictCase
-              ? String(correctAnswer).trim()
-              : String(correctAnswer).trim().toLowerCase();
-
-            return normalizedUserAnswer === normalizedCorrectAnswer;
-          });
+          var normalizedUserAnswer = normalizeVal(currentQuestion, userAnswer);
 
           $(this).find(".unscramble_tick, .unscramble_cross").hide();
-
           inputElement.removeClass("correct_answer wrong_answer");
 
           if (userAnswer === "") {
             return;
           }
 
-          if (isCorrect) {
-            inputElement.addClass("correct_answer");
+          var isInPool = allCorrectAnswersPool.some(function (
+            correctAnswer,
+          ) {
+            var normalizedCorrectAnswer = normalizeVal(
+              currentQuestion,
+              String(correctAnswer).trim(),
+            );
+            return normalizedUserAnswer === normalizedCorrectAnswer;
+          });
 
+          var owner = creditedWordOwner[normalizedUserAnswer];
+          var isFreeOrOwnedByThis = owner === undefined || owner === index;
+
+          var isCorrect = isInPool && isFreeOrOwnedByThis;
+
+          if (isCorrect) {
+            creditedWordOwner[normalizedUserAnswer] = index;
+
+            inputElement.addClass("correct_answer");
             $(this).find(".unscramble_tick").show();
           } else {
             inputElement.addClass("wrong_answer");
-
             $(this).find(".unscramble_cross").show();
           }
         });
@@ -480,6 +533,8 @@ function buildQuestionsPopup(listen4Data) {
          * منع كبسة Reset من التحكم بصوت البوب أب.
          */
         event.stopPropagation();
+
+        creditedWordOwner = {};
 
         popupElement
           .find(".unscramble_input")
@@ -511,7 +566,6 @@ function buildQuestionsPopup(listen4Data) {
 
   return popupHtml;
 }
-
 /*
  * الدالة الرئيسية.
  */

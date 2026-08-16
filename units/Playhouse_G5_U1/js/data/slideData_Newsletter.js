@@ -118,201 +118,188 @@ var reading_data = {
 
     "second_image": [""],
 
-    "questions": [
-
-        {
-            "singleword": true,
-            "text": "1.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["extreme"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "2.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["trip"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "3.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["snorkeling"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "4.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["underwater"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "5.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["sport"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "6.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["careful"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "7.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["equipment"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "8.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["safely"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "9.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["goggles"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "10.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["snorkel"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "11.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["flippers"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        },
-
-        {
-            "singleword": true,
-            "text": "12.[_]",
-            "textEnd": "",
-            "textaudios": [],
-            "audio": "",
-            "audioenable": "default",
-            "image": "",
-            "answer": ["awesome"],
-            "alternateanswer": [[]],
-            "strictcase": "no",
-            "strictorder": "yes",
-            "maxlength": 500,
-            "type": "text"
-        }
-
-    ]
+  "questions": [
+  {
+    "singleword": false,
+    "text": "1.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["helmet"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "2.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["limit"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "3.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["extreme"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "4.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["goggles"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "5.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["confident"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "6.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["nervous"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "7.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["equipment"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "8.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["dangerous"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "9.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["endurance"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "10.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["ability"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "11.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["adventurous"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+  {
+    "singleword": false,
+    "text": "12.[_]",
+    "textEnd": "",
+    "textaudios": [],
+    "audio": "",
+    "audioenable": "default", // correct (or) default
+    "image": "",
+    "answer": ["exciting"],
+    "alternateanswer": [[]],
+    "strictcase": "no", // yes (or) no
+    "strictorder": "yes", // yes (or) no
+    "maxlength": 500,
+    "type": "text", // text (or) number
+  },
+],
 }
       },
   ]
