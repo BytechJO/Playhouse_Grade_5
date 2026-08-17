@@ -1,0 +1,60 @@
+.sentencecheck_gr {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sentencecheck_row {
+    margin-bottom: 28px;
+}
+
+.sc_num {
+    font-weight: 700;
+    min-width: 22px;
+    margin-top: 6px;
+}
+
+.sc_toggle_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #6c6c9c;
+    border-radius: 4px;
+    margin: 0 12px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.sc_toggle_icon {
+    width: 22px;
+    height: 22px;
+}
+
+.sc_sentence {
+    flex: 1;
+    padding-top: 4px;
+}
+
+.sc_rewrite_line {
+    margin: 4px 0 0 68px;
+}
+
+.sc_rewrite_input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    padding: 4px 2px;
+}
+
+.sc_rewrite_input:focus {
+    outline: none;
+    border-bottom: 1px solid #3582b4;
+}
+
+.sentencecheck_row .icon_wrap {
+    display: none;
+    margin-left: 8px;
+}
