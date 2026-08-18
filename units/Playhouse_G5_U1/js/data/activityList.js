@@ -151,6 +151,14 @@ var _activityData = {
          'layout'             : 1,
          'visited'            : 0,
          'score'              : 0,
+      },    {
+         'file'               : 'slide_color_background.html',
+         'type'               : 'standAlone',
+         'subtype'            : '',
+         'build'              : 'yes', // yes (or) no
+         'activityCtrls'      : 'yes',
+         'layout'             : 3,
+         'visited'            : 0,
       },
       {
          "file"               : "SB_G5_U1_P9_1.html",

@@ -65,7 +65,7 @@ function buildReadingHTML(aObj) {
         'class="img_click unscramble_card_text shakingImage" ' +
         'data-toggle="modal" ' +
         'data-target="#fillin">' +
-        "Can You Unscramble?" +
+        "Can You Remember?" +
         "</div>" +
         "</div>";
       slideHtml +=

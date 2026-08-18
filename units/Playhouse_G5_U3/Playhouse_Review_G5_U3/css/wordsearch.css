@@ -1,0 +1,165 @@
+/* ==========================================================
+   WordSearch styling — matches the reference "Word Search!" image.
+   Colors sampled directly from the image pixels:
+     page bg        #CAEAF4
+     title/labels   #1A3281
+     grid border    #A5A7CD
+     word box bg    #CCCCE2
+   ========================================================== */
+
+.options {
+    position: relative;
+    background-color: #CAEAF4;
+    padding: 24px 16px 40px 16px;
+    border-radius: 18px;
+    overflow: hidden; /* keep decorative bubbles clipped inside */
+}
+
+/* ---------------- decorative background bubbles ----------------
+   Purely visual, positioned behind everything else. Nudge the
+   top/left/size values if your page already has its own background
+   and you don't need these. */
+.ws_bubble {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.35);
+    z-index: 0;
+    pointer-events: none;
+}
+.ws_bubble1 { width: 90px;  height: 90px;  top: 40px;  left: -30px; }
+.ws_bubble2 { width: 60px;  height: 60px;  top: 220px; left: -20px; background-color: rgba(255,255,255,0.25); }
+.ws_bubble3 { width: 110px; height: 110px; top: 420px; left: -40px; }
+.ws_bubble4 { width: 50px;  height: 50px;  top: 600px; left: 10px;  background-color: rgba(255,255,255,0.25); }
+
+.screen_elements {
+    position: relative;
+    z-index: 1;
+}
+
+/* ---------------- title ---------------- */
+.ws_title_wrap {
+    margin: 6px 0 18px 0;
+}
+
+.ws_title {
+    color: #1A3281;
+    font-weight: 800;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* ---------------- the letter grid ---------------- */
+.ws_grid_wrap {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 3px solid #A5A7CD;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0 6px 14px rgba(70, 70, 120, 0.12);
+    box-sizing: border-box;
+}
+
+.ws_grid {
+    display: grid;
+    gap: 0px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    -webkit-touch-callout: none;
+    user-select: none;
+    touch-action: none;
+}
+
+.ws_cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2b2b2b;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    border: 1px solid #d8d8da; /* thin table-style grid lines, like the image */
+}
+
+.ws_cell.ws_selecting {
+    background-color: #cfeaff;
+}
+
+.ws_cell.ws_found {
+    background-color: #36a0c7;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+/* ---------------- "Find the words:" label ---------------- */
+.ws_instructions {
+    width: 100%;
+    max-width: 560px;
+    margin: 18px 0 8px 0;
+}
+
+.ws_find_label {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+    color: #1A3281;
+    text-align: left;
+}
+
+/* ---------------- word list box (3 columns) ---------------- */
+.ws_word_box {
+    width: 100%;
+    max-width: 560px;
+    background-color: #CCCCE2;
+    border-radius: 14px;
+    padding: 18px 26px;
+    box-sizing: border-box;
+}
+
+.ws_word_list {
+    width: 100%;
+    gap: 20px;
+}
+
+.ws_word_col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ws_word_item {
+    font-size: 16px;
+    color: #2b2b2b;
+}
+
+.ws_word_item.ws_word_found {
+    text-decoration: line-through;
+    color: #8a8aa8;
+}
+
+/* ---------------- responsive ---------------- */
+@media (max-width: 767.98px) {
+    .ws_cell {
+        font-size: 11px;
+    }
+    .ws_title {
+        font-size: 24px;
+    }
+    .ws_find_label {
+        font-size: 15px;
+    }
+    .ws_word_box {
+        padding: 14px 16px;
+    }
+    .ws_word_item {
+        font-size: 13px;
+    }
+    .ws_word_list {
+        gap: 10px;
+    }
+}

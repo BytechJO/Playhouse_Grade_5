@@ -1,0 +1,170 @@
+/* ==========================================================
+   readabout.css — new file, link it in the page <head> after
+   activities.css:
+   <link rel="stylesheet" href="../css/readabout.css">
+   ========================================================== */
+
+.rb_wrap {
+  position: relative;
+  width: 950px;
+  max-width: 100%;
+  margin: 20px auto 0 auto;
+}
+
+/* ---------------- Cloud ---------------- */
+.cloud_wrap {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+}
+.cloud_svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cloud_text {
+  position: absolute;
+     top: -16px;
+    left: -16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 175px; /* keeps text clear of the scalloped edges */
+  box-sizing: border-box;
+  user-select: none; /* read-only text, not editable/selectable */
+}
+.cloud_title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.cloud_body {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+/* Each sentence is individually clickable to mark it as the main idea.
+   Free selection only — no correct/incorrect state, so styling only
+   needs a "picked" look, not a right/wrong one. */
+.cloud_sentence {
+  cursor: pointer;
+  pointer-events: auto; /* re-enable clicks despite .cloud_text's user-select:none */
+  border-radius: 45% 45% 45% 45% / 60% 60% 40% 40%;
+  padding: 2px 6px;
+  transition:
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+.cloud_sentence:hover {
+  background-color: #f2f9fd;
+}
+.cloud_sentence.circled {
+  box-shadow: 0 0 0 2px #1e88e5;
+  background-color: #eaf5fc;
+}
+
+/* ---------------- Boxes ---------------- */
+.rb_box {
+  position: absolute;
+  width: 230px;
+}
+.rb_box_left {
+  top: 300px;
+  left: 0;
+}
+.rb_box_right {
+  top: 300px;
+  right: 0;
+}
+.rb_box_bottom {
+  top: 470px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rb_input {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  border: 2px solid #333;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.rb_input:focus {
+  outline: none;
+  border-color: #1e88e5;
+  box-shadow: 0 0 0 2px rgba(30, 136, 229, 0.2);
+}
+
+.rb_label_bottom {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 34px;
+  font-weight: 800;
+  color: #1e9fd6;
+  white-space: nowrap;
+}
+
+/* ---------------- Connecting lines ----------------
+   Simple straight connectors from the cloud edge down to each box.
+   These are approximate — nudge the top/left/height/rotate values to
+   match your exact cloud artwork once it's rendered on the page. */
+.rb_connector {
+  position: absolute;
+  background: #333;
+  width: 2px;
+  transform-origin: top center;
+}
+.rb_connector_left {
+  top: 210px;
+  left: 130px;
+  height: 95px;
+  transform: rotate(35deg);
+}
+.rb_connector_right {
+  top: 210px;
+  right: 130px;
+  height: 95px;
+  transform: rotate(-35deg);
+}
+.rb_connector_bottom {
+  top: 260px;
+  left: 50%;
+  height: 140px;
+  transform: translateX(-50%);
+}
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 800px) {
+  .rb_wrap {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+}
+@media (max-width: 600px) {
+  .cloud_text {
+    padding: 0 90px;
+  }
+  .cloud_title {
+    font-size: 15px;
+  }
+  .cloud_body {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .rb_box {
+    width: 170px;
+  }
+}
