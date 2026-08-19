@@ -24,7 +24,7 @@ var fillin_data = {
   "mainTitle"             : "../images/pages/sb-icons/language-building.png",
   "mainTitleIcon"         : "../images/pages/sb-icons/phonics_main_title_icon.png",
   "mainTitleIconPos"      : {"right": "57px"},
-  "mainTitleAudio"        : "../audios/under.mp3",
+  "mainTitleAudio"        : "../audios/new/LANGUAGE_BUILDING.mp3",
   "subTitleTextLeft"      : '<span class="title-order">1</span> <b>Look it up!</b>',
   "subTitleTextRight"     : "Look up the meaning of the Word Power words using a dictionary. Write the definitions in the table below.",
   "subTitleIcons"         : [],

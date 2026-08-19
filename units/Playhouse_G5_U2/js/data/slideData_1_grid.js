@@ -22,7 +22,7 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon": "../images/pages/sb-icons/phonics_main_title_icon.png",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/under.mp3",
+    "mainTitleAudio"        : "../audios/new/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Read about it!",
     "subTitleTextRight": "",
     "subTitleIcons": [],
