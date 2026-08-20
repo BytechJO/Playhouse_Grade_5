@@ -135,14 +135,16 @@ body {
 
 .title .snap_word {
   width: auto;
+  display: flex;
   padding: 0;
 }
 
 .title_text,
 .title_text_right {
-  display: inline;
-  margin-right: 20px;
-  font-weight: bold;
+      display: flex;
+    margin-right: 20px;
+    font-weight: bold;
+    gap: 10px;
 }
 
 .title_text_right {

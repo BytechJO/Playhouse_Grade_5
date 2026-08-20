@@ -1,0 +1,217 @@
+.all_cont {
+  /* height: 100%; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.screen_elements {
+  width: 90%;
+  height: 100%;
+}
+.word_bank_container {
+  width: 85%;
+  gap: 80px;
+  background-color: rgb(211, 238, 255);
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.group_elm {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.activityHeading b {
+  color: #000;
+}
+
+.q_num_space {
+  width: 40px;
+  font-weight: bold;
+}
+
+.image_space {
+  width: 75%;
+  height: 342px;
+  margin: 0px auto;
+}
+
+.image_space img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.q_order {
+  width: 50px;
+  font-weight: bolder;
+}
+
+.txt-audioIcon {
+  /* color: rgb(0, 185, 242); */
+  font-size: 27px;
+}
+
+.ques {
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  /* justify-content: space-around; */
+}
+
+.q_box {
+  width: 100%;
+  height: 70px;
+}
+
+.fill_in .que {
+  width: 100%;
+  height: 75px;
+}
+
+.fillin_gr .q_space {
+  width: 100%;
+}
+.fillin_set {
+  font-family: Arcon;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fillin_set input:focus {
+  outline: none;
+}
+
+.fillin_set input {
+  /* flex: 2 2 10px; */
+  height: 35px;
+  color: black;
+  padding-left: 20px;
+  border: none;
+  margin: 0px 15px;
+  border-bottom: 2px solid #595a5a;
+}
+
+.icon_wrap {
+  /* position: absolute;
+    margin-top: -35px; 
+    right: 100px; */
+}
+
+.tick,
+.cross {
+  width: 35px;
+}
+
+.tick img,
+.cross img {
+  width: 100%;
+}
+
+.image_wrap {
+  display: none;
+}
+
+.clue_word {
+  padding: 2px 27px;
+  font-size: 22px;
+}
+
+.word_options {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #c3f4ff8c;
+}
+
+.word_opt_sticky {
+  width: 100%;
+  margin: 0px auto;
+  position: -webkit-sticky;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 5;
+  border: 2px solid var(--temp);
+  border-radius: 10px;
+}
+
+.words-list li {
+  height: 110px;
+  font-weight: bolder;
+  color: black;
+  border: 1px solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.right-content .p-0 {
+  height: 110px;
+  border: 1px solid black;
+}
+
+.tips_content img {
+  height: 30px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.image-container {
+  position: absolute;
+  right: 260px;
+  bottom: 50px;
+}
+
+.image-container img {
+  width: 300px;
+  height: 210px;
+  margin: 0px 70px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #36a0c7;
+}
+.options_container {
+  width: 80%;
+  justify-content: space-evenly;
+}
+.verb,
+.Preposition {
+  border: 1px solid #c7eafb;
+  width: 210px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #e1f4fd;
+  border-radius: 10px;
+}
+.options_container .title {
+  border-bottom: 1px solid #000;
+}
+
+/* ************************************************* */
+/* ************************************************* */
+@media (max-width: 991.98px) {
+  .fill_in .que {
+    width: 160px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .fill_in .que {
+    width: 200px;
+  }
+}
+
+@media (max-width: 475.98px) {
+  /* .fill_in .que {
+        width: 200px;
+    } */
+}

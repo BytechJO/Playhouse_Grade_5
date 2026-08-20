@@ -1,0 +1,278 @@
+.all_cont {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.func_ctrls {
+  display: none !important;
+}
+
+.group_elm {
+  width: 100%;
+}
+
+:root {
+  --temp: #6a6cb1;
+}
+
+.fillin_set {
+  display: flex;
+}
+
+.fillin_gr input {
+  border: none;
+  flex: 1 1 auto;
+  width: 100%;
+  outline: none !important;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* الجدول والصناديق: كل المقاسات صارت % بدل px ثابتة، عشان تتجاوب. */
+/* ------------------------------------------------------------------ */
+table {
+  width: 95%;
+  max-width: 900px;
+  text-align: center;
+  margin: 20px auto;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.img_fillin_gr {
+  width: 100%;
+  position: relative;
+}
+
+.Box {
+  min-height: 50px;
+  height: auto;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  margin: 0px;
+}
+
+td {
+  vertical-align: middle;
+  border: none;
+}
+
+th {
+  border: none;
+}
+th .Box {
+  border: 2px solid transparent;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+  font-size: clamp(14px, 1.6vw, 22px);
+  font-weight: bolder;
+}
+
+.fillin_gr {
+  position: relative;
+}
+
+.icon_wrap {
+  position: absolute;
+  right: 10px;
+}
+
+.tick,
+.cross {
+  width: 32px;
+  height: 32px;
+}
+
+.clue_word {
+  margin: 3px;
+  font-size: 22px;
+}
+
+.word_options {
+  width: 95%;
+  max-width: 900px;
+  border-radius: 18px;
+  margin: 0 auto 20px;
+  padding: 14px 10px;
+  gap: 32px;
+  background-color: #e4e7f6;
+}
+
+.word_opt_sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+/* الخانة الفاضية بين الصندوقين */
+.fillin_spacer_td {
+  width: 6%;
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* أعمدة كل صندوق: اللابل أضيق ثابت النسبة، الفراغ ياخد الباقي */
+.fillin_gr table tr > td:nth-child(1),
+.fillin_gr table tr > td:nth-child(4) {
+  width: 22%;
+  background-color: #8688c4;
+  color: #22224a;
+  font-weight: bold;
+  font-size: clamp(14px, 1.6vw, 20px);
+}
+.fillin_gr table tr > td:nth-child(2),
+.fillin_gr table tr > td:nth-child(5) {
+  width: 34%;
+}
+
+.fillin_gr table tr > td:not(.fillin_spacer_td) {
+  border-top: 2px solid var(--temp);
+  padding: clamp(8px, 1.4vw, 14px) clamp(6px, 1.4vw, 16px);
+}
+.fillin_gr table tr:last-child > td:not(.fillin_spacer_td) {
+  border-bottom: 2px solid var(--temp);
+}
+
+.fillin_gr table tr > td:nth-child(1) {
+  border-left: 2px solid var(--temp);
+}
+.fillin_gr table tr > td:nth-child(2) {
+  border-right: 2px solid var(--temp);
+}
+.fillin_gr table tr > td:nth-child(4) {
+  border-left: 2px solid var(--temp);
+}
+.fillin_gr table tr > td:nth-child(5) {
+  border-right: 2px solid var(--temp);
+}
+
+.fillin_gr table tr > td:nth-child(1) {
+  border-right: 1px solid var(--temp);
+}
+.fillin_gr table tr > td:nth-child(4) {
+  border-right: 1px solid var(--temp);
+}
+
+.fillin_gr table tr:first-child td:nth-child(1) {
+  border-top-left-radius: 14px;
+}
+.fillin_gr table tr:last-child td:nth-child(1) {
+  border-bottom-left-radius: 14px;
+}
+.fillin_gr table tr:first-child td:nth-child(2) {
+  border-top-right-radius: 14px;
+}
+.fillin_gr table tr:last-child td:nth-child(2) {
+  border-bottom-right-radius: 14px;
+}
+
+.fillin_gr table tr:first-child td:nth-child(4) {
+  border-top-left-radius: 14px;
+}
+.fillin_gr table tr:last-child td:nth-child(4) {
+  border-bottom-left-radius: 14px;
+}
+.fillin_gr table tr:first-child td:nth-child(5) {
+  border-top-right-radius: 14px;
+}
+.fillin_gr table tr:last-child td:nth-child(5) {
+  border-bottom-right-radius: 14px;
+}
+
+.text_input_area {
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+  color: black !important;
+}
+
+/* ====================================================== */
+/*              Media Queries                              */
+/* ====================================================== */
+
+/* تابلت كبير / لابتوب صغير: نفس الشكل، بس مسافات أصغر شوي (كلها
+   عم تتحكم فيها clamp() فوق تلقائياً، مش محتاجين overrides هون) */
+@media (max-width: 1199.98px) {
+  .word_options {
+    margin-bottom: 1vh;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* تحت 768px: الصندوقين بيلفوا فوق بعض (Latin/French فوق، Indian/
+   Arabic تحت) بدل جنب بعض. الـ spacer بيصير فراغ عمودي.
+   ------------------------------------------------------------------ */
+@media (max-width: 767.98px) {
+  .tick,
+  .cross {
+    width: 22px;
+    height: 22px;
+  }
+
+  table,
+  .fillin_gr table tbody,
+  .fillin_gr table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .fillin_gr table tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .fillin_gr table tr > td:nth-child(1),
+  .fillin_gr table tr > td:nth-child(2),
+  .fillin_gr table tr > td:nth-child(4),
+  .fillin_gr table tr > td:nth-child(5) {
+    width: auto;
+  }
+
+  /* صندوق 1 (لابل1 + فراغ1) */
+  .fillin_gr table tr > td:nth-child(1) {
+    flex: 0 0 35%;
+  }
+  .fillin_gr table tr > td:nth-child(2) {
+    flex: 1 1 60%;
+  }
+
+  /* الـ spacer بيفرض سطر جديد (flex-basis:100%) عشان صندوق 2 ينزل تحت */
+  .fillin_spacer_td {
+    flex-basis: 100%;
+    width: 100%;
+    height: 16px;
+  }
+
+  /* صندوق 2 (لابل2 + فراغ2) */
+  .fillin_gr table tr > td:nth-child(4) {
+    flex: 0 0 35%;
+  }
+  .fillin_gr table tr > td:nth-child(5) {
+    flex: 1 1 60%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .fillin_gr table tr > td:nth-child(1),
+  .fillin_gr table tr > td:nth-child(4) {
+    flex-basis: 40%;
+  }
+  .fillin_gr table tr > td:nth-child(2),
+  .fillin_gr table tr > td:nth-child(5) {
+    flex-basis: 55%;
+  }
+}

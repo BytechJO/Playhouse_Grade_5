@@ -1,0 +1,251 @@
+.all_cont{
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.screen_elements{
+    width: 90%;
+    height: 100%;
+}
+
+/* ---------------- heading: navy circled number + italic title ---------------- */
+.page_sub_title p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1a1a1a;
+    margin: 0;
+}
+.title-order {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 50%;
+    background-color: #1A3281;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+}
+.subTitleTextRight {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 21px;
+    color: #1A3281;
+    text-align: left;
+    margin: 6px 0 0 0;
+}
+
+/* ---------------- the 6 chore cards, 3 columns x 2 rows (matches image) ---------------- */
+.group_elm{
+    width: 90%;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px 30px;
+    margin: 20px auto 0 auto;
+}
+
+.q_num_space{
+    width: 40px;
+    font-weight: bold;
+}
+
+.image_space {
+    width: 75%;
+    height: 342px;
+    margin: 0px auto;
+}
+  
+.image_space img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.q_order{
+    width: 50px;
+    font-weight: bolder;
+}
+
+.ques{
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.q_box{
+    width:  100%;
+}
+
+/* card shell: overrides the old fixed single-row layout so the label
+   bar sits on top and the input sits below it, like the image */
+.fill_in .que {
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.fillin_gr,
+.fillin_gr .q_space {
+    width: 100%;
+    flex-direction: column;
+}
+.fillin_set {
+    font-family: Arcon;
+    width: 100% !important;
+    height: auto !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+}
+
+/* the label text (e.g. "take out the rubbish") as a rounded-top bar */
+.fillin_set .audioIcon.txt-audioIcon {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #C5EAFB;
+    color: #16215c;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    padding: 16px 10px;
+    border-radius: 14px 14px 0 0;
+    justify-content: center;
+}
+
+.fillin_set input:focus{
+    outline: none;
+}
+
+/* the answer input as a dashed-border box under the label bar */
+.fillin_set input.text_input_area {
+    flex: none;
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    padding-left: 0;
+    border: 2px dashed #C9EBFB;
+    border-top: none;
+    border-radius: 0 0 14px 14px;
+    font-size: 18px;
+    background-color: #FEFEFE;
+}
+
+.icon_wrap {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    margin-top: 0;
+}
+
+.tick,
+.cross {
+    width: 30px;
+}
+
+.tick img,
+.cross img {
+    width: 100%;
+}
+
+.image_wrap {
+    display: none;
+}
+
+.clue_word {
+    padding: 2px 27px;
+    font-size: 22px;
+}
+
+.word_options {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #c3f4ff8c;
+}
+
+.word_opt_sticky {
+    width: 100%;
+    margin: 0px auto;
+    position: -webkit-sticky;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5;
+    border: 2px solid var(--temp);
+    border-radius: 10px;
+}
+
+.words-list li{
+    height: 110px;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.right-content .p-0{
+    height: 110px;
+    border: 1px solid black;
+}
+
+.tips_content img {
+    height: 30px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.image-container{
+    position: absolute;
+    right: 260px;
+    bottom: 50px;
+    
+}
+
+.image-container img{
+    width: 300px;
+    height: 210px;
+    margin: 0px 70px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #36a0c7;
+}
+
+/* ************************************************* */
+/* ************************************************* */
+@media (max-width: 991.98px) {
+    .group_elm {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .group_elm {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .fillin_set .audioIcon.txt-audioIcon {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 475.98px) {
+    /* .fill_in .que {
+        width: 200px;
+    } */
+}
