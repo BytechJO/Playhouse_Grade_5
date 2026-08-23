@@ -139,6 +139,13 @@ body {
   padding: 0;
 }
 
+.title .snap_word_0 {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+}
 .title_text,
 .title_text_right {
     display: flex;

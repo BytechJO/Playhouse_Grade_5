@@ -1,0 +1,174 @@
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+
+:root{
+  --temp: #f26521;
+  --light: #f98a53;
+}
+
+.all_cont{
+  align-items: center;
+}
+
+.options {
+  position: relative;
+  align-items: center;
+}
+
+/* ============================================================
+   CORE LineDraw / matching styles — node, line, opt/drag/drop,
+   icon_wrap, tick/cross. These are required by LineDraw.js
+   regardless of layout (two-column OR freeform).
+   ============================================================ */
+.node {
+  position: relative;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  max-width: 15px;
+  min-height: 15px;
+  max-height: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #000 !important;
+  border: 3px solid transparent;
+}
+
+.icon_wrap_holder {
+  position: absolute;
+  right: -14px;
+  top: -9px;
+}
+
+.opt {
+  position: absolute; /* freeform items are positioned via top/left inline styles */
+}
+
+.drag .txtHolder,
+.drop .txtHolder {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.imgHolder {
+  height: 100px;
+  width: 110px;
+  margin: 0 10px;
+}
+.imgHolder img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+/* the overlay that holds all drawn .line segments — must sit exactly
+   on top of activity_area's own coordinate box (top:0/left:0/100%),
+   and must never intercept clicks meant for the .node dots beneath it */
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.tick,
+.cross {
+  width: 25px;
+  height: 25px;
+}
+
+.cont_ht_sf {
+  height: 62vh;
+}
+
+/* ============================================================
+   FREEFORM matching layout — words placed at exact top/left %
+   positions around a center image (used by buildLineDrawBody.js
+   when aObj.freeform === true).
+   ============================================================ */
+
+.freeform_wrap {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 60vh;
+  min-height: 480px;
+  margin: 0 auto;
+}
+
+.center_image {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.center_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.freeform_item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.freeform_item .txtHolder {
+  font-weight: bold;
+  font-size: 20px;
+  color: #222;
+}
+
+/* drop items show their tick/cross just above the word */
+.freeform_item.drop .icon_wrap_holder {
+  position: absolute;
+  top: -22px;
+  right: -6px;
+}
+
+/* ------------------------------------------------ */
+/* Small screens: shrink text + give a bit more height so words
+   don't overlap the shrunk image */
+/* ------------------------------------------------ */
+@media (max-width: 767.98px) {
+  .freeform_wrap {
+    height: 70vh;
+    min-height: 560px;
+  }
+  .freeform_item .txtHolder {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 475.98px) {
+  .freeform_wrap {
+    height: 80vh;
+    min-height: 620px;
+  }
+  .freeform_item .txtHolder {
+    font-size: 13px;
+  }
+}

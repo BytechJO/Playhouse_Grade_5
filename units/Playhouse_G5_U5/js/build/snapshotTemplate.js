@@ -29,6 +29,7 @@ function buildSnapShotContent(snapshotObj, snapshotPopup_data, Popups_data) {
 					slideHtml +=  '</div>'
 				slideHtml +=  '</div>'
 			}
+			
 			$(".snapshot_container").append(slideHtml);
 
 			listen_Popups_array = Popups_data["slides"][slide].listen["words"]
@@ -41,7 +42,7 @@ function buildSnapShotContent(snapshotObj, snapshotPopup_data, Popups_data) {
 				listen_Popups += "</div>";
 			}
 			listen_Popups += "</div>";
-			listen_Popups += "<br />";
+			// listen_Popups += "<br />";
 			listen_Popups += "<div class='all_words d-flex flex-wrap justify-content-around'>"
 			for (var listenwords = 0; listenwords < listen_Popups_array.length; listenwords++) {
 				listen_Popups += "<div class='flex_item_container'>"
@@ -65,7 +66,7 @@ function buildSnapShotContent(snapshotObj, snapshotPopup_data, Popups_data) {
 				listen2_Popups += "</div>";
 			}
 			listen2_Popups += "</div>";
-			listen2_Popups += "<br />";
+			// listen2_Popups += "<br />";
 			listen2_Popups += "<div class='all_cards  d-flex justify-content-around'>"
 			for (var listen2words = 0; listen2words < listen2_Popups_array.length; listen2words++) {
 				listen2_Popups += "<div class='conv_img snap_card mx-0 mx-md-auto audioTile' data-audio='" + Popups_data["slides"][slide].listen2["audio"][listen2words] + "'data-onaudioplay=' '>"
@@ -85,7 +86,7 @@ function buildSnapShotContent(snapshotObj, snapshotPopup_data, Popups_data) {
 				listen3_Popups += "<div class='all_cards  d-flex justify-content-around'>"
 				listen3_Popups += "<div class='title'>"
 				for (var listenTitles = 0; listenTitles < Popups_data["slides"][slide].listen3["titleTexts"].length; listenTitles++) {
-					listen3_Popups += "<div class='snap_word snap_card mx-0 audioTile' data-audio='" + Popups_data["slides"][slide].listen3["titlesAudio"][listenTitles] + "'data-onaudioplay=''>"
+					listen3_Popups += "<div class='snap_word_0 snap_card mx-0 audioTile' data-audio='" + Popups_data["slides"][slide].listen3["titlesAudio"][listenTitles] + "'data-onaudioplay=''>"
 						listen3_Popups += "<p class= 'title_text'>" + Popups_data["slides"][slide].listen3["titleTexts"][listenTitles] + "</p>"
 						listen3_Popups += "<img class='title_in_snap' src='" + Popups_data["slides"][slide].listen3["titleIcons"][listenTitles] + "' />"
 						listen3_Popups += "<p class= 'title_text_right'>" + Popups_data["slides"][slide].listen3["titleTextRight"] + "</p>"
