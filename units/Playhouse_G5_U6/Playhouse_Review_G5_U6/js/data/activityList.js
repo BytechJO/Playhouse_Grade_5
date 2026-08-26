@@ -33,7 +33,15 @@ var _activityData = {
          "score"              : 0
       },
 
-
+   {
+         "file"               : "reverse_bingo.html",
+         "type"               : "bingo",
+         "build"              : "yes",
+         "activityCtrls"      : "no",
+         "layout"             : 1,
+         "visited"            : 0,
+         "score"              : 0
+      },
 
 
 

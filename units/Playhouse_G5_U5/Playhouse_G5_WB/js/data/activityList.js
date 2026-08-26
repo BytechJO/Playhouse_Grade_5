@@ -88,6 +88,15 @@ var _activityData = {
          'visited'            : 0,
          'score'              : 0,
       },
+        {
+         'file'               : 'fillin_textarea.html',
+         'type'               : "fillin",
+         'subtype'            : '',
+         'build'              : 'yes', // yes (or) no
+         'activityCtrls'      : 'yes',
+         'layout'             : 4,
+         'visited'            : 0,
+      },
       //fillin_table
       //text-long
    

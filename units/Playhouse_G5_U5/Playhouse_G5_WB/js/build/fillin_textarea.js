@@ -44,7 +44,14 @@
     // ============== ****  **** ==============  
 
                 htmlStmt += '<div class="options">';
-                
+                htmlStmt += '<div class="instruction-container">';
+					htmlStmt += "<p> " + aObj.summarisingIns + " </p>";
+
+                htmlStmt += '</div>';
+                 htmlStmt += '<div class="story-container">';
+					htmlStmt += "<p> " + aObj.story + " </p>";
+
+                htmlStmt += '</div>';
                 htmlStmt += '<div class="textarea-container">';
                     htmlStmt += ' <textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>';
                 htmlStmt += '</div>';

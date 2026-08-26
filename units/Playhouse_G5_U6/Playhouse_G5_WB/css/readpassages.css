@@ -1,0 +1,152 @@
+/* ==========================================================
+   ReadPassages styling.
+   Colors sampled directly from the reference image: the tag,
+   instructions, and card borders all use the same blue #00ADEE.
+   ========================================================== */
+.que {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.rp_heading_tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #d4effc;
+  border: 2px solid #00adee;
+  border-radius: 8px;
+  color: #00adee;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 18px;
+  padding: 6px 18px 6px 10px;
+  margin: 10px 0 14px 0;
+}
+.rp_triangle {
+  color: #00adee;
+  font-size: 14px;
+}
+
+.rp_instructions {
+  max-width: 900px;
+  margin: 0 auto 18px auto;
+  text-align: left;
+}
+.rp_subtitle {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  color: #00adee;
+  margin-bottom: 4px;
+}
+.rp_instr_text {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  color: #00adee;
+  line-height: 1.5;
+}
+
+/* ---------------- passage cards ---------------- */
+.rp_passage_list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.rp_passage {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px solid #00adee;
+  border-radius: 10px;
+  padding: 16px 20px;
+  cursor: pointer;
+  text-align: left;
+  box-sizing: border-box;
+}
+.rp_passage.selected {
+  box-shadow: 0 0 0 3px rgba(0, 173, 238, 0.35);
+}
+
+.rp_passage_inner {
+  overflow: hidden; /* clearfix for the floated portrait */
+}
+
+.rp_passage_text {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #222222;
+}
+.rp_passage_text em {
+  font-style: italic;
+}
+
+/* portrait on the left, text wraps around it (Franklin-style) */
+.rp_img_left .rp_portrait {
+  float: left;
+  margin: 0 16px 8px 0;
+}
+/* portrait on the right, text wraps around it (Matt-style) */
+.rp_img_right .rp_portrait {
+  float: right;
+  margin: 0 0 8px 16px;
+}
+
+.rp_portrait_rect {
+  width: 130px;
+  height: auto;
+}
+.rp_portrait_circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #d9d9d9;
+}
+.rp_passage.selected .rp_tick_mark {
+  display: block;
+}
+/* tick mark shown/hidden by MCQ.js (shape == 'tickbox') */
+.rp_tick_mark {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #00adee;
+}
+
+.icon_wrap {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  display: none;
+}
+.tick,
+.cross {
+  width: 30px;
+}
+.tick img,
+.cross img {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .rp_portrait_rect {
+    width: 90px;
+  }
+  .rp_portrait_circle {
+    width: 70px;
+    height: 70px;
+  }
+  .rp_passage_text {
+    font-size: 13px;
+  }
+  .rp_instr_text {
+    font-size: 14px;
+  }
+}
