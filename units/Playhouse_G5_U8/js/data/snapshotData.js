@@ -1,0 +1,191 @@
+var snapshot_data = {
+  snapshot: [
+    {
+      audio: [
+        "../audios/page_68/pizza.mp3",
+        "../audios/page_68/dough.mp3",
+        "../audios/page_68/sauce.mp3",
+        "../audios/page_68/sprinkle.mp3",
+        "../audios/page_68/cheese.mp3",
+        "../audios/page_68/add.mp3",
+        "../audios/page_68/pepperoni.mp3",
+        "../audios/page_68/slice.mp3",
+      ],
+      image: [
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word1.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word2.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word3.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word4.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word5.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word6.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word7.png",
+        "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word8.png",
+      ],
+      word: [
+        "<span>pizza</span>",
+        "<span>dough</span>",
+        "<span>sauce</span>",
+        "<span>sprinkle</span>",
+        "<span>cheese</span>",
+        "<span>add</span>",
+        "<span>pepperoni</span>",
+        "<span>slice</span>",
+      ],
+      imagePlacePos: [
+        [1, 1, 1],
+        [1, 1, 1],
+        [1, 0, 1],
+      ],
+    },
+  ],
+  popuptitle: "What I Want To Know:",
+};
+
+var snapshotPopup_data =
+  "<ul><li>What are the people doing?</li><li>Who are the pizzas for?</li><li>What toppings go on a pizza?</li></ul>";
+
+var Popups_data = {
+  slides: [
+    {
+      listen: {
+        backgroundImage: "../images/pages/page-1/1-word-background.png",
+        mainTitle: "../images/pages/page-1/1-title.png",
+        titleTexts: ["<span class='blue_text'>2</span> Read."],
+        titleIcons: ["../images/pages/page-1/q-1-icon-3-new.png"],
+        titlesAudio: [
+          "../audios/page_68/Pg4_1.2_Adult_Lady.mp3",
+          "../audios/page_68/Pg4_1.3_Adult Lady.mp3",
+          "../audios/page_68/Pg4_1.4_Adult Lady.mp3",
+        ],
+        image: [
+          "../images/pages/snapshots/page-1/popup-3-elem-1.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-2.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-3.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-1.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-2.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-3.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-1.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-2.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-3.png",
+          "../images/pages/snapshots/page-1/popup-3-elem-3.png",
+        ],
+        words: [
+          "1 stadium",
+          "2 cheer on",
+          "3 fan",
+          "4 athlete",
+          "5 match",
+          "6 captain",
+          "7 coach",
+          "8 training",
+          "9 penalty",
+          "10 score",
+          "11 victory",
+          "12 trophy",
+        ],
+        audio: [
+          "../audios/page_68/1_stadium.mp3",
+          "../audios/page_68/2_cheer_on.mp3",
+          "../audios/page_68/3_fan.mp3",
+          "../audios/page_68/4_athlete.mp3",
+          "../audios/page_68/5_match.mp3",
+          "../audios/page_68/6_captain.mp3",
+          "../audios/page_68/7_coach.mp3",
+          "../audios/page_68/8_training.mp3",
+          "../audios/page_68/9_penalty.mp3",
+          "../audios/page_68/10_score.mp3",
+          "../audios/page_68/11_victory.mp3",
+          "../audios/page_68/12_trophy.mp3",
+        ],
+      },
+      listen2: {
+        // "leftImage": "../images/pages/snapshots/page-2/popup-2-left-img.png",
+        mainTitle: "../images/pages/page-1/1-title.png",
+        titleTexts: ["<span class='blue_text'>3</span> Ask and answer."],
+        titleIcons: [""],
+        titleTextRight: "<span class='blue_text'></span>",
+        titlesAudio: ["../audios/new/p68ask.mp3"],
+        image: [
+          "../images/pages/page-1/2-img-1.png",
+          "../images/pages/page-1/2-img-2.png",
+        ],
+        audio: [
+          "../audios/page_68/Pg5_2.2_Adult Lady.mp3",
+          "../audios/page_68/Pg5_2.3_Adult Lady.mp3",
+        ],
+      },
+      listen3: {
+        // "leftImage": "../images/pages/snapshots/page-2/popup-2-left-img.png",
+        mainTitle: "../images/pages/page-1/1-title.png",
+        mainTitle_audio: "../audios/page_68/WORD_POWER.mp3",
+        titleTexts: ["<span class='title-order'>1</span> Listen and say."],
+        titleIcons: [""],
+        titleTextRight:
+          "<span class='blue_text'>Are you an athlete? Do you play a team sport? Have you ever been to a stadium to watch your favourite team play?</span>",
+        titlesAudio: ["../audios/page_68/1_Listen_and_say.mp3"],
+        image: [],
+        audio: [
+          "../audios/p32/Pg5_2.2_Adult Lady.mp3",
+          "../audios/p32/Pg5_2.3_Adult Lady.mp3",
+        ],
+      },
+    },
+  ],
+  class_name: ["", "", "", "", "", "", "", "", "", "", "", ""], //flex-row (or) flex-reverse (or) flex-column-reverse for each image-container **optional**
+  words: [
+    "stadium",
+    "cheer on",
+    "fan",
+    "athlete",
+    "match",
+    "captain",
+    "coach",
+    "training",
+    "penalty",
+    "score",
+    "victory",
+    "trophy",
+  ],
+  points: [
+    "../images/pages/page-1/intro-1.png",
+    "../images/pages/page-1/intro-2.png",
+    "../images/pages/page-1/intro-3.png",
+    "../images/pages/page-1/intro-4.png",
+    "../images/pages/page-1/intro-5.png",
+    "../images/pages/page-1/intro-6.png",
+    "../images/pages/page-1/intro-7.png",
+    "../images/pages/page-1/intro-8.png",
+    "../images/pages/page-1/intro-9.png",
+    "../images/pages/page-1/intro-10.png",
+    "../images/pages/page-1/intro-11.png",
+    "../images/pages/page-1/intro-12.png",
+  ],
+  postions: [
+    "left: 78%; top: 0%;",
+    "left: 64%; top: 0%;",
+    "left: 76%; top: 7%;",
+    "left: 21%; top: 29%;", //4
+    "left: 66%; top: 20%;",
+    "left: 10%; top: 66%;", //6
+    "left: 27%; top: 72%;",
+    "left: 44%; top: 64%;", //8
+    "left: 69%; top: 62%;", //9
+    "left: 9%;  top: 81%;", //10
+    "left: 49%; top: 81%;",
+    "left: 61%; top: 82%;",
+  ],
+  imagesAudio: [
+    "../audios/page_68/1_stadium.mp3",
+    "../audios/page_68/2_cheer_on.mp3",
+    "../audios/page_68/3_fan.mp3",
+    "../audios/page_68/4_athlete.mp3",
+    "../audios/page_68/5_match.mp3",
+    "../audios/page_68/6_captain.mp3",
+    "../audios/page_68/7_coach.mp3",
+    "../audios/page_68/8_training.mp3",
+    "../audios/page_68/9_penalty.mp3",
+    "../audios/page_68/10_score.mp3",
+    "../audios/page_68/11_victory.mp3",
+    "../audios/page_68/12_trophy.mp3",
+  ],
+};

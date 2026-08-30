@@ -1,0 +1,98 @@
+var stereo_data = {
+  "audio":"",
+  "exist":true,
+  "bgColor_rgb":"rgb(53, 130, 180)",
+  "type":"text",
+  "playListData" : [
+      {
+        'audiourl': '../audios/p40/1.mp3',
+      },
+      {
+        'url': '',
+      },
+      {
+        'url': '',
+      },
+      {
+        'url': '',
+      }
+  ],
+}
+
+var _activity_json =  
+    {
+        "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
+        "mainTitleIcon"         : "",
+        "mainTitleIconPos"      : {"right": "90px"},
+        "mainTitleAudio"        : "../audios/p40/CONVERSATION.mp3",
+        "subTitleTextLeft"      : "<span class='title-order'>1</span> Order it! Put the conversation in order. Then practise it with a friend or family member.",
+        "subTitleTextRight"     : "",
+        "subTitleIcons"         : [],
+        "subTitleAudio"         : "../audios/p40/1_Order_it!_Put_the_conversation_in_order_Then_practise_it_with_a_friend_or_family_member.mp3",
+        "image"                 : "new_drag_drop.png",
+        "background_image"      : "",
+        "type"                  : "drag_drop",
+        "images": [],
+        "questions":
+        [
+            "A:&nbsp;___&nbsp;",
+            "B:&nbsp;___&nbsp;",
+            "A:&nbsp;___&nbsp;",
+            "B:&nbsp;___&nbsp;",
+            "A:&nbsp;___&nbsp;",
+            "B:&nbsp;___&nbsp;",
+            "A:&nbsp;___&nbsp;",
+            "B:&nbsp;___&nbsp;",
+            "A:&nbsp;___&nbsp;",
+            "B:&nbsp;___&nbsp;",
+            "A:&nbsp;___&nbsp;",
+            "B:&nbsp;___&nbsp;",
+            "A:&nbsp;___&nbsp;",
+
+        ],
+        "postion": ["left:182px;top:2px;",
+                    "left:182px;top:40px;",
+                    "left:182px;top:80px;",
+                    "left:182px;top:117px;",
+                    "left:182px;top:156px;",
+                    "left:182px;top:194px;",
+                    "left:182px;top:232px;",
+                    "left:182px;top:271px;",
+                    "left:182px;top:311px;",
+                    "left:182px;top:348px;",
+                    "left:182px;top:384px;",
+                    "left:182px;top:423px;",
+                    "left:182px;top:459px;",
+
+                ],
+        "options": [ "It was a good match. You all played well.",
+                     "Where were you? I didn’t see you.", 
+                     "The other team was really good, but your team was better. The score was 15 to 10!", 
+                     "Great! Jeff’s dad is giving us tokens for the arcade because we didn’t have any penalties in the match.", 
+                     "Great! See you at 4:00!",
+                     "That was you? I heard all the shouting and screaming in the stadium.",
+                     "Yes. I’d love to come, but first I’m taking my little sister to our aunt’s house. Then I’m going to Pizza Palace.",
+                     "I’m so happy! I’m surprised we won. The other team was really good.",
+                     "So what are you doing after the match?",
+                     "Yes! Our coach is training us every day for two hours after school. It helps us to be better players.",
+                     "Great victory! You won the match!",
+                     "The coach is taking the team to Pizza Palace at 4:00. Do you want to come?",
+                     "I was in the front row. We like to cheer on the team by holding flags and shouting and screaming!",
+                    ],
+        "answers": [
+          "Great victory! You won the match!",
+          "I’m so happy! I’m surprised we won. The other team was really good.",
+          "The other team was really good, but your team was better. The score was 15 to 10!",
+          "Yes! Our coach is training us every day for two hours after school. It helps us to be better players.",
+          "It was a good match. You all played well.",
+          "Where were you? I didn’t see you.",
+          "I was in the front row. We like to cheer on the team by holding flags and shouting and screaming!",
+          "That was you? I heard all the shouting and screaming in the stadium.",
+          "So what are you doing after the match?",
+          "The coach is taking the team to Pizza Palace at 4:00. Do you want to come?",
+          "Yes. I’d love to come, but first I’m taking my little sister to our aunt’s house. Then I’m going to Pizza Palace.",
+          "Great! Jeff’s dad is giving us tokens for the arcade because we didn’t have any penalties in the match.",
+          "Great! See you at 4:00!",
+        ],
+        "default_answer": {}
+    };
