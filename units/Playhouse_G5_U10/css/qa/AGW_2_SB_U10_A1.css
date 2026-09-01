@@ -1,0 +1,34 @@
+.underline_circle_selected_activity .image_container
+{
+	    width: 35%;
+}
+
+.underline_selected {
+    border-bottom: #0291e4 solid 2px;
+}
+
+.circle_selected {
+    border: #0291e4 solid 2px;
+    border-radius: 21px;
+    padding: 0px 4px 0px 4px;
+}
+
+.activity-content {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.questions_list a img {
+    width: 30px;
+    height: 30px;
+}
+
+.questionsfullWidth_container {
+    width: 88%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.question_text {
+    font-size: 22px;
+}

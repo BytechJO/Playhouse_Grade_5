@@ -1,0 +1,203 @@
+.activity_area.complaint_letter {
+    padding: 25px 40px;
+}
+
+/* ====== رأس كل قسم (الدائرة الرقمية + العنوان) ====== */
+.section_head {
+    gap: 12px;
+        justify-content: center;
+    margin-bottom: 6px;
+  
+}
+.num_bullet {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1a3d8f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.section_title {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    color: #111;
+}
+.section_title .title_icon {
+    height: 26px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.section_instruction {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a3d8f;
+    margin: 4px 0 15px 42px;
+}
+
+.complaint_section {
+    margin-bottom: 30px;
+}
+
+/* ====== ورقة الرسالة ====== */
+.letter_paper {
+    position: relative;
+    background-color: #fbdcc0;
+    border-radius: 6px;
+      width: 85%;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+    padding: 20px 30px;
+    margin: 20px 10px 10px;
+}
+
+/* لصقة الشريط الشفاف بالزوايا */
+.letter_paper .tape {
+    position: absolute;
+    top: -14px;
+    width: 70px;
+    height: 30px;
+    background-color: rgba(178, 214, 165, 0.55);
+    transform: rotate(-8deg);
+}
+.letter_paper .tape_left {
+    left: 15px;
+}
+.letter_paper .tape_right {
+    right: 15px;
+    transform: rotate(8deg);
+}
+
+/* كل سطر بالرسالة إله خط تحته وأيقونة صغيرة يسار */
+.letter_line {
+    position: relative;
+    font-family: 'Comic Sans MS', 'Segoe Print', cursive;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #2a2a2a;
+    border-bottom: 1px dashed rgba(0,0,0,0.25);
+    padding: 2px 0 2px 22px;
+}
+.letter_line::before {
+    content: "\1F4C4"; /* أيقونة ورقة صغيرة بديلة عن الأيقونة الأصلية */
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 11px;
+    opacity: 0.55;
+}
+.letter_line_empty {
+    border-bottom: none;
+}
+.letter_paragraph {
+    text-indent: 18px;
+}
+
+/* ====== أجزاء الرسالة القابلة للنقر ====== */
+.letter_chunk {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 1px 2px;
+    transition: background-color 0.15s ease;
+}
+.letter_chunk:hover {
+    background-color: rgba(41, 163, 209, 0.15);
+}
+
+/* تلوين خفيف بالخلفية بعد الفحص (Check) - ما بيأثر على شكل annot_ نفسه */
+.letter_chunk.chunk_correct {
+    background-color: rgba(30, 170, 90, 0.18);
+}
+.letter_chunk.chunk_wrong {
+    background-color: rgba(220, 50, 50, 0.15);
+}
+
+/* مؤشر الأداة المفعّلة حاليًا */
+.active_tool_indicator {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    margin: 8px 0 4px 42px;
+}
+.active_tool_indicator.tool_active_circle,
+.active_tool_indicator.tool_active_underline,
+.active_tool_indicator.tool_active_box {
+    color: #1a3d8f;
+    font-weight: 600;
+}
+
+/* ====== قسم Find it ====== */
+.find_it_tasks {
+    margin-left: 42px;
+    margin-top: 15px;
+    gap: 50px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+        width: 81%;
+    justify-content: center;
+}
+.tasks_col {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.tasks_col_left {
+    /* flex: 1 1 320px; */
+}
+.tasks_col_right {
+    flex: 0 0 280px;
+}
+
+.task_row {
+    font-size: 17px;
+    color: #111;
+    position: relative;
+    width: fit-content;
+}
+.task_dash {
+    font-weight: 700;
+}
+
+/* ====== أزرار اختيار الأداة (نفس صناديق التعليمات) ====== */
+.tool_btn {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 8px;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+.tool_btn:hover {
+    background-color: rgba(41, 163, 209, 0.08);
+}
+.tool_btn.active_tool {
+    background-color: rgba(41, 163, 209, 0.18);
+    box-shadow: 0 0 0 2px #29a3d1;
+}
+
+/* شكل التعليمات (دائرة / خط تحت / صندوق) بقى معرّف بملف annotations.css
+   المشترك بين كل النشاطات (annot_circle / annot_underline / annot_box).
+   هون بس بنضبط أبعاد إضافية خاصة بسياق هالنشاط بالذات: */
+.tasks_col .annot_box {
+    max-width: 260px;
+}
+
+/* ====== تجاوب على الموبايل ====== */
+@media (max-width: 767.98px) {
+    .letter_paper {
+        padding: 15px 18px;
+    }
+    .letter_line {
+        font-size: 14px;
+    }
+    .find_it_tasks {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tasks_col_right {
+        flex: 1 1 auto;
+    }
+}
