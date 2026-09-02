@@ -1,0 +1,158 @@
+.all_cont{
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.blue_text{
+    color: rgb(0, 185, 242);
+    font-size: 22px;
+}
+
+/* ---- the whole list of sentences ---- */
+.unscr-wrap{
+    width: 95%;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.unscr-que{
+    margin-bottom: 26px;
+}
+
+.unscr-row{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.unscr-num{
+    font-family: Arcon;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    flex-shrink: 0;
+    width: 18px;
+}
+
+/* the scrambled words, shown in a casual handwriting-style font
+   (matches the cursive look in the reference image) */
+.unscr-scrambled{
+    font-family: 'Comic Sans MS', 'Kalam', cursive;
+    font-size: 20px;
+    color: #333;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* the long blank line the student writes the unscrambled sentence on */
+.unscr-input{
+    flex: 1;
+    min-width: 120px;
+    border: none;
+    border-bottom: 1.5px solid #333;
+    background: transparent;
+    font-family: Arcon;
+    font-size: 17px;
+    color: black;
+    padding: 2px 6px;
+}
+.unscr-input:focus{
+    outline: none;
+    border-bottom-color: rgb(0, 185, 242);
+}
+
+/* tick / cross feedback */
+.icon_wrap{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.icon_wrap .tick,
+.icon_wrap .cross{
+    display: none;
+    width: 24px;
+}
+.icon_wrap .tick img,
+.icon_wrap .cross img{
+    width: 100%;
+}
+
+/* ---- word-tap reconstruction area: shown after typing, built by rebuildWords() ---- */
+.unscr-words{
+    margin-top: 10px;
+    margin-left: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+/* each clickable word - base style */
+.unscr-word{
+    position: relative;
+    display: inline-block;
+    font-family: Arcon;
+    font-size: 17px;
+    color: black;
+    padding: 3px 8px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+}
+.unscr-word:hover{
+    background: #f0f9fd;
+}
+
+/* click #1: circled -> hand-drawn oval border (direct object) */
+.unscr-word.circled{
+    border: 2px solid #e2574c;
+    border-radius: 50% / 60%;
+    padding: 2px 10px;
+}
+
+/* click #2: underlined -> underline (indirect object) */
+.unscr-word.underlined{
+    text-decoration: underline;
+    text-decoration-color: #2f6fb3;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+/* feedback colours after Check - applied on top of circled/underlined */
+.unscr-word.word-correct{
+    /* color: #2f9e44; */
+}
+.unscr-word.word-correct.circled{
+    border-color: #2f9e44;
+}
+.unscr-word.word-correct.underlined{
+    text-decoration-color: #2f9e44;
+}
+
+.unscr-word.word-wrong{
+    color: #d9364a;
+}
+.unscr-word.word-wrong.circled{
+    border-color: #d9364a;
+}
+.unscr-word.word-wrong.underlined{
+    text-decoration-color: #d9364a;
+}
+
+/* ************************************************* */
+@media (max-width: 575.98px){
+    .unscr-row{
+        flex-wrap: wrap;
+    }
+    .unscr-scrambled{
+        font-size: 17px;
+        white-space: normal;
+    }
+    .unscr-input{
+        width: 100%;
+        flex-basis: 100%;
+    }
+}

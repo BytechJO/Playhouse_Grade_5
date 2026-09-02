@@ -1,0 +1,94 @@
+/* style-spotit.css */
+
+.si_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.si_subtitle_right {
+    color: #0d89ca;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* ── الصور على اليمين ── */
+.si_images {
+    order: 2;
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.si_char_img {
+    max-width: 180px;
+    height: auto;
+}
+.si_char_2 {
+    align-self: flex-end;
+}
+
+/* ── الحوار ── */
+.si_dialogue {
+    order: 1;
+    flex: 1 1 480px;
+    font-family: arcon, sans-serif;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.si_line {
+    margin-bottom: 4px;
+}
+
+.si_speaker {
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+/* ── كلمة/عبارة قابلة للنقر ── */
+.si_word {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    padding: 0px 4px;
+    transition: border-color .15s, background .15s;
+}
+.si_word:hover {
+    background: #f2f0fd;
+}
+
+/* محوّطة بدائرة (قبل التصحيح) */
+.si_word.circled {
+    border-color: #0d89ca;
+    background: #eaf7fa;
+}
+
+/* بعد التصحيح */
+.si_word.correct {
+    border-color: #2e9e44;
+    background: #eafbef;
+    color: #1c6b2c;
+}
+.si_word.wrong {
+    border-color: #d1201f;
+    background: #ffe9e8;
+    color: #a3120f;
+}
+.si_word.missed {
+    border: 2px dashed #d1201f;
+    background: transparent;
+}
+
+@media (max-width: 767.98px) {
+    .si_wrap { flex-direction: column-reverse; }
+    .si_images { flex-direction: row; justify-content: center; }
+    .si_char_img { max-width: 110px; }
+    .si_dialogue { font-size: 15px; }
+}

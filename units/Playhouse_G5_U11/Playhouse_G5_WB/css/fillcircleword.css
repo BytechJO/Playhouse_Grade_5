@@ -1,0 +1,233 @@
+/* =========================================================
+   FillCircleWord
+   ========================================================= */
+
+.fcw_group {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* -------------------------
+   Question
+   ------------------------- */
+
+.fcw_item {
+    width: 90%;
+    min-height: 42px;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+    padding: 3px 18px 4px 0;
+}
+
+/* Number */
+
+.fcw_item .q_num_space {
+    width: 28px;
+    min-width: 28px;
+
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+
+    text-align: right;
+    margin-right: 9px;
+}
+
+/* -------------------------
+   Sentence
+   ------------------------- */
+
+.fcw_sentence {
+    flex: 1;
+    min-width: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    font-size: 22px;
+    line-height: 28px;
+    color: #222;
+
+    padding-top: 0;
+}
+
+/* Normal words */
+
+.fcw_plainWord {
+    display: inline-block;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+/* -------------------------
+   Input / Blank
+   ------------------------- */
+
+.fcw_input {
+    width: 82px;
+    height: 27px;
+
+    border: none;
+    border-bottom: 2px solid #777;
+
+    background: transparent;
+
+    outline: none;
+    box-shadow: none;
+
+    padding: 0 3px;
+    margin: 0 5px;
+
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 27px;
+
+    text-align: center;
+    color: #000;
+
+    border-radius: 0;
+}
+
+/* Input when focused */
+
+.fcw_input:focus {
+    border-bottom-color: #555;
+    outline: none;
+    box-shadow: none;
+}
+
+/* -------------------------
+   Circle Word
+   ------------------------- */
+
+.fcw_wordWrap {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    margin-right: 5px;
+
+    min-height: 28px;
+}
+
+/* The actual word */
+
+.fcw_word {
+    position: relative;
+    z-index: 2;
+
+    display: inline-block;
+
+    font-size: 22px;
+    line-height: 28px;
+
+    white-space: nowrap;
+}
+
+/* SVG circle */
+
+.fcw_svg {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: calc(100% + 16px);
+    height: calc(100% + 12px);
+
+    z-index: 1;
+
+    pointer-events: none;
+
+    overflow: visible;
+}
+
+/* Don't show SVG until selected */
+
+.fcw_wordWrap:not(.fcw_circled) .fcw_svg {
+    display: none;
+}
+
+.fcw_wordWrap.fcw_circled .fcw_svg {
+    display: block;
+}
+
+/* -------------------------
+   Tick / Cross
+   ------------------------- */
+
+.fcw_item .icon_wrap_holder {
+    width: 30px;
+    min-width: 30px;
+
+    margin-left: 5px;
+    padding-top: 4px;
+}
+
+.fcw_item .icon_wrap {
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.fcw_item .tick,
+.fcw_item .cross {
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+
+.fcw_item .tick img,
+.fcw_item .cross img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   Heading
+   ========================================================= */
+
+.fcw_group + * {
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   Activity container
+   ========================================================= */
+
+.activity_area .fcw_group {
+    padding-top: 5px;
+}
+
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .fcw_item {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .fcw_group {
+        max-width: 100%;
+    }
+}
