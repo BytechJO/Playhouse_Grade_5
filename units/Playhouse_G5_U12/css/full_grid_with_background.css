@@ -1,0 +1,46 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 75%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 45px;
+    padding: 50px 12px;
+}
+
+.grid_with_background_1 {
+    width: 80%;
+}
+
+.grid_with_background_1 img {
+    width: 90%;
+}
+
+.grid_with_background_1 .audioIcon:hover {
+    transform: scale(1);
+}
+
+.grid_with_background_1 .col_card {
+    align-content: center;
+}
+
+.grid_with_background_2 {
+    width: 80%;
+}
+
+.grid_with_background_2 img {
+    width: 100%;
+}
+
+.grid_with_background_2 .audioIcon:hover {
+    transform: scale(1);
+}
+
+.grid_with_background_2 .col_card {
+    align-content: center;
+}
