@@ -1,0 +1,79 @@
+/* style-writeit.css */
+
+.wi-table {
+    width: 90%;
+    max-width: 900px;
+    margin: 15px auto;
+    border-collapse: collapse;
+    font-family: arcon, sans-serif;
+    font-size: 16px;
+}
+.func_ctrls {
+    display: none !important;
+}
+.wi-table th,
+.wi-table td {
+    border: 1px solid #aad4c8;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.wi-th-word     { background: #b9e3f5; color: #1a1a5e; }
+.wi-th-homonym  { background: #f7c9a3; color: #b5461a; }
+.wi-th-sentence { background: #cdeecb; color: #1c6b2c; }
+
+.wi-word-cell {
+    background: #eaf6fc;
+    font-weight: bold;
+    width: 14%;
+}
+
+.wi-homonym-cell {
+    background: #fff6ef;
+    width: 18%;
+}
+
+.wi-sentence-cell {
+    position: relative;
+}
+
+.wi-homonym-input,
+.wi-sentence-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-family: arcon, sans-serif;
+    font-size: 16px;
+    padding: 4px 2px;
+}
+
+.wi-sentence-input {
+    padding-right: 60px; /* مكان لأيقونة الصح/الغلط */
+}
+
+.wi-homonym-input.correct-input,
+.wi-sentence-input.correct-input {
+    background: #eafbef;
+}
+.wi-homonym-input.wrong-input,
+.wi-sentence-input.wrong-input {
+    background: #ffe9e8;
+}
+
+.wi-sentence-cell .icon_wrap {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+.wi-sentence-cell .tick,
+.wi-sentence-cell .cross { display: none; }
+.wi-sentence-cell .tick img,
+.wi-sentence-cell .cross img { width: 22px; }
+
+@media (max-width: 575.98px) {
+    .wi-table { font-size: 13px; }
+    .wi-sentence-input { padding-right: 40px; }
+}

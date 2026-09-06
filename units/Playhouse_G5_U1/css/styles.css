@@ -251,7 +251,7 @@ footer .emt_space.noWidth {
 }
 
 .subFooterNav.disabled {
-  opacity: 0.5;
+  opacity: 0;
   pointer-events: none;
 }
 

@@ -1,0 +1,116 @@
+/* style-bookmark.css */
+
+.bm-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #29a9e0;
+  font-family: arcon, sans-serif;
+  margin: 15px 0;
+}
+
+.bm-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: stretch;
+}
+
+/* ===== بطاقة النص ===== */
+.bm-text-card {
+  flex: 1 1 380px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 22px;
+  font-family: arcon, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #222;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.bm-line {
+  margin-bottom: 12px;
+}
+
+.bm-heading {
+  font-weight: bold;
+  margin: 12px 0 8px;
+}
+
+.bm-needs-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.bm-needs-list ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.bm-needs-list li {
+  margin-bottom: 4px;
+}
+
+.bm-template-img img {
+  width: 190px;
+  height: auto;
+}
+
+.bm-directions {
+  margin: 0;
+  padding-left: 18px;
+}
+.bm-directions li {
+  margin-bottom: 14px;
+}
+
+/* ===== بطاقة الصورة ===== */
+.bm-image-card {
+  flex: 1 1 260px;
+  background: #fff;
+  border: 2px solid #f0a35c;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.bm-image-card img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+.func_ctrls {
+  display: none !important;
+}
+/* ===== رقم الصفحة ===== */
+.bm-page-num {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background: #29a9e0;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .bm-wrap {
+    flex-direction: column;
+  }
+  .bm-needs-row {
+    flex-direction: column;
+  }
+  .bm-template-img img {
+    width: 70px;
+  }
+}

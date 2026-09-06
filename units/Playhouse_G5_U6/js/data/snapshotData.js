@@ -162,17 +162,17 @@ var Popups_data = {
   ],
   postions: [
     "left: 15%; top: 12%;",
-    "left: 6%;  top: 44%;",
-    "left: 10%; top: 62%;", //3
-    "left: 16%; top: 76%;",
+    "left: 9%;  top: 44%;",
+    "left: 14%; top: 62%;", //3
+    "left: 19%; top: 76%;",
     "left: 8%;  top: 83%;",
-    "left: 39%; top: 12%;",
+    "left: 39%; top: 8%;",
     "left: 52%; top: 26%;",
     "left: 37%; top: 61%;", //8
     "left: 51%; top: 65%;",
     "left: 50%; top: 78%;",
-    "left: 60%; top: 12%;",
-    "left: 68%; top: 31%;",
+    "left: 58%; top: 8%;",
+    "left: 64%; top: 31%;",
   ],
   imagesAudio: [
     "../audios/page_48/1_old-fashioned.mp3",

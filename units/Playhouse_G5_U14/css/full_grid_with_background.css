@@ -1,0 +1,63 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 75%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 45px;
+    padding: 50px 12px;
+}
+
+.grid_with_background_GroupWork .ss_text img{
+    height: 142px;
+}
+
+.grid_with_background_GroupWork .col_grid_container{
+    width: 1000px;
+    padding: 7px 25px;
+    /* background: #fdf3b0; */
+}
+/* ///////////////////////////////////////////// */
+.grid_with_background_GroupWork_2 .col_grid_container{
+    width: 900px;
+}
+.grid_with_background_GroupWork_2 .audioIcon:hover {
+    transform: scale(1.0);
+}
+.grid_with_background_GroupWork_2 .ss_text img{
+    height: 400px;
+}
+/* ///////////////////////////////////////////// */
+.textImg .col_grid_container{
+    width: 900px;
+}
+
+.textImg .snap_group_all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textImg .col_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* //////////////////////////////////////////// */
+.grid_with_background_GroupWork_3 .col_grid_container{
+    width: 1100px;
+}
+.grid_with_background_GroupWork_3 .slide_1{
+    background: #b3efef;
+    padding: 5px 12px;
+
+}
+.grid_with_background_GroupWork_3 .slide_2{
+    background: #e8f2d5;
+    padding: 5px 12px;
+}

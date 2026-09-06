@@ -1,0 +1,63 @@
+/* style-tickit.css */
+
+.ti-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+    margin: 15px auto;
+    border: 2px solid #a3324a;
+    border-radius: 4px;
+    background: #eaf3f6;
+    overflow: hidden;
+}
+
+.ti-cell {
+    border: 1px solid #a3324a;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+    font-family: arcon, sans-serif;
+}
+
+.ti-text {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.ti-box {
+    width: 34px;
+    height: 34px;
+    border: 2px solid #2ca9d6;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    align-self: flex-start;
+}
+
+.ti-box.checked::after {
+    content: "\2713";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    color: #d1201f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ti-box.correct {
+    border-color: #2e9e44;
+    background: #eafbef;
+}
+.ti-box.wrong {
+    border-color: #d1201f;
+    background: #ffe9e8;
+}
+
+@media (max-width: 767.98px) {
+    .ti-grid { grid-template-columns: repeat(2, 1fr); }
+    .ti-text { font-size: 14px; }
+}

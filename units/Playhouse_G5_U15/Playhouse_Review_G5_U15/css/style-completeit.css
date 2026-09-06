@@ -1,0 +1,65 @@
+/* style-completeit.css */
+
+.ci-wrap {
+    max-width: 950px;
+    margin: 10px auto;
+    padding: 0 20px;
+    font-family: arcon, sans-serif;
+}
+
+/* صندوق الكلمات */
+.ci-wordbox {
+    background: #ece9f7;
+    border: 2px solid #b9b3e8;
+    border-radius: 14px;
+    font-size: 22px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 40px;
+}
+
+.ci-word-chip {
+    font-weight: bold;
+    color: #333;
+}
+
+/* النص المتواصل */
+.ci-paragraph {
+    font-size: 23px;
+    line-height: 2.4;
+    color: #222;
+    text-align: justify;
+}
+
+.ci-input {
+    display: inline-block;
+    width: 130px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    font-family: arcon, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    outline: none;
+    margin: 0 3px;
+    padding: 0 2px;
+}
+
+.ci-input.correct-input {
+    border-bottom-color: #2e9e44;
+    color: #1c6b2c;
+    font-weight: bold;
+}
+.ci-input.wrong-input {
+    border-bottom-color: #d1201f;
+    color: #a3120f;
+}
+
+@media (max-width: 575.98px) {
+    .ci-paragraph { font-size: 15px; line-height: 2.6; }
+    .ci-input { width: 90px; font-size: 14px; }
+    .ci-wordbox { column-gap: 20px; font-size: 14px; }
+}

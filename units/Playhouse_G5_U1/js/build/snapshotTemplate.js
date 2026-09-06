@@ -19,7 +19,7 @@ function buildSnapShotContent(snapshotObj, snapshotPopup_data, Popups_data) {
     ) {
       slideHtml = "";
       slideHtml +=
-        '<div class="sub_footer_icon sub_footer_icon_left subFooterNav backNav mx-1"><a href=""><img src="../images/icons/back_btn.png"></a></div>';
+        '<div class="sub_footer_icon sub_footer_icon_left subFooterNav backNav mx-1" style="display:none;"><a href=""><img src="../images/icons/back_btn.png"></a></div>';
       slideHtml +=
         '<div class="sub_footer_icon sub_footer_icon_right subFooterNav nextNav mx-1"><a href=""><img src="../images/icons/next_btn.png"></a></div>';
 
@@ -161,7 +161,7 @@ function buildSnapShotContent(snapshotObj, snapshotPopup_data, Popups_data) {
         Popups_data["slides"][slide].listen3["mainTitle_audio"] +
         "'data-onaudioplay=''>";
       listen3_Popups +=
-        "<img class='' src='" +
+        "<img class='wordpower' src='" +
         Popups_data["slides"][slide].listen3["mainTitle"] +
         "' />";
       listen3_Popups += "</div>";

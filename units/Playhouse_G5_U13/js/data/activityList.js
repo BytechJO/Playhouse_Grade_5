@@ -139,6 +139,15 @@ var _activityData = {
          'score'              : 0,
       },
       {
+         'file'               : 'slide_color_background_3.html',
+         'type'               : 'standAlone',
+         'subtype'            : '',
+         'build'              : 'yes', // yes (or) no
+         'activityCtrls'      : 'yes',
+         'layout'             : 3,
+         'visited'            : 0,
+      },
+      {
          'file'               : 'slide_8.html',
          'type'               : 'standAlone',
          'subtype'            : '',
@@ -195,6 +204,15 @@ var _activityData = {
          'layout'             : 1,
          'visited'            : 0,
          'score'              : 0,
+      },
+       {
+         'file'               : 'slide_color_background_4.html',
+         'type'               : 'standAlone',
+         'subtype'            : '',
+         'build'              : 'yes', // yes (or) no
+         'activityCtrls'      : 'yes',
+         'layout'             : 3,
+         'visited'            : 0,
       },
       {
          'file'               : 'slide_Newsletter.html',

@@ -161,15 +161,15 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 78%; top: 0%;",
+    "left: 70%; top: 0%;",
     "left: 64%; top: 0%;",
     "left: 76%; top: 7%;",
-    "left: 21%; top: 29%;", //4
+    "left: 24%; top: 26%;", //4
     "left: 66%; top: 20%;",
-    "left: 10%; top: 66%;", //6
-    "left: 27%; top: 72%;",
+    "left: 14%; top: 69%;", //6
+    "left: 29%; top: 75%;",
     "left: 44%; top: 64%;", //8
-    "left: 69%; top: 62%;", //9
+    "left: 66%; top: 62%;", //9
     "left: 9%;  top: 81%;", //10
     "left: 49%; top: 81%;",
     "left: 61%; top: 82%;",

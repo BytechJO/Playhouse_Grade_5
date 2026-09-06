@@ -161,18 +161,18 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 34%; top: 16%;",
+    "left: 46%; top: 9%;",
     "left: 60%; top: 13%;",
     "left: 40%; top: 30%;",
-    "left: 61%; top: 32%;", //4
-    "left: 76%; top: 32%;",
+    "left: 59%; top: 32%;", //4
+    "left: 72%; top: 32%;",
     "left: 31%; top: 52%;", //6
     "left: 37%; top: 46%;",
     "left: 44%; top: 46%;", //8
-    "left: 54%; top: 55%;",
-    "left: 72%; top: 42%;",
-    "left: 65%; top: 69%;",
-    "left: 78%; top: 73%;",
+    "left: 52%; top: 55%;",
+    "left: 68%; top: 42%;",
+    "left: 63%; top: 69%;",
+    "left: 74%; top: 74%;",
   ],
   imagesAudio: [
     "../audios/page_60/1_pollution.mp3",
