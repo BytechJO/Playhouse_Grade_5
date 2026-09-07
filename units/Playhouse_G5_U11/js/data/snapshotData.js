@@ -161,18 +161,18 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 23%; top: 14%;",
-    "left: 13%; top: 23%;",
-    "left: 20%; top: 25%;",
+    "left: 25%; top: 14%;",
+    "left: 15%; top: 23%;",
+    "left: 23%; top: 25%;",
     "left: 38%; top: 22%;", //4
-    "left: 51%; top: 28%;", //5
-    "left: 59%; top: 23%;", //6
-    "left: 76%; top: 23%;", //7
+    "left: 49%; top: 28%;", //5
+    "left: 57%; top: 23%;", //6
+    "left: 72%; top: 23%;", //7
     "left: 37%; top: 50%;", //8
     "left: 49%; top: 65%;", //9
     "left: 52%; top: 83%;", //10
-    "left: 4%;  top: 54%;",
-    "left: 11%; top: 57%;",
+    "left: 10%; top: 53%;",
+    "left: 16%; top: 57%;",
   ],
   imagesAudio: [
     "../audios/page_96/1_She-He_isnt_here_right_now.mp3",

@@ -164,10 +164,10 @@ var Popups_data = {
     "left:  8%; top: 25%;",
     "left: 31%; top: 19%;",
     "left: 59%; top: 12%;",
-    "left: 46%; top: 40%;", //4
-    "left: 53%; top: 44%;", //5
+    "left: 44%; top: 40%;", //4
+    "left: 51%; top: 44%;", //5
     "left: 45%; top: 52%;", //6
-    "left: 63%; top: 55%;", //7
+    "left: 60%; top: 55%;", //7
     "left: 32%; top: 79%;", //8
     "left: 59%; top: 87%;", //9
     "left: 27%; top: 94%;", //10

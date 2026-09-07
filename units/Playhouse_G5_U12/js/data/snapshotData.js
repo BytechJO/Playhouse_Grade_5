@@ -161,18 +161,18 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 16%; top: 10%;",
-    "left: 23.5%; top: 8%;",
-    "left: 61%; top: 11%;",
-    "left: 69%; top: 8%;", //4
-    "left: 1%;  top: 42%;", //5
-    "left: 23.5%; top: 42%;", //6
-    "left: 46%; top:42%;;", //7
-    "left: 69%; top:42%;;", //8
-    "left: 1%; top: 77%;", //9
-    "left: 23%; top:77%;", //10
-    "left:46%; top:77%;",
-    "left:69%; top:77%;",
+    "left: 7%; top: 8%;",
+    "left: 26.5%; top: 8%;",
+    "left: 46.5%; top: 8%;",
+    "left: 66.5%; top: 8%;", //4
+    "left: 7%;  top: 42%;", //5
+    "left: 26.5%; top: 42%;", //6
+    "left: 46.5%; top:42%;;", //7
+    "left: 66.5%; top:42%;;", //8
+    "left: 6.5%; top: 77%;", //9
+    "left: 26.5%; top:77%;", //10
+    "left: 46.5%; top:77%;",
+    "left: 66.5%; top:77%;",
   ],
   imagesAudio: [
     "../audios/page_104/1_tailor.mp3",

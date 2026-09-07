@@ -161,18 +161,18 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 11%;  top: 8%;",
-    "left: 21%; top: 31%;",
-    "left: 28%; top: 41%;",
+    "left: 13%;  top: 8%;",
+    "left: 24%; top: 31%;",
+    "left: 30%; top: 41%;",
     "left: 8%;  top: 62%;", //4
-    "left: 15%; top: 53%;", //5
-    "left: 20%; top: 60%;", //6
-    "left: 10%; top: 78%;", //7
-    "left: 15%; top: 94%;", //8
-    "left: 73%; top: 35%;", //9
-    "left: 69%; top: 55%;", //10
+    "left: 17%; top: 53%;", //5
+    "left: 23%; top: 59%;", //6
+    "left: 15%; top: 77%;", //7
+    "left: 19%; top: 94%;", //8
+    "left: 70%; top: 35%;", //9
+    "left: 75%; top: 55%;", //10
     "left: 54%; top: 91%;",
-    "left: 75%; top: 78%;",
+    "left: 72%; top: 78%;",
   ],
   imagesAudio: [
     "../audios/page_124/1_hard_hat.mp3",

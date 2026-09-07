@@ -161,18 +161,18 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 11%; top: 3%;",
-    "left: 33%; top: 3%;",
-    "left: 53%; top: 3%;",
-    "left: 72%; top: 3%;", //4
-    "left: 11%; top: 40%;", //5
-    "left: 33%; top: 40%;", //6
-    "left: 53%;  top: 40%;", //7
-    "left: 72%; top: 40%;", //8
-    "left: 11%; top: 76%;", //9
-    "left: 33%; top: 76%;", //10
-    "left: 53%; top: 76%;",
-    "left: 72%; top: 76%;",
+    "left: 9%; top: 3%;",
+    "left: 28%; top: 3%;",
+    "left: 47%; top: 3%;",
+    "left: 65%; top: 3%;", //4
+    "left: 9%; top: 40%;", //5
+    "left: 28%; top: 40%;", //6
+    "left: 47%;  top: 40%;", //7
+    "left: 65%; top: 40%;", //8
+    "left: 9%; top: 76%;", //9
+    "left: 28%; top: 76%;", //10
+    "left: 47%; top: 76%;",
+    "left: 65%; top: 76%;",
   ],
   imagesAudio: [
     "../audios/page_116/1_was_opened.mp3",

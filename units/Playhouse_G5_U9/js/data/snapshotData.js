@@ -162,13 +162,13 @@ var Popups_data = {
   ],
   postions: [
     "left: 10%; top: 8%;",
-    "left: 23%; top: 17%;",
-    "left: 64%; top: 18%;",
-    "left: 26%; top: 37%;", //4
+    "left: 25%; top: 14%;",
+    "left: 62%; top: 13%;",
+    "left: 27%; top: 35%;", //4
     "left: 40%; top: 45%;", //5
-    "left: 84%; top: 32%;", //6
-    "left: 69%; top: 60%;", //7
-    "left: 54%; top: 67%;", //8
+    "left: 77%; top: 39%;", //6
+    "left: 63%; top: 60%;", //7
+    "left: 53%; top: 70%;", //8
     "left: 62%; top: 73%;", //9
     "left: 40%; top: 79%;", //10
     "left: 33%; top: 83%;",

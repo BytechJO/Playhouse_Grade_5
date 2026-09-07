@@ -63,7 +63,7 @@
 }
 
 .img-1 {
-  background-color: #fef3e1;
+  background-color: #f2de8f;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .img-3 {
-  background-color: #c9e8e6;
+  background-color: #e3f2e7;
 }
 
 .img-4 {
@@ -756,7 +756,7 @@
 
 /* ====== خلفية البوب أب الأساسية ====== */
 .readHilightsPanel_1 .modal-content {
-    background-color: #faf1e2;
+    background-color: #f2de8f;
     background-image:
         radial-gradient(circle 6px, #f6c9a8 98%, transparent 100%),
         radial-gradient(circle 5px, #f5e07a 98%, transparent 100%),

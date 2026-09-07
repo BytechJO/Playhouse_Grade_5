@@ -1,4 +1,3 @@
-
 /* //  ****************************************** // */
 
 
@@ -22,6 +21,21 @@
     margin-top: -15px;
 }
 
+.subTitleTextRight{
+    display: block;
+    margin-left: 54px !important;
+    color: #1a3281;
+}
+.title-order{
+    padding: 4px 17px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1a3281;
+}
+
+.darkBlue_text {
+    color: #1a3281;
+}
 
 /* //  ActivitiesCSS - Version no: R-02
 /* // updated - July 10, 2020 
@@ -102,27 +116,6 @@
     src: url('./fonts/ZNuscriptHeavy.ttf');
 }
 
-/**************** Scrollbar ***************/
-
-::-webkit-scrollbar {
-    /* width: 15px; */
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #1a3281;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #1a3281;
-}
-
-
 
 /**************** fonts end ***************/
 
@@ -144,40 +137,7 @@
     border-color: #3582b4;
 }
 
-.subTitleTextRight{
-    display: block;
-    margin-left: 54px !important;
-    color: #1a3281;
-}
 
-.title-order {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    color: #fff;
-    background-color: #1a3281;
-}
-
-.darkBlue_text {
-    color: #1a3281;
-}
-
-.red_text {
-    color: red;
-}
-
-.blue_text {
-    color: #09aae7;
-}
-
-.orange_text {
-    color: #f26521;
-}
-
-.pureple_text{
-    color: #9a65a6;
-}
 /**************** Unit Color code end***************/
 
 .activityTitle,
@@ -206,9 +166,9 @@
     text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 }
 
-.img_space img {
+/* .img_space img {
     width: 75%!important;
-}
+} */
 
 
 /************** header *****************/
