@@ -96,6 +96,7 @@ var reading_data = {
       },
       ///////////////////////////////////////////////////////////////////////////////////////////////////////// 4 //
       listen4: {
+         title: "Can you remember your Word Power words?  There are 12.",
         audio: [
           "../audios/page_139/Pg4_1.2_Adult_Lady.mp3",
           "../audios/page_139/Pg4_1.3_Adult Lady.mp3",

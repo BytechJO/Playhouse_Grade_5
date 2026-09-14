@@ -26,6 +26,8 @@ var reading_data = {
     "subTitleTextLeft": "<span class='title-order'>3</span> Group work!",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
+      subTitleTextRight2: "",
+  subTitleTextRight2Audio: "",
     "subTitleAudio": "../audios/new/p69group.mp3",
     "slides": [
         {

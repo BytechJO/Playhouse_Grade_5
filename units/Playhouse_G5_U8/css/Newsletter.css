@@ -106,7 +106,7 @@
 
 .readHilightsPanel_1 .title_in_snap {
   height: 160px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .readHilightsPanel_1 .modal-dialog {
@@ -115,10 +115,11 @@
 
 .readHilightsPanel_1 .title .second_image {
   float: right;
-  height: 206px;
-  /* position: absolute; */
-  /* right: -24px; */
-  /* top: -39px; */
+  height: 170px;
+  position: absolute;
+  right: -799px;
+  top: 13px;
+
   transform: rotate(5deg);
   margin-top: -18px;
   margin-right: 20px;
@@ -170,10 +171,10 @@
 
 .readHilightsPanel2_1 .title .second_image {
   left: 33px;
-  top: -102px;
-  height: 201px;
-  width: 170px;
-  border-radius: 50%;
+  top: -51px;
+  height: 185px;
+  width: 278px;
+  border-radius: 7%;
   /* border-radius: 50%;*/
 }
 
@@ -557,6 +558,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 
 /* =========================================================
@@ -736,7 +738,12 @@
 /* =========================================
    SMALL MOBILE
 ========================================= */
-
+.snap_word_2 {
+  display: flex;
+  width: 100%;
+  /* gap: 390px;
+    justify-content: space-between;  */
+}
 @media (max-width: 650px) {
   /* 
   .rotator {
@@ -745,4 +752,136 @@
 
     transform-origin: right center;
   } */
+}
+
+/* ====== خلفية البوب أب الأساسية ====== */
+.readHilightsPanel_1 .modal-content {
+  background-color: white;
+  /* background-image:
+        radial-gradient(circle 6px, #f6c9a8 98%, transparent 100%),
+        radial-gradient(circle 5px, #f5e07a 98%, transparent 100%),
+        radial-gradient(circle 4px, #f1a6a6 98%, transparent 100%); */
+  background-repeat: repeat, repeat, repeat;
+  background-size:
+    220px 220px,
+    260px 260px,
+    300px 300px;
+  background-position:
+    20px 30px,
+    140px 180px,
+    60px 260px;
+  border-radius: 40px;
+  padding: 30px 40px;
+  position: relative;
+}
+
+/* ====== عنوان Where to Eat? ====== */
+.readHilightsPanel_1 .title {
+  position: relative;
+  width: 220px;
+  float: left;
+  margin: 0 25px 10px 0;
+}
+.readHilightsPanel_1 .title .top_image {
+  /* width: 100%;
+    height: auto; */
+  transform: rotate(-4deg);
+}
+
+/* ====== النص ====== */
+.readHilightsPanel_1 .word_in_snap {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3a3a3a;
+  text-align: left;
+}
+.readHilightsPanel_1 .news_para {
+  margin: 0 0 14px 0;
+  display: block;
+}
+
+/* النقطة الحمرا قبل كل فقرة */
+.readHilightsPanel_1 .dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #e05a4e;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* الكلمات المحددة (Student / restaurant) */
+.readHilightsPanel_1 .hl {
+  text-decoration: underline;
+  text-decoration-color: #e05a4e;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+/* ====== صور Polaroid داخل النص ====== */
+.readHilightsPanel_1 .image_1,
+.readHilightsPanel_1 .image_2 {
+  width: 260px;
+  height: auto;
+  border: 6px solid #fff;
+  border-radius: 10px;
+  box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.25);
+  margin: 10px 20px;
+}
+.readHilightsPanel_1 .image_1 {
+  float: right;
+  transform: rotate(3deg);
+}
+.readHilightsPanel_1 .image_2 {
+  float: left;
+  transform: rotate(-3deg);
+}
+
+/* ====== صندوق الكريدت ====== */
+.readHilightsPanel_1 .credit_box {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
+  font-family: Georgia, serif;
+  font-size: 14px;
+  color: #333;
+  text-align: right;
+  line-height: 1.4;
+}
+.readHilightsPanel_1 .credit_box b {
+  font-weight: 700;
+}
+
+/* تفريغ الفلوت بآخر المحتوى حتى ما ينكسر التصميم */
+.readHilightsPanel_1 .all_words::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ====== تجاوب على الموبايل ====== */
+@media (max-width: 650px) {
+  .readHilightsPanel_1 .title {
+    float: none;
+    width: 160px;
+    margin: 0 auto 15px;
+  }
+  .readHilightsPanel_1 .image_1,
+  .readHilightsPanel_1 .image_2 {
+    width: 100%;
+    float: none;
+    margin: 12px 0;
+    transform: none;
+  }
+  .readHilightsPanel_1 .credit_box {
+    margin: 15px auto 0;
+    text-align: center;
+  }
 }

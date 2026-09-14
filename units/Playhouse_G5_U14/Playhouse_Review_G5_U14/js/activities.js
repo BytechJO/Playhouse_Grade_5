@@ -231,7 +231,7 @@ function initiateActivityType(aActTyp, aActSubType) {
     } else if (aActTyp == 'coloring') {
         theActivity = new Coloring(quePart, coloring_data);
     } else if (aActTyp == 'writeit') {
-        theActivity = new WriteIt(quePart, writeit_data);
+        theActivity = new FillIn(quePart, writeit_data);
     } else if (aActTyp == 'standAlone') {
         theActivity = "standAlone";
 

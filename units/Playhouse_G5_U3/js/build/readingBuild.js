@@ -18,12 +18,12 @@ function buildReadingHTML(aObj) {
 
         slideHtml += '<div class="activityHeading">'
             slideHtml += '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="' + 1 + '" data-audio="' + aObj.subTitleAudio + '">';
-            slideHtml += "<div class='page_sub_title '>";
+            slideHtml += "<div class='page_sub_title'>";
                 slideHtml += "<p> " + aObj.subTitleTextLeft + " </p>";
                 for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
                     slideHtml += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
                 }
-                slideHtml += "<br><p class='subTitleTextRight'>" + aObj.subTitleTextRight + " </p>";
+                slideHtml += "<p> " + aObj.subTitleTextRight + " </p>";
             slideHtml += "</div>";
             slideHtml += '</div>';
         slideHtml += '</div>';
@@ -52,7 +52,7 @@ function buildReadingHTML(aObj) {
                     slideHtml += "</div>";
                 }
 
-                slideHtml += "<div class='image_with_text  "+slide.parent_class_name+"'>";
+                slideHtml += "<div class='image_with_text'>";
                 slideHtml += "<div class='main_image'>";
                 slideHtml += "<img src='" + slide.mainImage + "'/>";
                 slideHtml += "</div>";
@@ -144,78 +144,57 @@ function buildReadingHTML(aObj) {
                 slideHtml += "</div>";
             slideHtml += "</div>";
                 
-            } else if (slide.layout == 'grid_columns'){
-                var curIndex = 0;
-                var wordStyle = 0;
-                var audioArry = slide.audio;
-                var wordArray = slide.word;
-                var imageArray = slide.image;
-                slideHtml += "<div class='d-flex justify-content-center align-items-center grid_columns_container " + slide.parentClassName + "'>";
-                slideHtml += "<div class='col_grid_container'>";
-                    if(slide.mainImage && slide.mainImage !=""){
-                        slideHtml += "<img src='" + slide.mainImage + "' style='height: 500px;'/>";
-                    }
-
-                    if (slide.middleImage != undefined && slide.middleImage != '') {
-                        slideHtml += "<img src='" + slide.middleImage + "' class='middle_image' />";
-                    }
-
-                    slideHtml += "<div class='snap_group_all cont_group'>";
-                    if (slide.grid_main_title != undefined && slide.grid_main_title != '' ) {
-                        slideHtml += "<div class='grid_main_title_container'>";
-                            slideHtml += "<div class='snap_card audioIcon grid_main_title_text' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.grid_main_title_text_audio + "'data-onaudioplay=' '>"
-                                // slideHtml += "<img src='" + slide.grid_main_title + "' class='grid_main_title_img'/>";
-                                if(slide.grid_main_title_text.length > 1) {
-                                    for(let x=0; x < slide.grid_main_title_text.length; x++){
-                                        slideHtml += "<div class='letter letter-"+x+" pulse'>" + slide.grid_main_title_text[x] + "</div>"
-                                    }
-                                }else{
-                                    slideHtml += "<div class=''>" + slide.grid_main_title_text + "</div>"
-                                }
-                            slideHtml += "</div>";
-                        slideHtml += "</div>";
-                    }
-                    if (slide.topText) {    
-                        slideHtml += "<div class='top_image_text d-flex'>"
-                        slideHtml += "<img src='" + slide.topImage + "' class='top_image' />";
-                        slideHtml += "<div class='snap_card audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.topText_audio + "'data-onaudioplay=' '>"
-                        slideHtml += "<div class='ss_text'>" + slide.topText + "</div>"
-                        slideHtml += "</div>";
-                        slideHtml += "</div>";
-                    }
-                    if (slide.top_right_image) { 
-                        slideHtml += "<img src='" + slide.top_right_image + "' class='top_right_image'/>";
-                    }
-                    var ImagePos = slide.imagePlacePos;
-                    if (ImagePos != undefined) {
-                        for (var snapIndex = 0; snapIndex < ImagePos.length; snapIndex++) {
-                            slideHtml += "<div class='snap_group_" + Number(snapIndex + 1) + " row mx-0'>";
-                            for (var imgIndex = 0; imgIndex < ImagePos[snapIndex].colData.length; imgIndex++) {
-                                slideHtml += "<div class='col-12 col-md-" + ImagePos[snapIndex].colWidth[imgIndex] + " col_card'>";
-                                slideHtml += "<div class='snap_card mx-0 mx-md-auto audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + audioArry[curIndex] + "'data-onaudioplay=' '>"
-                                console.log("__", ImagePos[snapIndex])
-                                if (ImagePos[snapIndex].colData[imgIndex] != 0) {
-                                    wordStyle = curIndex + 1;
-                                    slideHtml += "<div class='ss_word ss_t_" + wordStyle + "'><div class='ss_text background_audio'>" + wordArray[curIndex] + "</div></div>";
-                                    curIndex++;
-                                }
-                                slideHtml += "</div></div>"
+            } else if (slide.layout == 'grid_columns'){  // needed
+                    var curIndex = 0;
+                    var wordStyle = 0;
+                    var audioArry = slide.audio;
+                    var wordArray = slide.word;
+                    var imageArray = slide.image;
+                    slideHtml += "<div class='d-flex justify-content-center align-items-center grid_columns_container " + slide.parent_class_name + "'>";
+                        slideHtml += "<div class='col_grid_container " + slide.parentClass + "'>";
+                            if (slide.mainImage != undefined && slide.mainImage != '' ) {
+                                slideHtml += "<img src='" + slide.mainImage + "' style='width: 100%;'/>";
                             }
-            
+                            if (slide.middleImage != undefined && slide.middleImage != '') {
+                                slideHtml += "<img src='" + slide.middleImage + "' class='middle_image' />";
+                            }
+                            slideHtml += "<div class='snap_group_all cont_group' style='" + slide.group_styles + "'>"
+                                if (slide.topText) {    
+                                    slideHtml += "<div class='top_image_text d-flex'>"
+                                    slideHtml += "<img src='" + slide.topImage + "' class='top_image' />";
+                                    slideHtml += "<div class='snap_card audioIcon mx-0 mx-md-auto' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.topText_audio + "'data-onaudioplay=' '>"
+                                    slideHtml += "<div class='ss_text'>" + slide.topText + "</div>"
+                                    slideHtml += "</div>";
+                                    slideHtml += "</div>";
+                                }
+                                if (slide.top_right_image) {
+                                    slideHtml += "<img src='" + slide.top_right_image + "' class='top_right_image'/>";
+                                }
+                                var ImagePos = slide.imagePlacePos;
+                                if (ImagePos != undefined) {
+                                    for (var snapIndex = 0; snapIndex < ImagePos.length; snapIndex++) {
+                                        slideHtml += "<div class='snap_group_" + Number(snapIndex + 1) + " row mx-0'>";
+                                        for (var imgIndex = 0; imgIndex < ImagePos[snapIndex].colData.length; imgIndex++) {
+                                            slideHtml += "<div class='col-12 col-md-" + ImagePos[snapIndex].colWidth[imgIndex] + "'>";
+                                            slideHtml += "<div class='snap_card audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + audioArry[curIndex] + "'data-onaudioplay=' '>"
+                                            console.log("__", ImagePos[snapIndex])
+                                            if (ImagePos[snapIndex].colData[imgIndex] != 0) {
+                                                wordStyle = curIndex + 1;
+                                                if (slide.word != undefined) {
+                                                    slideHtml += "<div class='ss_word ss_t_" + wordStyle + "'><div class='ss_text'>" + wordArray[curIndex] + "</div></div>";
+                                                } else {
+                                                    slideHtml += "<img src='" + imageArray[curIndex] + "' class='img_card' />";
+                                                }
+                                                curIndex++;
+                                            }
+                                            slideHtml += "</div></div>"
+                                        }
+                                        slideHtml += "</div>";
+                                    }
+                                }
+                                // slideHtml += "</div>";
                             slideHtml += "</div>";
-                        }
-                    }
-                    if(slide.image != undefined && slide.image != ""){
-                        slideHtml += '<img class="text_img" src="'+slide.image+'">';
-                    }
-
-                    if(slide.images && slide.images !=""){
-                        for(let x=0; x < slide.images.length; x++){
-                            slideHtml += '<img src="'+slide.images[x]+'" class="absolute_Img'+(x+1)+'">';
-                        }
-                    }
-                    slideHtml += "</div>";
-                    var bottomImagePos = slide.bottomImagePlacePos;
+                            var bottomImagePos = slide.bottomImagePlacePos;
                             if (bottomImagePos != undefined) {
                                 var bottomAudioArry = slide.bottomAudio;
                                 var bottomWordArray = slide.bottomWord;
@@ -245,10 +224,10 @@ function buildReadingHTML(aObj) {
                                 }
                                 slideHtml += "</div>";
                             }
-                slideHtml += "</div>";
-            slideHtml += "</div>";
+                        slideHtml += "</div>";
+                    slideHtml += "</div>";
             } else if (slide.layout == "writing_tips") {
-                slideHtml += "<div class='writing_tips_content_holder'>";
+                slideHtml += "<div class='writing_tips_content_holder " + slide.parentClassName + "'>";
                     slideHtml += "<div class='writing_tips'>";
                         slideHtml += "<div class='writing_tips_background_image_container'>";
                             slideHtml += "<img src='" + slide.background_image + "' class='writing_tips_background_image'/>";
@@ -327,39 +306,7 @@ function buildReadingHTML(aObj) {
                         }
                     slideHtml += "</div>";
                 slideHtml += "</div>";
-            } else if (slide.layout == "multible_flex_containers_with_list") {
-                slideHtml += "<div class='boxes_with_list_container d-flex'>";
-                for (var boxnum = 0; boxnum < slide.boxes.length; boxnum++) {
-                    slideHtml += "<div class='boxe_list_container box_list_" + Number(boxnum+1) + "'>";
-                        slideHtml += "<div class='list_container'>";
-                            slideHtml += '<div class="flip-container">';
-                                slideHtml += '<div class="flipper">';
-                                    
-                                    slideHtml += '<div class="front">';
-                                        slideHtml += '<img src="'+ slide.boxes[boxnum].image +'" alt="Front Image">';
-                                    slideHtml += '</div>';
-                                    
-                                    slideHtml += '<div class="back">';
-                                        // slideHtml += '<img src="'+ slide.boxes[boxnum].image + '" alt="Back Image">';
-                                        slideHtml += "<ul class='list_under_image'>";
-                                            for (var item = 0; item < slide.boxes[boxnum].list.length; item++) {
-                                                slideHtml += "<li>";
-                                                    slideHtml += "<div class='snap_card audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.boxes[boxnum].audio[item] + "'data-onaudioplay=' '>"
-                                                    slideHtml += "<p>" + slide.boxes[boxnum].list[item] + "</p>";
-                                                    slideHtml += "</div>";
-                                                slideHtml += "</li>";
-                                            }
-                                                slideHtml += "</div>";
-                                        slideHtml += "</ul>";
-
-                                    slideHtml += '</div>';
-                                slideHtml += '</div>';
-                            slideHtml += '</div>';
-                    slideHtml += "</div>";
-                }
-                slideHtml += "</div>";
-            }
-            else if (slide.layout == "multible_image_with_text") {
+            } else if (slide.layout == "multible_image_with_text") {
                 slideHtml += "<div class='image_with_text'>";
                 slideHtml += "<img src='" + slide.secondImage + "' class='image_floating_right'/>";
                 slideHtml += "<div class='main_image'>";
@@ -383,11 +330,8 @@ function buildReadingHTML(aObj) {
                     if (slide.secondImage != undefined) {
                         slideHtml += "<img src='" + slide.secondImage + "' class='image_floating_right'/>";
                     }
-
                     slideHtml += "<div class='main_image'>";
-                    if (slide.mainImage != undefined && slide.mainImage != "") {
-                        slideHtml += "<img src='" + slide.mainImage + "' class='main_image_background'/>";
-                    }
+                    slideHtml += "<img src='" + slide.mainImage + "' class='main_image_background'/>";
                     slideHtml += "</div>";
                     if (slide.titleText != undefined && slide.titleText != '') {
                         slideHtml += "<div class='title_text_container'>"
@@ -410,29 +354,6 @@ function buildReadingHTML(aObj) {
                         slideHtml += "</div>";
                     }
                 slideHtml += "</div>";
-            } else if (slide.layout == "stairs_slide") {
-                cur_height = 10;
-                cur_width = 170;
-                cur_left_perc = 10;
-                cur_right_perc = 90;
-                slideHtml += "<div style='display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: rgb(251,234,213); border-radius: 25px;'>";
-                for (var stairIndex = 1; stairIndex <= 10; stairIndex++) {
-                    slideHtml += "<div class='stair_top' style='top:" + 50 + "px; left:" + 50 + "px; width: "+cur_width+"px; height: "+cur_height+"px; background: linear-gradient(0deg, rgba(255,255,255,1) 12%, rgba(219,219,219,1) 84%); clip-path: polygon("+cur_left_perc.toFixed(2)+"% 0%, "+cur_right_perc.toFixed(2)+"% 0%, 100% 100%, 0% 100%);'>";
-                    slideHtml += "</div>";
-                    slideHtml += "<div class='stair_front' style='top:" + 100 + "px; left:" + 50 + "px; width: "+cur_width+"px; height: 35px; background-color: #ccc;'>";
-                    slideHtml += "<div class='snap_card mx-0 mx-md-auto audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.audios[stairIndex - 1] + "'data-onaudioplay=' '>"
-                    slideHtml += "<p class='stair_text' style='width: 145px; font-weight: bold; font-size: 22px;'>" + slide.sentences[stairIndex - 1] + "</p>";
-                    slideHtml += "</div>";
-                    slideHtml += "</div>";
-                    cur_height += 2;
-                    cur_width += 40;
-                    // cur_left_perc -= 0.71;
-                    // cur_right_perc += 0.71;
-                    cur_left_perc -= Number(0.65 + (10 - Math.abs(stairIndex-5))/100*5-stairIndex/15);
-                    cur_right_perc += Number(0.65 + (10 - Math.abs(stairIndex-5))/100*5-stairIndex/15);
-                    // debugger
-                }
-                slideHtml += "</div>";
             }
         }
         slideHtml += "</div></div></div>";
@@ -443,7 +364,7 @@ function buildReadingHTML(aObj) {
         setLoadedStatus(getCurrFileOrDirectory('file'));
 
     }
-}  
+}
 
 function showSentenceImg(){
     $(document).ready(function () {

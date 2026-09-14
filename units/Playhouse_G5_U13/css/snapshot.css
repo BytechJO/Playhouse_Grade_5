@@ -153,6 +153,7 @@ body {
       left: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
+      padding: 10px;
       /* background-image: url(../images/pages//page-1/1-word-background.png); */
   }
   
@@ -675,12 +676,12 @@ body {
       padding: 50px;
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      gap: 50px 100px;
+      gap: 50px 55px;
       font-size: 25px
   }
   
   .flex_item_container {
-      width: 210px;
+      width: 215px;
       text-align: left;
   }
   
@@ -802,7 +803,7 @@ body {
   align-items: center;
 
   border-radius: 14px;
-
+width: 100%;
   cursor: pointer;
   box-sizing: border-box;
 

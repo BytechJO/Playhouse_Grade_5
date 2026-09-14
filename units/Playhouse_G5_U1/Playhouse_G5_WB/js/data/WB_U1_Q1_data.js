@@ -24,7 +24,7 @@ var _activity_json = {
     "activityheading_audio" : "../audios/p4/1_Label_it!_Look_at_the_pictures_Label_each_picture_with_the_correct_Word_Power_word_from.mp3",
     "activitysubheading": "",
     "activityicon": "../images/icons/key_icon.png",
-    "main_activityheading":"../images/pages/activities/WORD_POWER.jpg",
+    "main_activityheading":"../images/pages/activities/word_main_title.png",
     "main_activityheading_audio" : "../audios/p4/WORD_POWER.mp3",
     "type": "drag_drop",
     "aminActivityheading"  : "../images/pages/word_main_title.png",

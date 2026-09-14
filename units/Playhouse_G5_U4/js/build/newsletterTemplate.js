@@ -118,7 +118,7 @@ function buildListenPopup(listenData) {
   popupHtml += "<br />";
 
   popupHtml +=
-    "<div class='all_words_1 d-flex flex-wrap justify-content-around'>";
+    "<div class='all_words d-flex flex-wrap justify-content-around'>";
 
   var texts = listenData.text || [];
   var audios = listenData.audio || [];

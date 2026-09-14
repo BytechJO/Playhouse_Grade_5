@@ -56,7 +56,7 @@ width:max-content;
   cursor:pointer;  
   position: absolute;
   top: 45%;
-  z-index: 50000;
+  z-index: 500;
 }
 .sub_footer_icon_left{
   left: 0;

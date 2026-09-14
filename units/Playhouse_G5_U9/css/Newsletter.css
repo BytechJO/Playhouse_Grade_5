@@ -72,7 +72,7 @@
 }
 
 .img-3 {
-  background-color: #c9e8e6;
+  background-color: #e1f4fd;
 }
 
 .img-4 {
@@ -106,7 +106,7 @@
 
 .readHilightsPanel_1 .title_in_snap {
   height: 160px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .readHilightsPanel_1 .modal-dialog {
@@ -115,10 +115,11 @@
 
 .readHilightsPanel_1 .title .second_image {
   float: right;
-  height: 206px;
-  /* position: absolute; */
-  /* right: -24px; */
-  /* top: -39px; */
+  height: 170px;
+  position: absolute;
+    right: -799px;
+    top: 13px;
+
   transform: rotate(5deg);
   margin-top: -18px;
   margin-right: 20px;
@@ -148,11 +149,11 @@
 }
 
 .readHilightsPanel2_1 .modal-content {
-  background-color: #c9e8e6;
+  background-color: #cae6ff;
 }
 
 .readHilightsPanel2_1 .title {
-  background-color: #00a78e;
+  background-color: #0084c3;
   position: relative;
   display: flex;
   align-items: center;
@@ -170,8 +171,8 @@
 
 .readHilightsPanel2_1 .title .second_image {
   left: 33px;
-  top: -102px;
-  height: 201px;
+     top: -51px;
+    height: 185px;
   width: 170px;
   border-radius: 50%;
   /* border-radius: 50%;*/
@@ -739,8 +740,8 @@
 .snap_word_2{
      display: flex;
     width: 100%;
-    gap: 390px;
-    justify-content: space-between; 
+    /* gap: 390px;
+    justify-content: space-between;  */
 }
 @media (max-width: 650px) {
   /* 
@@ -755,7 +756,7 @@
 
 /* ====== خلفية البوب أب الأساسية ====== */
 .readHilightsPanel_1 .modal-content {
-    background-color: #faf1e2;
+    background-color: #fef3e1;
     background-image:
         radial-gradient(circle 6px, #f6c9a8 98%, transparent 100%),
         radial-gradient(circle 5px, #f5e07a 98%, transparent 100%),
@@ -776,8 +777,8 @@
     margin: 0 25px 10px 0;
 }
 .readHilightsPanel_1 .title .top_image{
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
     transform: rotate(-4deg);
 }
 
@@ -792,6 +793,11 @@
 .readHilightsPanel_1 .news_para{
     margin: 0 0 14px 0;
     display: block;
+        font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #3a3a3a;
+    text-align: left;
 }
 
 /* النقطة الحمرا قبل كل فقرة */
