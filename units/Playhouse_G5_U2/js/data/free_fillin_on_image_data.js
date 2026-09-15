@@ -30,7 +30,7 @@ var fillin_data = {
     "subTitleTextRight"     : "Number these hobbies, starting with the most popular.",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/new/p16listen.mp3",
-    "image"                 : "../images/pages/activities/img1.png",
+    "image"                 : "../images/pages/activities/img1.PNG",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "none", // "alphabet" (or) "number"
     "numberstartfrom"       : 1,

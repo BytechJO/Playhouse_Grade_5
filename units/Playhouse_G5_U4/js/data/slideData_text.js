@@ -75,7 +75,7 @@ var reading_data = {
       title: "",
       array_text: [
         "<div style='position: relative;'><img src='../images/pages/page-4/slideT1.png' class='left_image' style='float: left; width: 200px;'/>" +
-          "<input type='number' class='square_input'></div>" +
+          "<input type='number' min='0' max='10' class='square_input'></div>" +
           "<div class='right_text'>If this is your style, then " +
           "you are a person who loves " +
           "to have fun.You often wear " +
@@ -88,7 +88,7 @@ var reading_data = {
           ///////////////////////////////////////////////
           
           "<div style='position: relative;'><img src='../images/pages/page-4/slideT3.png' class='left_image' style='float: left; width: 200px;'/>" +
-          "<input type='number' class='square_input'></div>" +
+          "<input type='number' min='0' max='10' class='square_input'></div>" +
           "<div class='right_text'>If you choose this as your " +
           "style, then you are always " +
           "wearing the latest fashion. " +
@@ -99,7 +99,7 @@ var reading_data = {
           
           ///////////////////////////////////////////////
           "<div style='position: relative;'><img src='../images/pages/page-4/slideT2.png' class='left_image' style='float: left; width: 200px;'/>" +
-            "<input type='number' class='square_input'></div>" +
+            "<input type='number' min='0' max='10' class='square_input'></div>" +
             "<div class='right_text'>If this is your style, then you are a " +
             "modest and truthful person. You are " +
             "a good friend. You wear traditional " +
@@ -110,7 +110,7 @@ var reading_data = {
           ///////////////////////////////////////////////
           
           "<div style='position: relative;'><img src='../images/pages/page-4/slideT4.png' class='left_image' style='float: left; width: 200px;'/>" +
-          "<input type='number' class='square_input'></div>" +
+          "<input type='number' min='0' max='10' class='square_input'></div>" +
           "<div class='right_text'>If this is your style, then you don’t " +
           "have time for fashion. You are loyal to " +
           "one brand, and you always buy that " +

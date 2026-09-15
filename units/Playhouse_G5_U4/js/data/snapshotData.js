@@ -161,7 +161,7 @@ var Popups_data = {
     "../images/pages/page-1/intro-12.png",
   ],
   postions: [
-    "left: 20%; top: 33%;",
+    "left: 18%; top: 28%;",
     "left: 21%; top: 42%;",
     "left: 21%; top: 69%;",
     "left: 30%; top: 71%;",

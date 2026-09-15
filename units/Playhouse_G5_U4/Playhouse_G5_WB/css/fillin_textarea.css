@@ -12,6 +12,9 @@
     margin: auto;
     margin-top: 20px;
 }
+.func_ctrls{
+    display:none !important;
+}
 .text_input_area {
     flex: 1;
     border: none;

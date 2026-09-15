@@ -58,7 +58,7 @@ var fillin_data = {
           "audioenable": "default", // correct (or) default
           "image": "",
           "answer": ["cafe"],
-          "alternateanswer": [[]],
+          "alternateanswer": [["café"]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
           "maxlength": 200,

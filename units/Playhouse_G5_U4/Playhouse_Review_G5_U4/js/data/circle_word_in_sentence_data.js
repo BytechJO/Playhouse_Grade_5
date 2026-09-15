@@ -19,7 +19,7 @@ var mcq_data = {
     "imageposition"         :"back",
     "questions"             : [
         {
-            "question"              : "1 Look at that boy, the [_] with the red shirt.",
+            "question"              : "Look at that boy, the [_] with the red shirt.",
             "options"               : [["one","ones"]],          
             "answer"                : [1],
 			"inputbox"				:"yes",
@@ -29,7 +29,7 @@ var mcq_data = {
             
         },
         {
-            "question"              : "2 I want those shoes, the white [_].",
+            "question"              : "I want those shoes, the white [_].",
             "options"               : [["one","ones"]],
             "answer"                : [2],
 			"inputbox"				: "yes",
@@ -38,7 +38,7 @@ var mcq_data = {
             "audioenable"           : "correct", // correct (or) default 
         },
         {
-            "question"              : "3 Susan bought new mittens, the [_] that were on sale.",
+            "question"              : "Susan bought new mittens, the [_] that were on sale.",
             "options"               : [["one","ones"]],
             "answer"                : [2],
 			"inputbox"				: "yes",
@@ -47,7 +47,7 @@ var mcq_data = {
             "audioenable"           : "correct", // correct (or) default 
         }, 
         {
-            "question"              : "4 Let’s catch some butterflies, the colourful [_].",
+            "question"              : "Let’s catch some butterflies, the colourful [_].",
             "options"               : [["one","ones"]],
             "answer"                : [2],
 			"inputbox"				: "yes",

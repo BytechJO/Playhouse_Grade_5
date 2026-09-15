@@ -16,7 +16,9 @@
     margin: 0px auto;
     position: relative;
 }
-
+.func_ctrls {
+    display:none !important;
+}
 .activityHeading .hint{
     font-size: 20px;
     color: #53bde4;

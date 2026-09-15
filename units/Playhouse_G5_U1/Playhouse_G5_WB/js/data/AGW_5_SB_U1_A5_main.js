@@ -37,7 +37,7 @@ var mcq_tick_data = {
     "questions"             : [
         {
             "question"              : "",
-            "answer"                : [2,4,7,8,11,14,16],
+            "answer"                : [2,4,5,7,8,11,14,16],
             // "image"                 : "../images/pages/activities/AGW_1_SB_U11_P108.png",
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default

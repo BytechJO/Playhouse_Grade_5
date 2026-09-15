@@ -1,8 +1,9 @@
 //  ****************************************** //
 //  FillIn - Version no: 1
 //  Date updated - June 3, 2020 
-//  Fix: تجاهل علامات الترقيم (نقطة، فاصلة، إلخ) عند نهاية أو داخل
-//       الجملة/الكلمة - سواء بالإجابة الصحيحة أو يلي كتبه الطالب
+//  Update: دعم poolPerColumn:true - بنك إجابات مستقل لكل عمود، بحيث
+//          ترتيب الكلمات جوا نفس العمود حر، بس لازم تكون تحت
+//          العمود الصحيح
 //  ****************************************** //
 window.FillIn = function(obj, dataObj){    
     ob = obj[0].getElementsByClassName("options");
@@ -40,9 +41,120 @@ FillIn.prototype = {
             
         }
     },
+
+    // ============ هل النشاط بده بنك مستقل لكل عمود لحاله؟ ============
+    isPoolPerColumnActivity:function(dataObj){
+        return (dataObj.poolPerColumn === true);
+    },
+
+    validatePoolPerColumn:function(){
+        var ob = this.ob;
+        var e = (ob.activity_area);
+        var dataObj = ob.data_obj;
+        var numOfRow = dataObj.numOfRow;
+        var elsQue = e.querySelectorAll('.que');
+        var resultArr = [];
+
+        // 1) ابني بنك إجابات مستقل لكل عمود
+        var colPools = [];
+        var startIdx = 0;
+        for (var c = 0; c < numOfRow.length; c++) {
+            var pool = [];
+            for (var r = 0; r < numOfRow[c]; r++) {
+                var qData = dataObj.questions[startIdx + r];
+                var _case = (qData.strictcase != undefined && qData.strictcase != null && (qData.strictcase).toLowerCase() == 'yes');
+                var ansArr = getStrArray(qData.answer, 'activity');
+                var ansStr = (ansArr && ansArr.length > 0) ? ansArr[0] : '';
+                var norm = (_case ? ansStr : ansStr.toLowerCase()).replace(/\s/g, '');
+                pool.push({ value: norm, used: false });
+            }
+            colPools.push(pool);
+            startIdx += numOfRow[c];
+        }
+
+        // 2) خريطة: رقم السؤال (qno) -> رقم عموده
+        var qnoToCol = {};
+        startIdx = 0;
+        for (var c2 = 0; c2 < numOfRow.length; c2++) {
+            for (var r2 = 0; r2 < numOfRow[c2]; r2++) {
+                qnoToCol[startIdx + r2 + 1] = c2;
+            }
+            startIdx += numOfRow[c2];
+        }
+
+        // 3) لكل خانة، قارنها مع بنك عمودها هي بس
+        for (var i = 0; i < elsQue.length; i++) {
+            var qno = parseInt(elsQue[i].dataset.qno);
+            var qData2 = dataObj.questions[qno - 1];
+            var _case2 = (qData2.strictcase != undefined && qData2.strictcase != null && (qData2.strictcase).toLowerCase() == 'yes');
+            var col = qnoToCol[qno];
+            var pool2 = colPools[col];
+
+            (elsQue[i].querySelector('.tick')).style.display = 'none';
+            (elsQue[i].querySelector('.cross')).style.display = 'none';
+
+            var input = elsQue[i].querySelector('input');
+            var isCorrect = false;
+
+            if (!input) {
+                // خانة جاهزة (readonly) - صحيحة تلقائيًا
+                isCorrect = true;
+            } else {
+                var uVal = input.value;
+                uVal = (uVal.length > 0) ? ((_case2 ? uVal : uVal.toLowerCase()).replace(/\s/g, '')) : '';
+                if (uVal.length > 0) {
+                    for (var p = 0; p < pool2.length; p++) {
+                        if (!pool2[p].used && pool2[p].value === uVal) {
+                            pool2[p].used = true;
+                            isCorrect = true;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            resultArr[i] = isCorrect ? 1 : 0;
+
+            if (isCorrect) {
+                (elsQue[i].querySelector('.tick')).style.display = 'block';
+                if (qData2.audio != '' && qData2.audio != 'no') {
+                    if (qData2.audioenable == 'correct' && (elsQue[i].querySelectorAll('.audioIcon')).length > 0) {
+                        (elsQue[i].querySelector('.audioIcon')).classList.remove("disabled");
+                    }
+                }
+            } else {
+                (elsQue[i].querySelector('.cross')).style.display = 'block';
+                if (qData2.audio != '' && qData2.audio != 'no') {
+                    if (qData2.audioenable == 'correct' && (elsQue[i].querySelectorAll('.audioIcon')).length > 0) {
+                        (elsQue[i].querySelector('.audioIcon')).classList.add("disabled");
+                    }
+                }
+            }
+
+            if ((elsQue[i].querySelectorAll('.icon_wrap')).length > 0) {
+                (elsQue[i].querySelector('.icon_wrap')).style.display = 'block';
+            }
+        }
+
+        var allCorrect = (resultArr.indexOf(0) === -1);
+        showFeedback(true, allCorrect);
+        if (allCorrect) {
+            document.getElementsByClassName('resetBtn')[0].classList.add("disabled");
+        }
+    },
+
     validate:function(){
         var ob = this.ob;
         var e = (ob.activity_area); 
+        var dataObj = ob.data_obj;
+
+        // بنك مستقل لكل عمود - راجع poolPerColumn:true بالداتا
+        if (this.isPoolPerColumnActivity(dataObj)) {
+            this.validatePoolPerColumn();
+            return;
+        }
+
+        // -------- المنطق العادي (كل خانة تتفحص مقابل إجابتها الخاصة بترتيبها الأصلي) --------
         var elsQue = e.querySelectorAll('.que'); 
         var numOfFillIns = elsQue.length;
         var allCorrect = false; 
@@ -60,6 +172,17 @@ FillIn.prototype = {
             var _corr = 0;
             var _wrong = 0;
             var inputBoxes = elsQue[i].querySelectorAll('input'); 
+
+            // خانة جاهزة (readonly، بدون input) - صحيحة تلقائيًا
+            if (inputBoxes.length === 0) {
+                resultArr[i] = 1;
+                if (fDataObj.audio != '' && fDataObj.audio != 'no') {
+                    if (fDataObj.audioenable == 'correct' && ((elsQue[i].querySelectorAll('.audioIcon')).length > 0)) {
+                        (elsQue[i].querySelector('.audioIcon')).classList.remove("disabled");
+                    }
+                }
+                continue;
+            }
 
             if(inputBoxes.length > 0){
                 for(var a=0;a<inputBoxes.length;a++){
@@ -87,10 +210,6 @@ FillIn.prototype = {
                     _cAns[cc] = (_case == 'yes')? _cAns[cc]: _cAns[cc].toLowerCase();  
                    _cAns[cc] = (_cAns[cc]).replace(/\s/g, '');
                    _uAns[cc] = (_uAns[cc]).replace(/\s/g, '');
-                   // FIX: تجاهل علامات الترقيم (نقطة، فاصلة، تعجب، سؤال، فاصلة منقوطة، نقطتين)
-                   // من كل من الإجابة الصحيحة وإجابة الطالب قبل المقارنة
-                   _cAns[cc] = (_cAns[cc]).replace(/[.,!?;:]/g, '');
-                   _uAns[cc] = (_uAns[cc]).replace(/[.,!?;:]/g, '');
                     if(_cAns[cc] == _uAns[cc]){
                         _corr++;
                         // if(_isReadOnly[cc] != 1)  {
