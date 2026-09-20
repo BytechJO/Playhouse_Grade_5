@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p16/1.mp3',
+        'audiourl': '../audios/P16/1.mp3',
       },
       {
         'url': '',
@@ -26,11 +26,11 @@ var fillin_data = {
     "mainTitle"                  : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"              : "",
     "mainTitleIconPos"           : {"right": "-18px"},
-    "mainTitleAudio"             : "../audios/p16/GRAMMAR.mp3",
+    "mainTitleAudio"             : "../audios/P16/GRAMMAR.mp3",
     "subTitleTextLeft"           : '<span class="title-order">1</span> Match it! &nbsp;',
     "subTitleTextRight"          : "Match each sentence with its (<span class='black_text'>might</span> / <span class='black_text'>may</span>) possibility sentence.",
     "subTitleIcons"              : [],
-    "subTitleAudio"              : "../audios/p16/1_Match_it!_Match_each_sentence_with_its_(might_-_may)_possibility_sentence.mp3",
+    "subTitleAudio"              : "../audios/P16/1_Match_it!_Match_each_sentence_with_its_(might_-_may)_possibility_sentence.mp3",
     "activityheading"            : "",
     "activityheading_audio"      : "../audios/p16/under.mp3",
     "activityicon"               : "../images/icons/key_icon.png",

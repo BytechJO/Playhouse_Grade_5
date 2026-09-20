@@ -27,7 +27,7 @@ var _activity_json = {
     "subTitleTextLeft"      : "<span class='title-order'>2</span> Write it!",
     "subTitleTextRight"     : "Read the sentence. Choose the synonym of the highlighted word from the box and write it in the blank.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p25write.mp3",
+    "subTitleAudio"         : "../audios/new/p25write.MP3",
     "image"                 : "mouse_icon.png",
     "images"                 : [],
     "activityheading"       : "",

@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p15/3.mp3',
+        'audiourl': '../audios/P15/3.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p15/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P15/CONVERSATION.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>3</span> Look it up!",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p15/3_Look_it_up!.mp3",
+    "subTitleAudio"         : "../audios/P15/3_Look_it_up!.mp3",
     "activityheading"       : "",
     "activityheading_audio" : "../audios/p15/under.mp3",
     "activityicon"          : "../images/icons/key_icon.png",

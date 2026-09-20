@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"toggle_slide",
     "playListData" : [
         {
-          'audiourl': '../audios/p16/Remember!_May-Might_Possibilities.mp3',
+          'audiourl': '../audios/P16/Remember!_May-Might_Possibilities.mp3',
         },
         {
           'url': '',
@@ -22,7 +22,7 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p16/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P16/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],

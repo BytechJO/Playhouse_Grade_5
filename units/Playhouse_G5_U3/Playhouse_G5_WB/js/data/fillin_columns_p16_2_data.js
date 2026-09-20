@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p16/2.mp3',
+        'audiourl': '../audios/P16/2.mp3',
       },
       {
         'url': '',
@@ -24,13 +24,13 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p16/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P16/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> You do it! Change each sentence to make it a (<span class='black_text'>may</span> / <span class='black_text'>might</span>) possibility sentence.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p16/2_You_do_it!_Change_each_sentence_to_make_it_a_(may_-_might)_possibility_sentence.mp3",
+    "subTitleAudio"         : "../audios/P16/2_You_do_it!_Change_each_sentence_to_make_it_a_(may_-_might)_possibility_sentence.mp3",
     "activityheading"       : "",
-    "activityheading_audio" : "../audios/p16/under.mp3",
+    "activityheading_audio" : "../audios/P16/under.mp3",
     "activityicon"          : "../images/icons/key_icon.png",
     "main_activityheading"  :"../images/pages/activities/WORD_POWER.jpg",
     "main_activityheading_audio" : "../audios/p16/under.mp3",

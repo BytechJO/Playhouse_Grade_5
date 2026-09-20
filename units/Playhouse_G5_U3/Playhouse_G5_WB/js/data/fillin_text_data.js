@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p17/2.mp3',
+        'audiourl': '../audios/P17/2.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/activities/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "../images/pages/sb-icons/readwrite_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-43px"},
-    "mainTitleAudio"        : "../audios/p17/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P17/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>2</span> Look it up! Look up each word in a dictionary. Find a synonym for each word and write it down next to it.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p17/2_Look_it_up!_Look_up_each_word_in_a_dictionary_Find_a_synonym_for_each_word_and_write_it_down.mp3",
+    "subTitleAudio"         : "../audios/P17/2_Look_it_up!_Look_up_each_word_in_a_dictionary_Find_a_synonym_for_each_word_and_write_it_down.mp3",
     "activityheading"       : 'Practise it! Complete the conversation using the Word Power words',
     "activityheading_audio" : "../audios/p17/under.mp3",
     "main_activityheading"  :"../images/pages/activities/conversation.jpg",

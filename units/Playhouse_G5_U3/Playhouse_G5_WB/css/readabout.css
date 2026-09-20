@@ -168,3 +168,56 @@
     width: 170px;
   }
 }
+
+
+/* ============ إضافات لازم تنحط بملف readabout.css الأساسي ============ */
+
+.cloud_sentence {
+    cursor: pointer;
+    display: inline;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 0 2px;
+}
+
+/* دائرة - الفكرة الرئيسية */
+.cloud_sentence.circled {
+    border-color: #0d89ca;
+}
+
+/* خط تحت - جملة داعمة */
+.cloud_sentence.underlined {
+    border-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: #0d89ca;
+    text-decoration-thickness: 2px;
+}
+
+/* بعد التصحيح */
+.cloud_sentence.sentence-correct.circled {
+    border-color: #2e9e44;
+}
+.cloud_sentence.sentence-correct.underlined {
+    text-decoration-color: #2e9e44;
+}
+.cloud_sentence.sentence-wrong.circled {
+    border-color: #d1201f;
+}
+.cloud_sentence.sentence-wrong.underlined {
+    text-decoration-color: #d1201f;
+}
+/* جملة كان يفترض تنعلّم بس ما انعلّمت (فاتت) */
+.cloud_sentence.sentence-wrong:not(.circled):not(.underlined) {
+    outline: 2px dashed #d1201f;
+    border-radius: 4px;
+}
+
+/* المربعات */
+.rb_input.correct-input {
+    border-color: #2e9e44 !important;
+    background: #eafbef;
+}
+.rb_input.wrong-input {
+    border-color: #d1201f !important;
+    background: #ffe9e8;
+}

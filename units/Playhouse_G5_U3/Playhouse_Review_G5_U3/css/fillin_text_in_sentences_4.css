@@ -173,6 +173,8 @@
     border-radius: 10px;
     background-color: #CDCEE4;
     padding: 20px;
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
 }
 
 .word_opt_sticky {
