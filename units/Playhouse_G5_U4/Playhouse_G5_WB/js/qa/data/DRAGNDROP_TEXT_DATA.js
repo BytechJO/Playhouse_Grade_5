@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p22/1.mp3',
+        'audiourl': '../audios/P22/1.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var _activity_json = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "50px"},
-    "mainTitleAudio"        : "../audios/p22/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P22/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Write it! Fill in the blank with the correct phrase from the box.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p22/1_Write_it!_Fill_in_the_blank_with_the_correct_phrase_from_the_box.mp3",
+    "subTitleAudio"         : "../audios/P22/1_Write_it!_Fill_in_the_blank_with_the_correct_phrase_from_the_box.mp3",
     // "image"                 : "",
     "images"                 : ["../images/pages/activities/22-img.png"],
     "activityheading"       : "",

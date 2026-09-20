@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p19/1.mp3',
+        'audiourl': '../audios/P19/1.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var _activity_json = {
   "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
   "mainTitleIcon"         : "",
   "mainTitleIconPos"      : {"right": "50px"},
-  "mainTitleAudio"        : "../audios/p19/WORD_POWER.mp3",
+  "mainTitleAudio"        : "../audios/P19/WORD_POWER.mp3",
   "subTitleTextLeft"      : "<span class='title-order'>1</span> Write it! Write the Word Power word for its description.",
   "subTitleTextRight"     : "",
   "subTitleIcons"         : [],
-  "subTitleAudio"         : "../audios/p19/1_Write_it!_Write_the_Word_Power_word_for_its_description.mp3",
+  "subTitleAudio"         : "../audios/P19/1_Write_it!_Write_the_Word_Power_word_for_its_description.mp3",
   "type"                  :"drag_drop_with_image",
   "questions":[  
     '<p class="max-width-200">a metal basket on wheels that holds the things a person wants to buy from a shop</p> <span>___</span>',
