@@ -4,7 +4,7 @@ var stereo_data = {
     "bgColor_rgb":"rgb(53, 130, 180)",
     "playListData" : [
         {
-          'audiourl': '../audios/p26/1.mp3',
+          'audiourl': '../audios/P26/1.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p26/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P26/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="red_text">1</span> You do it! Combine a verb and a preposition to make a phrasal verb.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p26/1_You_do_it!_Combine_a_verb_and_a_preposition_to_make_a_phrasal_verb.mp3",
+    "subTitleAudio"         : "../audios/P26/1_You_do_it!_Combine_a_verb_and_a_preposition_to_make_a_phrasal_verb.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

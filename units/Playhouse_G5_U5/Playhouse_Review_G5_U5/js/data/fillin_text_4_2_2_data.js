@@ -9,7 +9,7 @@ var fillin_data = {
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",
-    "image"                 : "../images/pages/activities/img1.png",
+    "image"                 : "../images/pages/activities/img1.PNG",
     "imageposition"         : "front",// "front" (or) "back"
     "defaultAnswer"         : 1,
     "numbering"             : "none", // "alphabet" (or) "number"

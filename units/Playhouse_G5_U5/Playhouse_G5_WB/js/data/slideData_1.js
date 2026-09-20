@@ -4,7 +4,7 @@ var stereo_data = {
     "bgColor_rgb":"rgb(53, 130, 180)",
     "playListData" : [
         {
-          'audiourl': '../audios/p25/1.mp3',
+          'audiourl': '../audios/P25/1.mp3',
         },
         {
           'url': '',
@@ -21,11 +21,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/p25/CONVERSATION.mp3",
+    "mainTitleAudio": "../audios/P25/CONVERSATION.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Practise it! Read the conversation and practise it with a friend or family member. ",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p25/1_Practise_it!_Read_the_conversation_and_practise_it_with_a_friend_or_family_member.mp3",
+    "subTitleAudio": "../audios/P25/1_Practise_it!_Read_the_conversation_and_practise_it_with_a_friend_or_family_member.mp3",
     "slides": [
         {
 

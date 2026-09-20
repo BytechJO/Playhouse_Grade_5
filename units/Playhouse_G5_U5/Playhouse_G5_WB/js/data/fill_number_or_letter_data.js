@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p24/1.mp3',
+        'audiourl': '../audios/P24/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p24/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P24/WORD_POWER.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Label it! Label the picture using the Word Power phrases below.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/p24/1_Label_it!_Label_the_picture_using_the_Word_Power_phrases_below.mp3",
+    "subTitleAudio"         : "../audios/P24/1_Label_it!_Label_the_picture_using_the_Word_Power_phrases_below.mp3",
     "defaultAnswer"         : 0,
     "leftList"              : '',
     "image"                 :"../images/pages/activities/1-img-1.png",

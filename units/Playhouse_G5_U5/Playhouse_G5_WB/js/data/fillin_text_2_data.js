@@ -4,7 +4,7 @@ var stereo_data = {
     "bgColor_rgb":"rgb(53, 130, 180)",
     "playListData" : [
         {
-          'audiourl': '../audios/p27/1.mp3',
+          'audiourl': '../audios/P27/1.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio": "../audios/p27/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P27/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> You do it! Fill in the blanks using the words above.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p27/1_You_do_it!_Fill_in_the_blanks_using_the_words_above.mp3",
+    "subTitleAudio"         : "../audios/P27/1_You_do_it!_Fill_in_the_blanks_using_the_words_above.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

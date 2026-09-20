@@ -28,7 +28,7 @@ var mcq_data = {
     "subTitleTextLeft"      : "<span class='title-order'>1</span> You do it!",
     "subTitleTextRight"     : "Look at each picture and circle the correct phrasal verb.",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/new/p43doit.mp3",    
+    "subTitleAudio"         : "../audios/new/p43doit.MP3",    
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

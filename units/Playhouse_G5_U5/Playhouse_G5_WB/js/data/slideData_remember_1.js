@@ -4,7 +4,7 @@ var stereo_data = {
     "bgColor_rgb":"rgb(53, 130, 180)",
     "playListData" : [
         {
-          'audiourl': '../audios/p26/Remember!_Phrasal_Verbs-Two-Part_Verb.mp3',
+          'audiourl': '../audios/P26/Remember!_Phrasal_Verbs-Two-Part_Verb.mp3',
         },
         {
           'url': '',
@@ -22,7 +22,7 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p26/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P26/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],

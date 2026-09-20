@@ -13,7 +13,7 @@ var fillin_data = {
     "leftList"              : '',
     "options"               : [],
     "optionsAudios"         : ["","","","","","",""],
-    "image"                 :"../images/pages/activities/img2.png",
+    "image"                 :"../images/pages/activities/img2.PNG",
     "questions": [
         {
             "textfront": "",

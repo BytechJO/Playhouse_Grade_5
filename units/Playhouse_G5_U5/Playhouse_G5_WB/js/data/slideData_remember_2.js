@@ -4,7 +4,7 @@ var stereo_data = {
     "bgColor_rgb":"rgb(53, 130, 180)",
     "playListData" : [
         {
-          'audiourl': '../audios/p27/Remember!_Words_From_Other_Languages.mp3',
+          'audiourl': '../audios/P27/Remember!_Words_From_Other_Languages.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p27/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P27/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p27/Remember!_Words_From_Other_Languages.mp3",
+    "subTitleAudio": "../audios/P27/Remember!_Words_From_Other_Languages.mp3",
     "slides": [
     {
        
