@@ -28,7 +28,7 @@ var _activity_json = {
     "subTitleTextLeft"      : "<span class='title-order'>2</span> Write it!",
     "subTitleTextRight"     : "Use the correct stative verb from the word box to complete each sentence.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p7write.mp3",
+    "subTitleAudio"         : "../audios/new/p7write.MP3",
     "image"                 : "mouse_icon.png",
     "images"                 : ["../images/pages/activities/p7_2_1.png","../images/pages/activities/p7_2_2.png"],
     "activityheading"       : "",

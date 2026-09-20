@@ -29,7 +29,7 @@ var fillin_data = {
   subTitleTextRight:
     "Put each verb into its correct category. Can some be in both columns?",
   subTitleIcons: [],
-  subTitleAudio: "../audios/new/p6categorise.mp3",
+  subTitleAudio: "../audios/new/p6categorise.MP3",
   activityheading: "",
   activityheading_audio: "../audios/under.mp3",
   activitysubheading: "",

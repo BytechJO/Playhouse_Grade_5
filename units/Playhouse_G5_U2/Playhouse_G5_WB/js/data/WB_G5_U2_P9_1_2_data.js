@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p9/martial_arts_collecting_video_gaming_birdwatching_sewing_indoor_games.mp3',
+        'audiourl': '../audios/P9/martial_arts_collecting_video_gaming_birdwatching_sewing_indoor_games.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
   "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
   "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
   "mainTitleIconPos"      : {"right": "-18px"},
-  "mainTitleAudio"        : "../audios/p9/WORD_POWER.mp3",
+  "mainTitleAudio"        : "../audios/P9/WORD_POWER.mp3",
   "subTitleTextLeft"      : '<span class="blue_text">1</span> Write it! Write each hobby on the line below its picture.',
   "subTitleTextRight"     : "",
   "subTitleIcons"         : [],
-  "subTitleAudio"         : "../audios/p9/1_Write_it!_Write_each_hobby_on_the_line_below_its_picture.mp3",
+  "subTitleAudio"         : "../audios/P9/1_Write_it!_Write_each_hobby_on_the_line_below_its_picture.mp3",
   "activityheading"       : "Look, read, and write.",
   "activityheading_audio" : "../audios/p9/under.mp3",
   "activitysubheading"    : "",

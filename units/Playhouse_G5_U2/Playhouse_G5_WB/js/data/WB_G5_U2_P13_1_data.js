@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p13/1.mp3',
+        'audiourl': '../audios/P13/1.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/WRITING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p13/WRITING.mp3",
+    "mainTitleAudio"        : "../audios/P13/WRITING.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Write a persuasive essay.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p13/1_Write_a_persuasive_essay.mp3",
+    "subTitleAudio"         : "../audios/P13/1_Write_a_persuasive_essay.mp3",
     "activityheading"       : "",
     "activityheading_audio" : "../audios/p13/under.mp3",
     "activityicon"          : "../images/icons/key_icon.png",

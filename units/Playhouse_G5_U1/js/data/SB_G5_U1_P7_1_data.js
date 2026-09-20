@@ -28,7 +28,7 @@ var mcq_data = {
     "subTitleTextLeft"      : "<span class='title-order'>1</span> <b>You do it!</b>",
     "subTitleTextRight"     : "Underline the sentences that show the stative verb form.",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/new/p7doit.mp3",
+    "subTitleAudio"         : "../audios/new/p7doit.MP3",
     "activityicon"          : "../images/icons/hand_icon.png",  
     "activityheading"       : "",
     "activitysubheading"    : "",

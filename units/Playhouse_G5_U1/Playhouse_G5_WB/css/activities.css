@@ -133,9 +133,10 @@ body {
     font-family: Arcon;
     font-weight: bold;
     color: rgb(0, 185, 242);
-    font-size: 32px;
+    font-size: 26px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+        margin-left: 50px;
 }
 
 .audioQuestionTitle {
@@ -174,7 +175,7 @@ body {
 .tickContent {
     text-align: left;
     font-family: Arcon;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .word_dash {

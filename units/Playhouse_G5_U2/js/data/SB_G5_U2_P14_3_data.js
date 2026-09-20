@@ -28,7 +28,7 @@ var fillin_data = {
   "subTitleTextLeft"      : "<span class='title-order'>3</span> Discuss it!",
   "subTitleTextRight"     : "What is the hobby of each person in the pictures below? Write down the hobby and talk about it with your partner. Use gerunds.",
   "subTitleIcons"         : ["../images/pages/sb-icons/conv_2_icon.png"],
-  "subTitleAudio"         : "../audios/new/p14discuss.mp3",
+  "subTitleAudio"         : "../audios/new/p14discuss.MP3",
   "activityheading"       : '',
   "activityheading_audio" : "",
   "activitysubheading": "",

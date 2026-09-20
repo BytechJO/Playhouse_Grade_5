@@ -623,7 +623,7 @@ function buildStudentPagesSidebar() {
         function (index, page) {
             if (
                 page &&
-                page.build == "yes" &&
+              
                 page.file
             ) {
                 var pageLabel =

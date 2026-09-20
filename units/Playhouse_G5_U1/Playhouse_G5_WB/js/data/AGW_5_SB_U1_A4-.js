@@ -23,11 +23,11 @@ var mcq_tick_data = {
     "numinrow"              : [[1]],
     "activityheading": '2 Think about it! What makes a sport extreme? There are sports that are extreme for some, but not for others. Look at the extreme sports and activities below. Tick the activities you think are extreme. In your notebook, write why you think they are extreme.',
     "activityheading_audio" : "../audios/p5/2_Think_about_it!_What_makes_a_sport_extreme_There_are_sports_that_are_extreme_for_some_but.mp3",
-    "main_activityheading":"../images/pages/activities/conversation.jpg",
+    "main_activityheading":"../images/pages/activities/CONVERSATION.jpg",
     "main_activityheading_audio" : "../audios/p5/CONVERSATION.mp3",
     "activitysubheading"    : "",
     // "activityicon"          : "../images/icons/hand_icon.png",    
-    "mainActivityheading"  : "../images/pages/CONVERSATION.jpg",
+    "mainActivityheading"  : "../images/pages/activities/CONVERSATION.jpg",
     "select"                : "multiple", // single (or) multiple
     "shape"                 : "tickbox", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) tickbox
     "bgcolor"               : "none",

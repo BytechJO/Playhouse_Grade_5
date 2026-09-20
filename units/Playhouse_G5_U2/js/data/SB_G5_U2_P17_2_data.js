@@ -27,7 +27,7 @@ var fillin_data = {
 "mainTitleAudio"        : "../audios/new/LANGUAGE_BUILDING.mp3",    "subTitleTextLeft"      : "<span class='title-order'>2</span> <b>You do it!</b>",
     "subTitleTextRight"     : "Write the correct action verb <b>play</b> /  <b>go</b> to complete each phrase.",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/new/p17doit.mp3",
+    "subTitleAudio"         : "../audios/new/p17doit.MP3",
     "activityheading"       : '',
     "activityheading_audio" : "../audios/under.mp3",
     "main_activityheading"  :"../images/pages/activities/conversation.jpg",

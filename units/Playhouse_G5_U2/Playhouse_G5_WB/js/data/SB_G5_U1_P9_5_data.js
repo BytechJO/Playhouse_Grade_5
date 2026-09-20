@@ -23,13 +23,13 @@ var sentencecheck_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p12/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P12/LANGUAGE_BUILDING.mp3",
 
   subTitleTextLeft: '<span class="title-order">2</span> <b>Write it!</b>',
   subTitleTextRight:
     "Are these sentences correct? Read the sentences and put a check if the sentence is correct and a cross if the sentence is not correct. Then rewrite the incorrect sentences.",
   subTitleAudio:
-    "../audios/p12/2_Write_it!_Are_these_sentences_correct_Read_the_sentences_and_put_a_if_the_sentence_is_correct.mp3",
+    "../audios/P12/2_Write_it!_Are_these_sentences_correct_Read_the_sentences_and_put_a_if_the_sentence_is_correct.mp3",
 
   // ------------------------------------------------------------------ //
   // iscorrect: "yes" -> الجملة أصلاً صح (مش لازم يكتب إعادة صياغة).

@@ -28,7 +28,7 @@ var mcq_data = {
     "subTitleTextLeft"      : "<span class='title-order'>2</span> <b>Find it!</b>",
     "subTitleTextRight"     : "Find the gerund in each sentence and underline it.",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/new/p14find.mp3",
+    "subTitleAudio"         : "../audios/new/p14find.MP3",
     "activityicon"          : "../images/icons/hand_icon.png",  
     "activityheading"       : "",
     "activitysubheading"    : "",

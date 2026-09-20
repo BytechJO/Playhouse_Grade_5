@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p11/1.mp3',
+          'audiourl': '../audios/P11/1.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p11/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P11/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Find it! Underline the gerund in each sentence.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p11/1_Find_it!_Underline_the_gerund_in_each_sentence.mp3",
+    "subTitleAudio"         : "../audios/P11/1_Find_it!_Underline_the_gerund_in_each_sentence.mp3",
     "activityheading"       : "",
     "activitysubheading"    : "",
     "activityicon"          : "../images/icons/hand_icon.png",    

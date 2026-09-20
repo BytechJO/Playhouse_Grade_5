@@ -23,7 +23,7 @@ var fillin_data = {
     "numinrow": [[1], [1], [1], [1], [1]],
     "activityheading": '1 Practise it! Complete the conversation using the Word Power words',
     "activityheading_audio" : "../audios/p5/1_Practise_it!_Complete_the_conversation_using_the_Word_Power_words_Then_practise_the_conversation.mp3",
-    "main_activityheading":"../images/pages/activities/conversation.jpg",
+    "main_activityheading":"../images/pages/activities/CONVERSATION.jpg",
     "main_activityheading_audio" : "../audios/p5/CONVERSATION.mp3",
     "activitysubheading": "",
     "activityicon": "../images/icons/key_icon.png",

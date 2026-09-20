@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p11/2.mp3",
+      audiourl: "../audios/P11/2.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p11/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P11/GRAMMAR.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>2</span> Write it! Fill in the blanks with a gerund from the word box below.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p11/2_Write_it!_Fill_in_the_blanks_with_a_gerund_from_the_word_box_below.mp3",
+    "../audios/P11/2_Write_it!_Fill_in_the_blanks_with_a_gerund_from_the_word_box_below.mp3",
   activityheading: "",
   activityheading_audio: "../audios/p11/under.mp3",
   activitysubheading: "",

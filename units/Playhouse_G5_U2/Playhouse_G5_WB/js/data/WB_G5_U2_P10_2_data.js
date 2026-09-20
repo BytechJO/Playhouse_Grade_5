@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p10/2.mp3',
+        'audiourl': '../audios/P10/2.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p10/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P10/CONVERSATION.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> Answer it! Answer the questions in complete sentences.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p10/2_Answer_it!_Answer_the_questions_in_complete_sentences.mp3",
+    "subTitleAudio"         : "../audios/P10/2_Answer_it!_Answer_the_questions_in_complete_sentences.mp3",
     "activityheading"       : "",
     "activityheading_audio" : "../audios/p10/under.mp3",
     "activityicon"          : "../images/icons/key_icon.png",
