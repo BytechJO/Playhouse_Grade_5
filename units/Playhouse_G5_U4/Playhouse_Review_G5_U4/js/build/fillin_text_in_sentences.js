@@ -53,7 +53,7 @@ function buildFillInBody(aObj) {
 		htmlStmt += '</div>';
 		htmlStmt += '</div>';
         // ===================================================================== all_cont =====================
-		htmlStmt += '<div class="options cont_ht_sf mx-auto">';
+		htmlStmt += '<div class="options mx-auto">';
 		htmlStmt += '<div class="all_cont justify-content-start justify-content-sm-center">';
 		// ===========================================================
 		htmlStmt += '<div class="screen_elements d-flex justify-content-center align-items-center h-100">';

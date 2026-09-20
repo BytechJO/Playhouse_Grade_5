@@ -112,6 +112,7 @@
 
   .flex-cell p {
     font-size: 23px;
+        height: 120px;
   }
 
   .flex-cell input{

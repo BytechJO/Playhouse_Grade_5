@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p21/2.mp3',
+        'audiourl': '../audios/P21/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p21/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P21/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> Answer it! Write an answer to each question using <b>one</b>/<b>ones</b>.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p21/2_Answer_it!_Write_an_answer_to_each_question_using_one-ones.mp3",
+    "subTitleAudio"         : "../audios/P21/2_Answer_it!_Write_an_answer_to_each_question_using_one-ones.mp3",
     "defaultAnswer"         : -1,
     "leftList"              : '',
     "image"                 :"../images/pages/activities/21-img.png",

@@ -74,7 +74,7 @@ var reading_data = {
       //////////////////////////////////////////////////////////////////////////////////////////////////////
       title: "",
       array_text: [
-        "<div style='position: relative;'><img src='../images/pages/page-4/slideT1.png' class='left_image' style='float: left; width: 200px;'/>" +
+        "<div style='position: relative;'><img src='../images/pages/page-4/slideT1.PNG' class='left_image' style='float: left; width: 200px;'/>" +
           "<input type='number' min='0' max='10' class='square_input'></div>" +
           "<div class='right_text'>If this is your style, then " +
           "you are a person who loves " +
@@ -87,7 +87,7 @@ var reading_data = {
           
           ///////////////////////////////////////////////
           
-          "<div style='position: relative;'><img src='../images/pages/page-4/slideT3.png' class='left_image' style='float: left; width: 200px;'/>" +
+          "<div style='position: relative;'><img src='../images/pages/page-4/slideT3.PNG' class='left_image' style='float: left; width: 200px;'/>" +
           "<input type='number' min='0' max='10' class='square_input'></div>" +
           "<div class='right_text'>If you choose this as your " +
           "style, then you are always " +
@@ -98,7 +98,7 @@ var reading_data = {
           "people.</div>",
           
           ///////////////////////////////////////////////
-          "<div style='position: relative;'><img src='../images/pages/page-4/slideT2.png' class='left_image' style='float: left; width: 200px;'/>" +
+          "<div style='position: relative;'><img src='../images/pages/page-4/slideT2.PNG' class='left_image' style='float: left; width: 200px;'/>" +
             "<input type='number' min='0' max='10' class='square_input'></div>" +
             "<div class='right_text'>If this is your style, then you are a " +
             "modest and truthful person. You are " +
@@ -109,7 +109,7 @@ var reading_data = {
             "people love you so much.</div>",
           ///////////////////////////////////////////////
           
-          "<div style='position: relative;'><img src='../images/pages/page-4/slideT4.png' class='left_image' style='float: left; width: 200px;'/>" +
+          "<div style='position: relative;'><img src='../images/pages/page-4/slideT4.PNG' class='left_image' style='float: left; width: 200px;'/>" +
           "<input type='number' min='0' max='10' class='square_input'></div>" +
           "<div class='right_text'>If this is your style, then you don’t " +
           "have time for fashion. You are loyal to " +

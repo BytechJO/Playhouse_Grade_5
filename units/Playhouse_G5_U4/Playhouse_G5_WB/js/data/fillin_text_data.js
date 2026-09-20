@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p21/1.mp3',
+        'audiourl': '../audios/P21/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-43px"},
-    "mainTitleAudio"        : "../audios/p21/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P21/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Complete it! Complete each sentence with the correct word (<b>one</b>/<b>ones</b>)",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p21/1_Complete_it!_Complete_each_sentence_with_the_correct_word_(one-ones).mp3",
+    "subTitleAudio"         : "../audios/P21/1_Complete_it!_Complete_each_sentence_with_the_correct_word_(one-ones).mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "number", // "alphabet" (or) "number"
@@ -44,7 +44,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": ["ones","ones"],
+          "answer": ["one","one"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              

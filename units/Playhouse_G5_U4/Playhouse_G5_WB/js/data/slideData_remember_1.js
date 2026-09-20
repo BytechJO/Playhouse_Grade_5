@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p21/Remember!_Pronouns_One-Ones.mp3',
+        'audiourl': '../audios/P21/Remember!_Pronouns_One-Ones.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p21/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P21/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p21/under.mp3",
+    "subTitleAudio": "../audios/P21/under.mp3",
     "slides": [
     {
        

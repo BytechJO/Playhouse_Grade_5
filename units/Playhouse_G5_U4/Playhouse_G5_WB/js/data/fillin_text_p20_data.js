@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p20/2.mp3',
+        'audiourl': '../audios/P20/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p20/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P20/CONVERSATION.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>2</span> You do it! Practise the conversation again using the words below.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p20/2_You_do_it!_Practise_the_conversation_again_using_the_words_below.mp3",
+    "subTitleAudio"         : "../audios/P20/2_You_do_it!_Practise_the_conversation_again_using_the_words_below.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"       : "none", // "alphabet" (or) "number"
