@@ -28,7 +28,7 @@ var mcq_data = {
     "subTitleTextLeft"      : "<span class='title-order'>2</span> You do it!",
     "subTitleTextRight"     : "Answer the following questions about Earth Day.",
     "subTitleIcons"         :  [""],
-    "subTitleAudio"         : "../audios/new/p64doit.mp3",  
+    "subTitleAudio"         : "../audios/new/p64doit.MP3",  
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

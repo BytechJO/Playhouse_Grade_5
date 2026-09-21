@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p37/1.mp3',
+        'audiourl': '../audios/P37/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p37/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P37/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : '<span class="red_text">1</span> You do it! Put the two smaller words together to make a compound word.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p37/1_You_do_it!_Put_the_two_smaller_words_together_to_make_a_compound_word.mp3",
+    "subTitleAudio"         : "../audios/P37/1_You_do_it!_Put_the_two_smaller_words_together_to_make_a_compound_word.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

@@ -40,14 +40,14 @@ var reading_data = {
         "group_styles": "",
         "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
         "word": [
-            "<img src='../images/pages/activities/p63_left.png' class='left_text'/>",
+            "<img src='../images/pages/activities/p63_left.PNG' class='left_text'/>",
 
             "It is raining at City Park. Take turns asking and " +
             "answering questions about what people were " +
             "doing when it started to rain.",
             
-            "<img src='../images/pages/activities/p63_right1.png' class='right_text'/>",
-            "<img src='../images/pages/activities/p63_right2.png' class='right_text2'/>",
+            "<img src='../images/pages/activities/p63_right1.PNG' class='right_text'/>",
+            "<img src='../images/pages/activities/p63_right2.PNG' class='right_text2'/>",
             ],
         "imagePlacePos":[
           {"colWidth": [6,6], "colData": [1,1] },

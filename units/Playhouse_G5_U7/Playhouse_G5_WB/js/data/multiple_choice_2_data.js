@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p36/1.mp3',
+          'audiourl': '../audios/P36/1.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "100px"},
-    "mainTitleAudio"        : "../audios/p36/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P36/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Choose it! Choose the correct ending for each sentence.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         :  [],
-    "subTitleAudio"         : "../audios/p36/1_Choose_it!_Choose_the_correct_ending_for_each_sentence.mp3",  
+    "subTitleAudio"         : "../audios/P36/1_Choose_it!_Choose_the_correct_ending_for_each_sentence.mp3",  
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

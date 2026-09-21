@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p37/Remember!_Compound_Nouns.mp3',
+        'audiourl': '../audios/P37/Remember!_Compound_Nouns.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p37/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P37/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p37/under.mp3",
+    "subTitleAudio": "../audios/P37/under.mp3",
     "slides": [
     {
        

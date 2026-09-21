@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p36/Remember!_Simple_Past_Vs_Past_Continuous_−_Interrupted_Actions.mp3',
+        'audiourl': '../audios/P36/Remember!_Simple_Past_Vs_Past_Continuous_−_Interrupted_Actions.mp3',
       },
       {
         'url': '',
@@ -23,7 +23,7 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p36/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P36/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],

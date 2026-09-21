@@ -35,7 +35,7 @@ var fillin_data = {
             "textfront": "What was Lisa doing when Amanda knocked on the door?",
             "audio": "../audios/under.mp3",
             "audioenable": "default", // correct (or) default
-            "image": "../images/pages/page-3/l_image.png",
+            "image": "../images/pages/page-3/l_image.PNG",
             "answer": ["Young Star Olympics"],
             "strictcase": "no", // yes (or) no              
             "type": "text", // text (or) number

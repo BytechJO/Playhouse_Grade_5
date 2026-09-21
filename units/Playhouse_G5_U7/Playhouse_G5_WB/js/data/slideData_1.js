@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p35/1.mp3',
+        'audiourl': '../audios/P35/1.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/p35/CONVERSATION.mp3",
+    "mainTitleAudio": "../audios/P35/CONVERSATION.mp3",
     "subTitleTextLeft": "<span class='blue_text'>1</span> Practise it! Read the conversation, and then practise it with someone in your family. Take turns being Jasper and Chris.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p35/1_Practise_it!_Read_the_conversation_and_practise_it_with_a_friend_or_family_member.mp3",
+    "subTitleAudio": "../audios/P35/1_Practise_it!_Read_the_conversation_and_practise_it_with_a_friend_or_family_member.mp3",
     "slides": [
         {
 

@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p36/2.mp3',
+        'audiourl': '../audios/P36/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p36/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P36/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="red_text">2</span> Write it! Complete the sentences. Use the simple past or the past continuous.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p36/2_Write_it!_Complete_the_sentences_Use_the_simple_past_or_the_past_continuous.mp3",
+    "subTitleAudio"         : "../audios/P36/2_Write_it!_Complete_the_sentences_Use_the_simple_past_or_the_past_continuous.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,
