@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">2</span>  Write it!',
     "subTitleTextRight"     : "Complete the sentences using the present continuous form to speak about the near future.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p70write.MP3",
+    "subTitleAudio"         : "../audios/new/p70write.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "number", // "alphabet" (or) "number"

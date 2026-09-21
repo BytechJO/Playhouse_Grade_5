@@ -41,7 +41,7 @@ var mcq_data = {
         {
             "question"              : "The([_]) gave the Playhouse Kids ([_]) for the big match.",
             "options"               : [["coach ","captain"],["tickets ","players"]],          
-            "answer"                : [1,2],
+            "answer"                : [1,1],
 			"inputbox"				:"yes",
 			"image"					: '',
             "audio"                 : "",

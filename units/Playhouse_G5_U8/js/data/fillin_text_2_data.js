@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">3</span> You do it!',
     "subTitleTextRight"     : "Complete the sentences with a noun or an adjective.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p73doit.mp3",
+    "subTitleAudio"         : "../audios/new/p73doit.MP3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "number", // "alphabet" (or) "number"
