@@ -1,6 +1,7 @@
 //  ****************************************** //
 //  MCQ - Version no: 2
 //  Date updated - July 03, 2020 
+//  Fix: تجاهل علامات الترقيم عند مقارنة إجابة خانة الكتابة (fillinanswer)
 //  ****************************************** //
 window.MCQ = function (obj, dataObj) {
     ob = obj[0].getElementsByClassName("options");
@@ -226,6 +227,11 @@ MCQ.prototype = {
 			if(inputBoxes.length == 1){
 				var userFillAns = (inputBoxes[0].value).toLowerCase();				
 				var corrFillAns = (fDataObj.fillinanswer).toLowerCase();
+				// FIX: تجاهل علامات الترقيم (نقطة، فاصلة، إلخ) ومسافات
+				// زايدة بالبداية/النهاية، قبل المقارنة - عشان الطالب
+				// ما ينعلّم غلط بس لأنو حط نقطة أو فاصلة بإجابته
+				userFillAns = userFillAns.replace(/[.,!?;:]/g, '').trim();
+				corrFillAns = corrFillAns.replace(/[.,!?;:]/g, '').trim();
 				if(userFillAns == corrFillAns){
 					filledCorrect = true;
 				}
@@ -341,6 +347,17 @@ MCQ.prototype = {
             }
             var pickOptions = elsQue[i].querySelectorAll('.pick');
             self.resetAllPicks(elsQue[i], pickOptions);
+
+            // FIX: كانت مفقودة بالكامل - لازم نمسح قيمة خانة الكتابة
+            // (fillinanswer) عند الضغط على Reset
+            var inputBoxes = elsQue[i].querySelectorAll('input');
+            if (inputBoxes.length > 0) {
+                for (var b = 0; b < inputBoxes.length; b++) {
+                    inputBoxes[b].value = '';
+                    inputBoxes[b].style.color = 'black';
+                }
+            }
+
             if (pickOptions.length > 0) {
                 for (var a = 0; a < pickOptions.length; a++) {
                     if (((fDataObj.options)[a]).audio != '') {

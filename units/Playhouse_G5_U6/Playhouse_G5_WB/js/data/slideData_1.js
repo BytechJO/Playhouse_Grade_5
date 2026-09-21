@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p30/1.mp3',
+        'audiourl': '../audios/P30/1.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon": "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/p30/CONVERSATION.mp3",
+    "mainTitleAudio": "../audios/P30/CONVERSATION.mp3",
     "subTitleTextLeft": "<span class='blue_text'>1</span> Practise it! Read the conversation and practise it with a friend or family member.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p30/1_Practise_it!_Read_the_conversation_and_practise_it_with_a_friend_or_family_member.mp3",
+    "subTitleAudio": "../audios/P30/1_Practise_it!_Read_the_conversation_and_practise_it_with_a_friend_or_family_member.mp3",
     "slides": [
         {
 

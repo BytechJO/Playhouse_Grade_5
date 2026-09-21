@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p31/1.mp3',
+        'audiourl': '../audios/P31/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p31/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P31/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Write it! Fill in the blanks with the correct adverbs of time from the box above.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p31/1_Write_it!_Fill_in_the_blanks_with_the_correct_adverbs_of_time_from_the_box_above.mp3",
+    "subTitleAudio"         : "../audios/P31/1_Write_it!_Fill_in_the_blanks_with_the_correct_adverbs_of_time_from_the_box_above.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

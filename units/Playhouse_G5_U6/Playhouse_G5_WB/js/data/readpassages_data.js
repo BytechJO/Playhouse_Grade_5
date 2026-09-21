@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p33/1.mp3",
+      audiourl: "../audios/P33/1.mp3",
     },
     {
       url: "",
@@ -23,12 +23,12 @@ var readpassages_data = {
   mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p33/WRITING.mp3",
+  mainTitleAudio: "../audios/P33/WRITING.mp3",
   subTitleTextLeft:
     '<span class="blue_text">1</span> Read about it! <br/> Informational writing is used to inform or explain something to the reader. You can find informational texts about real people, places or events in newspapers, biographies, books and magazines. Read the passages below and tick the passage that is an informational text.',
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p33/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P33/1_Read_about_it!.mp3",
 
   select: "single", // single (or) multiple
   shape: "tickbox", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox

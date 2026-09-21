@@ -26,7 +26,7 @@ var _activity_json = {
     "subTitleTextLeft"      : "<span class='title-order'>3</span> Write it!",
     "subTitleTextRight"     : "Write the correct adverbs of time. Use the word box.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p50write.mp3",
+    "subTitleAudio"         : "../audios/new/p50write.MP3",
     // "image"                 : "",
     "images"                 : [],
     "type"                  : "drag_drop",

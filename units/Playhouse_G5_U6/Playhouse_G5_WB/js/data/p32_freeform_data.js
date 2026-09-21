@@ -6,7 +6,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p32/2.mp3",
+      audiourl: "../audios/P32/2.mp3",
     },
     {
       url: "",
@@ -25,13 +25,13 @@ var linedraw_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p32/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P32/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>2</span> Find it!",
   subTitleTextRight:
     "Find the words that have opposite meanings. Draw a line to connect the antonyms.",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p32/2_Find_it!_Find_the_words_that_have_opposite_meanings_Draw_a_line_to_connect_the_antonyms.mp3",
+    "../audios/P32/2_Find_it!_Find_the_words_that_have_opposite_meanings_Draw_a_line_to_connect_the_antonyms.mp3",
 
   connect: "single", // single (or) multiple
   linecolor: "#217cf2ff",

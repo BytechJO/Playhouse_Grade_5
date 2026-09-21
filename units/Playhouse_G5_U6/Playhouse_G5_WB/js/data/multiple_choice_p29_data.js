@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p29/1.mp3',
+        'audiourl': '../audios/P29/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-20px"},
-    "mainTitleAudio"        : "../audios/p29/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P29/WORD_POWER.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Circle it! Look at the pictures and look at the Word Power words. Circle the word that matches the picture.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         :  [],
-    "subTitleAudio"         : "../audios/p29/1_Circle_it!_Look_at_the_pictures_and_look_at_the_Word_Power_words_Circle_the_word_that_matches.mp3",
+    "subTitleAudio"         : "../audios/P29/1_Circle_it!_Look_at_the_pictures_and_look_at_the_Word_Power_words_Circle_the_word_that_matches.mp3",
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

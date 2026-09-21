@@ -29,7 +29,7 @@ var wordsearch_data = {
     "subTitleTextLeft"      : '<span class="title-order">3</span> Find it!',
     "subTitleTextRight"     : "Find the antonyms of the words in the box.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p53find.mp3",   
+    "subTitleAudio"         : "../audios/new/p53find.MP3",   
     "questions"             : [
         {   
             "selectionbooxcolor"    : "rgb(87, 91, 160)",

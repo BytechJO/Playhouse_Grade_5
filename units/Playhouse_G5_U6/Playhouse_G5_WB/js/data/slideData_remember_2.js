@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p32/Remember!_Antonyms_and_Synonyms.mp3',
+        'audiourl': '../audios/P32/Remember!_Antonyms_and_Synonyms.mp3',
       },
       {
         'url': '',
@@ -23,7 +23,7 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p32/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P32/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],

@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">2</span> You do it!',
     "subTitleTextRight"     : "Put each part of the timeline of transportation in the correct time (past, present or future) that it was made or used",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p52doit.mp3",
+    "subTitleAudio"         : "../audios/new/p52doit.MP3",
     "image"                 : "../images/pages/activities/2-img.png",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "none", // "alphabet" (or) "number"

@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p31/Remember!_Adverb_Phrases_of_Time.mp3',
+        'audiourl': '../audios/P31/Remember!_Adverb_Phrases_of_Time.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p31/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P31/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p31/under.mp3",
+    "subTitleAudio": "../audios/P31/under.mp3",
     "slides": [
     {
        

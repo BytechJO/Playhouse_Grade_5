@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p29/2.mp3',
+        'audiourl': '../audios/P29/2.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var linedraw_data = {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio"        : "../audios/p29/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P29/WORD_POWER.mp3",
     "subTitleTextLeft"      : "<span class='orange_text'>2</span> Match.",
     "subTitleTextRight"     : "Match it! Match each Word Power word to its definition.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p29/2_Match_it!_Match_each_Word_Power_word_to_its_definition.mp3",
+    "subTitleAudio"         : "../audios/P29/2_Match_it!_Match_each_Word_Power_word_to_its_definition.mp3",
     "image"                 : "",
     "connect"               : "multiple", // single (or) multiple
     "linecolor"             : "",

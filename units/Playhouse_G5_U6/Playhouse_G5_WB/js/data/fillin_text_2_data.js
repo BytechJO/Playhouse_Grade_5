@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p32/1.mp3',
+        'audiourl': '../audios/P32/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p32/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P32/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> You do it! Write whether each pair are synonyms or antonyms.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p32/1_You_do_it!_Write_whether_each_pair_are_synonyms_or_antonyms.mp3",
+    "subTitleAudio"         : "../audios/P32/1_You_do_it!_Write_whether_each_pair_are_synonyms_or_antonyms.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,
