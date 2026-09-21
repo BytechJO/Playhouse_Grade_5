@@ -31,7 +31,7 @@ var reading_data = {
         {
             "layout": "grid_columns",
 
-            "mainImage": ["../images/pages/activities/img7.png"],
+            "mainImage": ["../images/pages/activities/img7.PNG"],
             "parent_class_name": "grid_with_background_4",
             "group_styles": "",
             "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],

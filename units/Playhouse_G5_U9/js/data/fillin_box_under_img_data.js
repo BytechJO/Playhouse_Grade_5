@@ -42,7 +42,7 @@ var fillin_data = {
         "textaudios": ["../audios/under.mp3"],
         "audio": "",
         "audioenable": "default", // correct (or) default
-        "image": "../images/pages/activities/img1.png",
+        "image": "../images/pages/activities/img1.PNG",
         "answer": ["dessert"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no  
@@ -56,7 +56,7 @@ var fillin_data = {
         "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
         "audio": "",
         "audioenable": "default", // correct (or) default
-        "image": "../images/pages/activities/img2.png",
+        "image": "../images/pages/activities/img2.PNG",
         "answer": ["appetiser"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no     
@@ -70,7 +70,7 @@ var fillin_data = {
         "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
         "audio": "",
         "audioenable": "default", // correct (or) default
-        "image": "../images/pages/activities/img3.png",
+        "image": "../images/pages/activities/img3.PNG",
         "answer": ["main course"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    

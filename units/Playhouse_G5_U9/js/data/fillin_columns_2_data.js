@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">2</span> You do it!',
     "subTitleTextRight"     : "Answer the following questions about the advertisement.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p80doit.mp3",
+    "subTitleAudio"         : "../audios/new/p80doit.MP3",
     "defaultAnswer"         : -1,
     "image"                 :"",
     "questions": [{

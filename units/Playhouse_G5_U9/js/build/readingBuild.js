@@ -29,7 +29,7 @@ function buildReadingHTML(aObj) {
         slideHtml += '</div>';
     slideHtml += '</div>';
 
-    slideHtml += "<div class='options cont_ht_sf mx-auto'>";
+    slideHtml += "<div class='options mx-auto'>";
     slideHtml += "<div class='all_cont d-flex justify-content-center align-items-center'>";
     // slideHtml += "<div class='slides cont_group my-3'>";
     if (typeof aObj !== undefined && aObj.slides.length != 0 && aObj != null) {
