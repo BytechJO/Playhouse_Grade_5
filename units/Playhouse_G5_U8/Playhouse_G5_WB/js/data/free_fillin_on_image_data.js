@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p39/1.mp3',
+        'audiourl': '../audios/P39/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p39/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P39/WORD_POWER.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Match it! Read the sentences and write the Word Power words that match the pictures on the lines",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p39/1_Match_it!_Read_the_sentences_and_write_the_Word_Power_words_that_match_the_pictures_on.mp3",
+    "subTitleAudio"         : "../audios/P39/1_Match_it!_Read_the_sentences_and_write_the_Word_Power_words_that_match_the_pictures_on.mp3",
     "image"                 : "../images/pages/activities/1-img-1.png",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "none", // "alphabet" (or) "number"

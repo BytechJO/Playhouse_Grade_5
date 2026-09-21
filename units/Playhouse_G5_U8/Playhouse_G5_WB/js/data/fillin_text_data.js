@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p41/2.mp3',
+        'audiourl': '../audios/P41/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p41/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P41/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>2</span> Read it! Read the present continuous sentences. Write ‘<span class='black_text'>F</span>' for future sentences. Put an ‘<span class='black_text'>N</span>' for sentences that show actions happening now",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p41/2_Read_it!_Read_the_present_continuous_sentences_Write_‘F'_for_future_sentences_Put_an_‘N'_for.mp3",
+    "subTitleAudio"         : "../audios/P41/2_Read_it!_Read_the_present_continuous_sentences_Write_‘F'_for_future_sentences_Put_an_‘N'_for.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

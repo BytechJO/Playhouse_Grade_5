@@ -29,7 +29,7 @@ var fillin_data = {
     "subTitleTextRight"     : "Read the words and fill in the boxes. Then match them to their definitions.",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/under.mp3",
-    "image"                 : "../images/pages/activities/fill_backgroung.png",
+    "image"                 : "../images/pages/activities/fill_backgroung.PNG",
     "imageposition"         : "front",// "front" (or) "back"
     "numbering"             : "none", // "alphabet" (or) "number"
     "numberstartfrom"       : 1,

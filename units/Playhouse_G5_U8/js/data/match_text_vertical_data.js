@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p29/2.mp3",
+      audiourl: "../audios/P29/2.mp3",
     },
     {
       url: "",
@@ -24,7 +24,7 @@ var linedraw_data = {
   mainTitle: "../images/pages/sb-icons/lang-build.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_main_title_icon.png",
   mainTitleIconPos: { right: "60px" },
-  mainTitleAudio: "../audios/p29/WORD_POWER.mp3",
+  mainTitleAudio: "../audios/page_73/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: '<span class="title-order">4</span>  Match it!',
   subTitleTextRight:
     "Read the words and fill in the boxes. Then match them to their definitions.",

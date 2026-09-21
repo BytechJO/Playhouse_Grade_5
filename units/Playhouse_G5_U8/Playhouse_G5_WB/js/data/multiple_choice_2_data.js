@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p41/1.mp3',
+          'audiourl': '../audios/P41/1.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "100px"},
-    "mainTitleAudio"        : "../audios/p41/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P41/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Circle it! Circle the sentences that use the present continuous form correctly to talk about the future.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         :  [],
-    "subTitleAudio"         : "../audios/p41/1_Circle_it!_Circle_the_sentences_that_use_the_present_continuous_form_correctly_to_talk_about_the.mp3",  
+    "subTitleAudio"         : "../audios/P41/1_Circle_it!_Circle_the_sentences_that_use_the_present_continuous_form_correctly_to_talk_about_the.mp3",  
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

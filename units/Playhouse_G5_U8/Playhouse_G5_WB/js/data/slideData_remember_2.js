@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p42/Remember!_Adding_‘ful’_to_Nouns.mp3',
+        'audiourl': '../audios/P42/Remember!_Adding_‘ful’_to_Nouns.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p42/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P42/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p42/under.mp3",
+    "subTitleAudio": "../audios/P42/under.mp3",
     "slides": [
     {
        

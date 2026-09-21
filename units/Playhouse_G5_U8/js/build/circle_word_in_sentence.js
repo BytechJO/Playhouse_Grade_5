@@ -84,8 +84,6 @@ function buildMcqBody(aObj) {
 					}
                     var str = tpOb.question;
                     var opts = tpOb.options;
-                    var count = (str.match(/[_]/g) || []).length;
-                    var tCount=0;                     
 
                     var tmphtml = "";
                     var fillBoxesArr=[];
@@ -107,20 +105,23 @@ function buildMcqBody(aObj) {
 						tmphtml += '</span>';
                         fillBoxesArr[rr] = tmphtml;
                     }
-                    do {
-                        // res = str.replace("[_]", fillBoxesArr[tCount]);
-                        // str = res;
-                        // tCount++;
-						// debugger
-						resArr = str.split("[_]")
-						resArrAudio = [];
-						resArr.forEach( (text,index) => {
-							text !== '' ? resArrAudio.push( '<div class="audioIcon off contant not-disapled d-flex flex-wrap  align-items-center" data-audio="' + tpOb.audio + '">' + text + '</div>') : resArrAudio.push('');
-						});
-						str = resArrAudio.join(fillBoxesArr[tCount]);
-						tCount++;
+
+                    // FIX: بناء النص مرة وحدة بس، مع حط الفاصل الصحيح
+                    // (pick_set) المطابق لكل فراغ بمكانه - بدل do-while
+                    // القديمة يلي كانت تعيد استخدام أول pick_set لكل
+                    // الفراغات وتفقد باقي الفراغات كليًا (id مكررة)
+                    var resArr = str.split("[_]");
+                    var builtStr = "";
+                    for (var seg = 0; seg < resArr.length; seg++) {
+                        var segText = resArr[seg];
+                        if (segText !== '') {
+                            builtStr += '<div class="audioIcon off contant not-disapled d-flex flex-wrap align-items-center" data-audio="' + tpOb.audio + '">' + segText + '</div>';
+                        }
+                        if (seg < resArr.length - 1) {
+                            builtStr += fillBoxesArr[seg];
+                        }
                     }
-                    while (tCount < count);
+                    str = builtStr;
 
 					htmlStmt += '<div class="text_container d-flex justify-content-center">';
 					// htmlStmt += '<div class="audioIcon off contant not-disapled" data-audio="' + tpOb.audio + '">';
@@ -159,4 +160,4 @@ function buildMcqBody(aObj) {
 }
 function nextChar(c) {
 	return String.fromCharCode(c.charCodeAt(0) + 1);
-}  
+}

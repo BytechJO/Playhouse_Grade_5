@@ -26,7 +26,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='title-order'>3</span> Talk about it! ",
     "subTitleTextRight": "Look at what Eric is doing today. Ask and answer questions with a partner.",
     "subTitleIcons": ["../images/pages/sb-icons/conv_3_icon.png"],
-    "subTitleAudio": "../audios/new/p70talk.mp3",
+    "subTitleAudio": "../audios/new/p70talk.MP3",
     "slides": [
         {
             

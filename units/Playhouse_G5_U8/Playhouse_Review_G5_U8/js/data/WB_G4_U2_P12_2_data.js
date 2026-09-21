@@ -26,7 +26,7 @@ var wordpuzzle_data = {
    "mainTitleIcon"         : "",
    "mainTitleIconPos"      : {"right": "-18px"},
    "mainTitleAudio"        : "../audios/page_12/PHONICS_AND_SPELLING.mp3",
-   "subTitleTextLeft"      : "<span class='blue_text'>3</span> Solve it! Solve the crossword using the clues. Hint: they are all ‘-ful’ words.",
+   "subTitleTextLeft"      : "<span class='green_text'>3</span> Solve it! Solve the crossword using the clues. Hint: they are all ‘-ful’ words.",
    "subTitleTextRight"     : "",
    "subTitleIcons"         : [],
    "subTitleAudio"         : "../audios/page_12/2_Solve_it!_Complete_the_crossword_puzzle_by_matching_the_‘ea‘_words_with_the_correct_clues.mp3",

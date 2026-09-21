@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p42/1.mp3',
+        'audiourl': '../audios/P42/1.mp3',
       },
       {
         'url': '',
@@ -27,11 +27,11 @@ var fillin_data = {
     "mainTitle"                  : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"              : "",
     "mainTitleIconPos"           : {"right": "-18px"},
-    "mainTitleAudio"             : "../audios/p42/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"             : "../audios/P42/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"           : '<span class="title-order">1</span> Match it! Look at the definitions and match them to the correct words.',
     "subTitleTextRight"          : "",
     "subTitleIcons"              : [],
-    "subTitleAudio"              : "../audios/p42/1_Match_it!_Look_at_the_definitions_and_match_them_to_the_correct_words.mp3",
+    "subTitleAudio"              : "../audios/P42/1_Match_it!_Look_at_the_definitions_and_match_them_to_the_correct_words.mp3",
     "defaultAnswer"              : "",
     "image"                      :"../images/pages/activities/WB_G6_U1_Q8.jpg",
     "leftList"                   : '',

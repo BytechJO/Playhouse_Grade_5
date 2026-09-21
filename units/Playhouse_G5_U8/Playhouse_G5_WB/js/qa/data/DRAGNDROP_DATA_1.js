@@ -6,7 +6,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p42/2.mp3',
+        'audiourl': '../audios/P42/2.mp3',
       },
       {
         'url': '',
@@ -26,12 +26,12 @@ var _activity_json =
         "numinrow"              : [[1,1,1]],
         "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
         "mainTitleIcon"         : "",
-        "mainTitleAudio"        : "../audios/p42/LANGUAGE_BUILDING.mp3",
+        "mainTitleAudio"        : "../audios/P42/LANGUAGE_BUILDING.mp3",
         "mainTitleIconPos"      : {"right": "-18px"},
         "subTitleTextLeft"      : '<span class="blue_text">2</span> Complete it! Complete the sentences.',
         "subTitleTextRight"     : "",
         "subTitleIcons"         : [],
-        "subTitleAudio"         : "../audios/p42/2_Complete_it!_Complete_the_sentences.mp3",
+        "subTitleAudio"         : "../audios/P42/2_Complete_it!_Complete_the_sentences.mp3",
         "image"                 : "new_drag_drop.png",
         "type"                  : "drag_drop",
         "images"                : [],

@@ -86,8 +86,8 @@ FillIn.prototype = {
             if((_uAns.length>0) && (_cAns.length == _uAns.length)){
                 for(var cc=0;cc<_cAns.length;cc++){                    
                     _cAns[cc] = (_case == 'yes')? _cAns[cc]: _cAns[cc].toLowerCase();  
-                   _cAns[cc] = (_cAns[cc]).replace(/\s/g, '');
-                   _uAns[cc] = (_uAns[cc]).replace(/\s/g, '');
+                   _cAns[cc] = (_cAns[cc]).replace(/[.,!?;:]/g, '');
+                   _uAns[cc] = (_uAns[cc]).replace(/[.,!?;:]/g, '');
 
                    var isMatch = (_cAns[cc] == _uAns[cc]);
 
@@ -96,7 +96,7 @@ FillIn.prototype = {
                        var _cAltAns = getStrArray(fDataObj.alternateanswer[cc], 'activity');
                        for(var alt=0; alt<_cAltAns.length; alt++){
                            var normAlt = (_case == 'yes') ? _cAltAns[alt] : (_cAltAns[alt]).toLowerCase();
-                           normAlt = normAlt.replace(/\s/g, '');
+                           normAlt = normAlt.replace(/[.,!?;:]/g, '');
                            if(normAlt == _uAns[cc]){
                                isMatch = true;
                                break;
