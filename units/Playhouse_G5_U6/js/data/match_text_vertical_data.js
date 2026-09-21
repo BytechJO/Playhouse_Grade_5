@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p29/2.mp3',
+        'audiourl': '../audios/P29/2.mp3',
       },
       {
         'url': '',
@@ -28,7 +28,7 @@ var linedraw_data = {
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Match it!",
     "subTitleTextRight"     : "Match each adverb of time to its correct ending. Then rewrite the sentences below.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p29/2_Match_it!_Match_each_Word_Power_word_to_its_definition.mp3",
+    "subTitleAudio"         : "../audios/P29/2_Match_it!_Match_each_Word_Power_word_to_its_definition.mp3",
     "image"                 : "",
     "connect"               : "multiple", // single (or) multiple
     "linecolor"             : "#217cf2ff",

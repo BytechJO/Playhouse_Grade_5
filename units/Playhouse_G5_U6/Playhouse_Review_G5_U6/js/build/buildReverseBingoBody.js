@@ -4,7 +4,17 @@ function buildReverseBingoBody(aObj) {
 
     var gridSize = aObj.gridSize || 5;
     var centerIndex = Math.floor((gridSize * gridSize) / 2);
-
+	
+		htmlStmt +=  '<div class="sub_footer_icon sub_footer_icon_left subFooterNav backNav mx-1">'
+		htmlStmt +=  '<a href="">'
+		htmlStmt +=  '<img src="../images/icons/back_btn.png" />'
+		htmlStmt +=  '</a>'
+		htmlStmt +=  '</div>'
+		htmlStmt +=  '<div class="sub_footer_icon sub_footer_icon_right subFooterNav nextNav mx-1">'
+		htmlStmt +=  '<a href="">'
+		htmlStmt +=  '<img src="../images/icons/next_btn.png" />'
+		htmlStmt +=  '</a>'
+		htmlStmt +=  '</div>'
     // لازم كلاس "options" يكون موجود على العنصر الرئيسي، لأنو نظام
     // الأنشطة العام (activities.js) بيدور عليه بـ getElementsByClassName("options")
     // لما يبني ReverseBingoController - نفس نمط buildFillInBody / buildMcqBody
