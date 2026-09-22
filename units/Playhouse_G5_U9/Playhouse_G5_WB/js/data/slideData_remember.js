@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p46/Remember!_Polite_Requests.mp3',
+        'audiourl': '../audios/P46/Remember!_Polite_Requests.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p46/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P46/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p46/under.mp3",
+    "subTitleAudio": "../audios/P46/under.mp3",
     "slides": [
     {
        

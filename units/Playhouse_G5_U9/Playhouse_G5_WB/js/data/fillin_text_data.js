@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p45/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P45/CONVERSATION.mp3",
     "subTitleTextLeft"      : '<span class="red_text">2</span> Spot it! Can you spot the Word Power words used in this conversation? Write them below:',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p45/2_Spot_it!_Can_you_spot_the_Word_Power_words_used_in_this_conversation_Write_them_below.mp3",
+    "subTitleAudio"         : "../audios/P45/2_Spot_it!_Can_you_spot_the_Word_Power_words_used_in_this_conversation_Write_them_below.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

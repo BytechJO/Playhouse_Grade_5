@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p47/2.mp3',
+          'audiourl': '../audios/P47/2.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p47/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P47/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>2</span> Find it! Circle the misused words in the paragraph below. Above each error, spell the word correctly.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p47/2_Find_it!_Circle_the_misused_words_in_the_paragraph_below_Above_each_error_spell_the_word.mp3",   
+    "subTitleAudio"         : "../audios/P47/2_Find_it!_Circle_the_misused_words_in_the_paragraph_below_Above_each_error_spell_the_word.mp3",   
     "select"                : "multiple", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

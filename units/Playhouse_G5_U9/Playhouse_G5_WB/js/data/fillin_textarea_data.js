@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p48/1.mp3',
+        'audiourl': '../audios/P48/1.mp3',
       },
       {
         'url': '',
@@ -27,11 +27,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/WRITING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p48/WRITING.mp3",
+    "mainTitleAudio"        : "../audios/P48/WRITING.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> You do it! Make your own restaurant advertisement.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p48/1_You_do_it!_Make_your_own_restaurant_advertisement.mp3",
+    "subTitleAudio"         : "../audios/P48/1_You_do_it!_Make_your_own_restaurant_advertisement.mp3",
     "defaultAnswer": 1,
     
   }

@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p47/1.mp3',
+          'audiourl': '../audios/P47/1.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p47/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P47/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>1</span> Choose it! Choose the correct word to complete each sentence. Then write it in the blank.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p47/1_Choose_it!_Choose_the_correct_word_to_complete_each_sentence_Then_write_it_in_the_blank.mp3",
+    "subTitleAudio"         : "../audios/P47/1_Choose_it!_Choose_the_correct_word_to_complete_each_sentence_Then_write_it_in_the_blank.mp3",
     "activityicon"          : "../images/icons/hand_icon.png",    
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox

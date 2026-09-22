@@ -172,7 +172,7 @@ var Popups_data = {
     "left: 24%; top: 93%;",
     "left: 39%; top: 93%;", //10
     "left: 51%; top: 90%;",
-    "left: 59%; top: 95%;",
+    "left: 59%; top: 94%;",
   ],
   imagesAudio: [
     "../audios/page_88/1_juicy.mp3",

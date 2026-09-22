@@ -44,7 +44,7 @@ var reading_data = {
               "should be short, friendly and factual. This means that you do not need to add " +
               "anything that is not important to the complaint. You should always write in a friendly way. Finally, you " +
               "should include the facts such as names, places, dates and details.",
-              "<img src='../images/pages/activities/img1.png'>",
+              "<img src='../images/pages/activities/img1.PNG'>",
 
             ],
             "imagePlacePos":[

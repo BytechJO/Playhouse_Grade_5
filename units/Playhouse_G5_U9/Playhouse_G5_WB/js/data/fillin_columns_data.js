@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p46/1.mp3',
+        'audiourl': '../audios/P46/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p46/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P46/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Write it! Make a polite request from each statement below.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p46/1_Write_it!_Make_a_polite_request_from_each_statement_below.mp3",
+    "subTitleAudio"         : "../audios/P46/1_Write_it!_Make_a_polite_request_from_each_statement_below.mp3",
     "defaultAnswer"         : 0,
     "leftList"              : '',
     "image"                 :"",
