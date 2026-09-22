@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p56/Remember!_Direct_Object_Vs_Indirect_Object.mp3',
+        'audiourl': '../audios/P56/Remember!_Direct_Object_Vs_Indirect_Object.mp3',
       },
       {
         'url': '',
@@ -23,7 +23,7 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p56/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P56/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],

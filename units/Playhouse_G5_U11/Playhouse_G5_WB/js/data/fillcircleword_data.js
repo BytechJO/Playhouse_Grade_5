@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p57/1.mp3',
+          'audiourl': '../audios/P57/1.mp3',
         },
         {
           'url': '',
@@ -24,13 +24,13 @@ var fillcircleword_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "../images/pages/sb-icons/word_main_title_icon.png",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p57/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P57/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>2</span>  Write it!  Fill in the blanks using <b>‘good'</b> or <b>‘well'</b>. Circle the noun/verb it modifies.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p57/2_Write_it!_Fill_in_the_blanks_using_‘good'_or_‘well'_Circle_the_noun-verb_it_modifies.mp3",
+    "../audios/P57/2_Write_it!_Fill_in_the_blanks_using_‘good'_or_‘well'_Circle_the_noun-verb_it_modifies.mp3",
 
   strictcase: "no",
   maxlength: 10,

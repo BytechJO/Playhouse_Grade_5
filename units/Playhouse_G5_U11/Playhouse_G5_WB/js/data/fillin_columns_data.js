@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p56/3.mp3',
+        'audiourl': '../audios/P56/3.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p56/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P56/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">3</span> Write it! Change each sentence by adding an indirect object to each sentence.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p56/3_Write_it!_Change_each_sentence_by_adding_an_indirect_object_to_each_sentence.mp3",
+    "subTitleAudio"         : "../audios/P56/3_Write_it!_Change_each_sentence_by_adding_an_indirect_object_to_each_sentence.mp3",
     "defaultAnswer"         : 1,
     "leftList"              : '',
     "image"                 :"",

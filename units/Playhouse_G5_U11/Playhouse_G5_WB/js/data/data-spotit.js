@@ -15,11 +15,11 @@ var spotit_data = {
         "mainTitle": "../images/pages/sb-icons/CONVERSATION.jpg ",
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/p55/CONVERSATION.mp3",
+    "mainTitleAudio": "../audios/P55/CONVERSATION.mp3",
     "subTitleTextLeft": "<span class='blue_text'>2</span> Spot it! Can you spot the Word Power phrases used in this conversation? Circle them.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p55/2_Spot_it!_Can_you_spot_the_Word_Power_phrases_used_in_this_conversation_Circle_them.mp3",
+    "subTitleAudio": "../audios/P55/2_Spot_it!_Can_you_spot_the_Word_Power_phrases_used_in_this_conversation_Circle_them.mp3",
 
     "images" : [
         "../images/pages/activities/0.png",

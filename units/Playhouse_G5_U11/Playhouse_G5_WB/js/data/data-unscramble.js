@@ -12,13 +12,13 @@ var stereo_data = {
 var unscramble_data = {
     mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
-  mainTitleAudio: "../audios/p56/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P56/GRAMMAR.mp3",
   mainTitleIconPos: { right: "68px" },
   subTitleTextLeft:
     "<span class='title-order'>2</span> Unscramble it!  Unscramble the words to make sentences. Then circle the direct objects and underline indirect objects.",
 
   subTitleAudio:
-    "../audios/p56/2_Unscramble_it!_Unscramble_the_words_to_make_sentences_Then_circle_the_direct_objects_and.mp3",
+    "../audios/P56/2_Unscramble_it!_Unscramble_the_words_to_make_sentences_Then_circle_the_direct_objects_and.mp3",
   subTitleTextRight: "",
   subTitleIcons: [],
   instruction: "",

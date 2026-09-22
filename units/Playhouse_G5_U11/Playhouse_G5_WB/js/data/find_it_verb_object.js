@@ -21,13 +21,13 @@ var stereo_data = {
 var find_it_verb_object_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
-  mainTitleAudio: "../audios/p56/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P56/GRAMMAR.mp3",
   mainTitleIconPos: { right: "68px" },
   subTitleTextLeft:
     "<span class='title-order'>1</span> Find it! Circle the indirect object in each sentence. Underline the direct object in each sentence.",
 
   subTitleAudio:
-    "../audios/p56/1_Find_it!_Circle_the_indirect_object_in_each_sentence_Underline_the_direct_object_in_each_sentence.mp3",
+    "../audios/P56/1_Find_it!_Circle_the_indirect_object_in_each_sentence_Underline_the_direct_object_in_each_sentence.mp3",
   subTitleTextRight: "",
   subTitleIcons: [],
   instruction: "",
