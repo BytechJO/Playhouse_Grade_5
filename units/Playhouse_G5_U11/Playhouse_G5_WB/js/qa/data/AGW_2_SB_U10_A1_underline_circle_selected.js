@@ -6,7 +6,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p56/1.mp3',
+        'audiourl': '../audios/P56/1.mp3',
       },
       {
         'url': '',
@@ -23,7 +23,7 @@ var stereo_data = {
 var _activity_json = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
-    "mainTitleAudio"        : "../audios/p56/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P56/GRAMMAR.mp3",
     "mainTitleIconPos"      : {"right": "68px"},
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Find it! Circle the indirect object in each sentence. Underline the direct object in each sentence.",
     "subTitleTextRight"     : "",

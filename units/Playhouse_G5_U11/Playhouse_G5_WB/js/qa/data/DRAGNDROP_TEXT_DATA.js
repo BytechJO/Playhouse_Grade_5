@@ -6,7 +6,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p54/1.mp3',
+        'audiourl': '../audios/P54/1.mp3',
       },
       {
         'url': '',
@@ -23,12 +23,12 @@ var stereo_data = {
 var _activity_json =  {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "",
-    "mainTitleAudio"        : "../audios/p54/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P54/WORD_POWER.mp3",
     "mainTitleIconPos"      : {"right": "68px"},
     "subTitleTextLeft"      : "<span class='title-order'>1</span> You do it! Use the Word Power phrases below to fill in the blanks in the phone conversation.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p54/1_You_do_it!_Use_the_Word_Power_phrases_below_to_fill_in_the_blanks_in_the_phone_conversation.mp3",
+    "subTitleAudio"         : "../audios/P54/1_You_do_it!_Use_the_Word_Power_phrases_below_to_fill_in_the_blanks_in_the_phone_conversation.mp3",
     "image"                 : "mouse_icon.png",
     "images"                 : [],
     "type"                  : "drag_drop",
