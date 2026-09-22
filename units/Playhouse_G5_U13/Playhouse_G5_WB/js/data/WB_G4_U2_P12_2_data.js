@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p64/1.mp3',
+          'audiourl': '../audios/P64/1.mp3',
         },
         {
           'url': '',
@@ -25,16 +25,16 @@ var wordpuzzle_data = {
    "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
    "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
    "mainTitleIconPos"      : {"right": "-18px"},
-   "mainTitleAudio"        : "../audios/p64/WORD_POWER.mp3",
+   "mainTitleAudio"        : "../audios/P64/WORD_POWER.mp3",
    "subTitleTextLeft"      : "<span class='blue_text'>1</span> Complete it! Complete the crossword puzzle below. Write the correct Word Power word from the word box for each clue.",
    "subTitleTextRight"     : "",
    "subTitleIcons"         : [],
-   "subTitleAudio"         : "../audios/p64/1_Complete_it!_Complete_the_crossword_puzzle_below_Write_the_correct_Word_Power_word_from_the.mp3",
+   "subTitleAudio"         : "../audios/P64/1_Complete_it!_Complete_the_crossword_puzzle_below_Write_the_correct_Word_Power_word_from_the.mp3",
     "activityheading"       : "Complete the puzzle. Use the vocabulary words.",
     "activitysubheading"    : "",
     "activityicon"          : "../images/icons/key_icon.png", 
 	"options": ["spoken","invented","built","made","eaten","written","given","played","visited","opened","taken","discovered"], 
-    "optionsAudios":["../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3"],
+    "optionsAudios":["../audios/P64/under.mp3","../audios/P64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3","../audios/p64/under.mp3"],
     "questions"             : [
         {   
             "rows"                  : 14,

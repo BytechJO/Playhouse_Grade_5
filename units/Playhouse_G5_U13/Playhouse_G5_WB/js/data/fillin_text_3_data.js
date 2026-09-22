@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p66/1.mp3',
+        'audiourl': '../audios/P66/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p66/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P66/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Complete it!',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p66/1_Complete_it!_Complete_the_following_sentences_using_the_active_or_passive_form_of_the_verb.mp3",
+    "subTitleAudio"         : "../audios/P66/1_Complete_it!_Complete_the_following_sentences_using_the_active_or_passive_form_of_the_verb.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

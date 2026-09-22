@@ -40,8 +40,8 @@ var reading_data = {
               // "Phrasal verbs are compound verbs or a combination of a verb with a preposition or "+
               // "a verb with an adverb or both. Here are some more common phrasal verbs and their "+
               // "meanings:",
-              "<img src='../images/pages/activities/img1.png'>",
-              "<img src='../images/pages/activities/img2.png'>",
+              "<img src='../images/pages/activities/img1.PNG'>",
+              "<img src='../images/pages/activities/img2.PNG'>",
 
             ],
             "imagePlacePos":[

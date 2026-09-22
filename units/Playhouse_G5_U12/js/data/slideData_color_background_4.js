@@ -27,7 +27,7 @@ var reading_data = {
   subTitleTextLeft: "<span class='title-order'>3</span>  Group work!",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/new/p69group.mp3",
+  subTitleAudio: "../audios/new/p90group.mp3",
   slides: [
     {
       layout: "grid_columns",

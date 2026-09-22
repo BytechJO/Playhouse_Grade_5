@@ -6,7 +6,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p71/1.mp3',
+        'audiourl': '../audios/P71/1.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var _activity_json =  {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p71/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P71/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Write it! Use a causative verb to fill in the blank for each sentence.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p71/1_Write_it!_Use_a_causative_verb_to_fill_in_the_blank_for_each_sentence.mp3",
+    "subTitleAudio"         : "../audios/P71/1_Write_it!_Use_a_causative_verb_to_fill_in_the_blank_for_each_sentence.mp3",
     // "image"                 : "",
     "images"                 : ["../images/pages/activities/22-img.png"],
     "activityheading"       : "",

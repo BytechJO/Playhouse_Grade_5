@@ -28,7 +28,7 @@ var mcq_data = {
     "subTitleTextLeft"      : "<span class='title-order'>3</span> Choose it! ",
     "subTitleTextRight"     : "Choose the correct homonym to complete each sentence.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p129choose.mp3",
+    "subTitleAudio"         : "../audios/new/p129choose.MP3",
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

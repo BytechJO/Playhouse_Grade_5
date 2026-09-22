@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p61/2.mp3',
+        'audiourl': '../audios/P61/2.mp3',
       },
       {
         'url': '',
@@ -26,12 +26,12 @@ var fillin_data = {
     ],
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
-    "mainTitleAudio"        : "../audios/p61/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P61/GRAMMAR.mp3",
     "mainTitleIconPos"      : {"right": "70px"},
     "subTitleTextLeft"      : '<span class="title-order">2</span> Match it! Match each of the sentences beginning in (<span class="dark_text">should</span> / <span class="dark_text">would</span> / <span class="dark_text">could</span>) to the ending that sounds correct.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p61/2_Match_it!_Match_each_of_the_sentences_beginning_in_‘should'_‘would'_or_‘could'_to_the_ending_that.mp3",
+    "subTitleAudio"         : "../audios/P61/2_Match_it!_Match_each_of_the_sentences_beginning_in_‘should'_‘would'_or_‘could'_to_the_ending_that.mp3",
     "defaultAnswer"         : "",
     "image"                 :"",
     "questions": [{

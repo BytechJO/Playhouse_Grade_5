@@ -6,7 +6,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p72/2.mp3',
+          'audiourl': '../audios/P72/2.mp3',
         },
         {
           'url': '',
@@ -25,11 +25,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "90px"},
-    "mainTitleAudio"        : "../audios/p72/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P72/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> Choose it! Underline the sentences that use the correct homonym.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/p72/2_Choose_it!_Underline_the_sentences_that_use_the_correct_homonym.mp3",   
+    "subTitleAudio"         : "../audios/P72/2_Choose_it!_Underline_the_sentences_that_use_the_correct_homonym.mp3",   
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

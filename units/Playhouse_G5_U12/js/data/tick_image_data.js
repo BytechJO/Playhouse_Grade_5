@@ -32,7 +32,7 @@ var mcq_tick_data = {
   subTitleTextRight:
     "Tick <span class='red_text'>✓</span> the correct sentence for each number.",
   subTitleIcons: [],
-  subTitleAudio: "../audios/new/p107tick.mp3",
+  subTitleAudio: "../audios/new/p107tick.MP3",
   image: "../images/pages/activities/3-img-1.png",
   select: "single", // single (or) multiple
   shape: "tickbox", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) tickbox

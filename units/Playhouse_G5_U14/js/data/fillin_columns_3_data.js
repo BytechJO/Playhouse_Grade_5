@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">2</span> You do it!',
     "subTitleTextRight"     : "Answer the questions in complete sentences.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p128doit.mp3",
+    "subTitleAudio"         : "../audios/new/p128doit.MP3",
     "defaultAnswer"         : -1,
     "image"                 : "",
     "questions": [

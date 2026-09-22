@@ -6,7 +6,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p67/1.mp3',
+        'audiourl': '../audios/P67/1.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var _activity_json =  {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "68px"},
-    "mainTitleAudio"        : "../audios/p67/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P67/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Write it! Fill in the blanks with the indefinite pronouns below.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p67/1_Write_it!_Fill_in_the_blanks_with_the_indefinite_pronouns_below.mp3",
+    "subTitleAudio"         : "../audios/P67/1_Write_it!_Fill_in_the_blanks_with_the_indefinite_pronouns_below.mp3",
     "image"                 : "2-img-1.png",
     "images"                 : [],
     "type"                  : "drag_drop",

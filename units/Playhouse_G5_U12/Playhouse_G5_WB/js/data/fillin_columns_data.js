@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p60/2.mp3',
+        'audiourl': '../audios/P60/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p60/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P60/CONVERSATION.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> Answer it! Answer the questions.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p60/2_Answer_it!_Answer_the_questions.mp3",
+    "subTitleAudio"         : "../audios/P60/2_Answer_it!_Answer_the_questions.mp3",
     "defaultAnswer"         : 1,
     "leftList"              : '',
     "image"                 :"",

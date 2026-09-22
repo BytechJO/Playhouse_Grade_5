@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p65/3.mp3',
+        'audiourl': '../audios/P65/3.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p65/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P65/CONVERSATION.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">3</span> Think about it!',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p65/3_Think_about_it!.mp3",
+    "subTitleAudio"         : "../audios/P65/3_Think_about_it!.mp3",
     "defaultAnswer"         : 1,
     "leftList"              : '',
     "image"                 :"",

@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p67/Remember!_Indefinite_Pronouns.mp3',
+        'audiourl': '../audios/P67/Remember!_Indefinite_Pronouns.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p67/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P67/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p67/under.mp3",
+    "subTitleAudio": "../audios/P67/under.mp3",
     "slides": [
     {
        

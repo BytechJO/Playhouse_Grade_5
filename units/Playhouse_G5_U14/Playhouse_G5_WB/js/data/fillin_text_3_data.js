@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p71/2.mp3',
+        'audiourl': '../audios/P71/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p71/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P71/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> Change it! Change the sentence and write it in the causative form.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p71/2_Change_it!_Change_the_sentence_and_write_it_in_the_causative_form.mp3",
+    "subTitleAudio"         : "../audios/P71/2_Change_it!_Change_the_sentence_and_write_it_in_the_causative_form.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

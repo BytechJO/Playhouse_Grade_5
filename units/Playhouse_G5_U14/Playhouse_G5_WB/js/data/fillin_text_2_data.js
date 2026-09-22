@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p70/3.mp3',
+        'audiourl': '../audios/P70/3.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p70/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P70/CONVERSATION.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">3</span> Answer it!',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p70/3_Answer_it!.mp3",
+    "subTitleAudio"         : "../audios/P70/3_Answer_it!.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

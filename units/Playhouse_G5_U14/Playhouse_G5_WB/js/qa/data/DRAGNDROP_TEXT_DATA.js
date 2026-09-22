@@ -6,7 +6,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p69/1.mp3',
+        'audiourl': '../audios/P69/1.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var _activity_json =  {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p69/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P69/WORD_POWER.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Complete it! Use the Word Power words below to fill in the blanks.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p69/1_Complete_it!_Use_the_Word_Power_words_below_to_fill_in_the_blanks.mp3",
+    "subTitleAudio"         : "../audios/P69/1_Complete_it!_Use_the_Word_Power_words_below_to_fill_in_the_blanks.mp3",
     // "image"                 : "",
     "images"                 : [""],
     "activityheading"       : "",

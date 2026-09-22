@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p61/Remember!_Modal_Verbs_-_Should-Would-Could.mp3',
+        'audiourl': '../audios/P61/Remember!_Modal_Verbs_-_Should-Would-Could.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p61/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P61/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p61/under.mp3",
+    "subTitleAudio": "../audios/P61/under.mp3",
     "slides": [
     {
        

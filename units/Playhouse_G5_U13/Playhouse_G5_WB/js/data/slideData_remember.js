@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p66/Remember!_Active_and_Passive_Sentences.mp3',
+        'audiourl': '../audios/P66/Remember!_Active_and_Passive_Sentences.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p66/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P66/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p66/under.mp3",
+    "subTitleAudio": "../audios/P66/under.mp3",
     "slides": [
     {
        

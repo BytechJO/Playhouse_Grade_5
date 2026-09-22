@@ -19,7 +19,7 @@ var stereo_data = {
     ],
   }
 var reading_data = {
-    "mainTitle": "../images/pages/sb-icons/WRITING.png",
+    "mainTitle": "../images/pages/sb-icons/writing.png",
     "mainTitleIcon": "../images/pages/sb-icons/phonics_3_icon.png",
     "mainTitleIconPos": {"right": "90px"},
     "mainTitleAudio": "../audios/page_130/WRITING.mp3",

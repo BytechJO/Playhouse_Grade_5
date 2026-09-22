@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">2</span> Find it!',
     "subTitleTextRight"     : "Read each sentence. Write ‘<span class='orange_text'>P</span>’ for the passive sentences and ‘<span class='orange_text'>A</span>’ for the active sentences.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p118find.mp3",
+    "subTitleAudio"         : "../audios/new/p118find.MP3",
     "image"                 : "../images/pages/activities/1-img-1.png",
     "imageposition"         : "front",// "front" (or) "back"
     "numbering"             : "number", // "alphabet" (or) "number"

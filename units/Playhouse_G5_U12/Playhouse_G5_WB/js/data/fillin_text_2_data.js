@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p62/1.mp3',
+        'audiourl': '../audios/P62/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p62/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P62/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Write it! Fill in the blanks with the phrasal verbs from the word box.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p62/1_Write_it!_Fill_in_the_blanks_with_the_phrasal_verbs_from_the_word_box.mp3",
+    "subTitleAudio"         : "../audios/P62/1_Write_it!_Fill_in_the_blanks_with_the_phrasal_verbs_from_the_word_box.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

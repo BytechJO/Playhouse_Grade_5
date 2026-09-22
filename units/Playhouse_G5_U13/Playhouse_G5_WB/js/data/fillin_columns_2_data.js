@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p66/2.mp3',
+        'audiourl': '../audios/P66/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p66/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P66/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> Change it! Rewrite the sentences below in the past passive form.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p66/2_Change_it!_Rewrite_the_sentences_below_in_the_past_passive_form.mp3",
+    "subTitleAudio"         : "../audios/P66/2_Change_it!_Rewrite_the_sentences_below_in_the_past_passive_form.mp3",
     "defaultAnswer"         : 0,
     "leftList"              : '',
     "image"                 :"",

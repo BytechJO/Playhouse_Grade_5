@@ -28,7 +28,7 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="title-order">2</span> Answer it!',
     "subTitleTextRight"     : "Answer the questions in complete sentences.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/new/p108answer.mp3",
+    "subTitleAudio"         : "../audios/new/p108answer.MP3",
     "defaultAnswer"         : -1,
     "image"                 : "",
     "questions": [{

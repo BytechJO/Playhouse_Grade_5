@@ -6,7 +6,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p61/1.mp3',
+          'audiourl': '../audios/P61/1.mp3',
         },
         {
           'url': '',
@@ -24,12 +24,12 @@ var mcq_data = {
     "numinrow"              : [[1]],
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
-    "mainTitleAudio"        : "../audios/p61/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P61/GRAMMAR.mp3",
     "mainTitleIconPos"      : {"right": "80px"},
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Choose it! Choose the correct word (<span class='dark_text'>should</span> / <span class='dark_text'>would</span> / <span class='dark_text'>could</span>) to fill in the blank for each sentence.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p61/1_Choose_it!_Choose_the_correct_word_(should-would-could)_to_fill_in_the_blank_for_each_sentence.mp3",
+    "subTitleAudio"         : "../audios/P61/1_Choose_it!_Choose_the_correct_word_(should-would-could)_to_fill_in_the_blank_for_each_sentence.mp3",
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

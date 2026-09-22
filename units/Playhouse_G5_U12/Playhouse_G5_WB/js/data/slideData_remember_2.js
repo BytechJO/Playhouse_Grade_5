@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p62/Remember!_Phrasal_Verbs.mp3',
+        'audiourl': '../audios/P62/Remember!_Phrasal_Verbs.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p62/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P62/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p62/under.mp3",
+    "subTitleAudio": "../audios/P62/under.mp3",
     "slides": [
     {
        
