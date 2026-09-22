@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p51/1.mp3',
+        'audiourl': '../audios/P51/1.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p51/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P51/GRAMMAR.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">1</span> Write it! Write an indirect question for each problem.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p51/1_Write_it!_Write_an_indirect_question_for_each_problem.mp3",
+    "subTitleAudio"         : "../audios/P51/1_Write_it!_Write_an_indirect_question_for_each_problem.mp3",
     "defaultAnswer"         : -1,
     "leftList"              : '',
     "image"                 :"",

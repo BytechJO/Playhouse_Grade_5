@@ -93,7 +93,7 @@ var wordpuzzle_data = {
           row: 6, 
           column: 9, 
           wordnum: 8, 
-          word: "tough", 
+          word: "chewy", 
         }, 
         { 
           row: 8, 

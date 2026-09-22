@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p51/2.mp3',
+          'audiourl': '../audios/P51/2.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p51/GRAMMAR.mp3",
+    "mainTitleAudio"        : "../audios/P51/GRAMMAR.mp3",
     "subTitleTextLeft"      : "<span class='blue_text'>2</span> Choose it! Choose the correct indirect question to be used as a more polite way to form the original que",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p51/2_Choose_it!_Choose_the_correct_indirect_question_to_be_used_as_a_more_polite_way_to_form_the_original.mp3", 
+    "subTitleAudio"         : "../audios/P51/2_Choose_it!_Choose_the_correct_indirect_question_to_be_used_as_a_more_polite_way_to_form_the_original.mp3", 
     "images"                : ["../images/pages/activities/1-img-1.png","../images/pages/activities/1-img-2.png"],
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox

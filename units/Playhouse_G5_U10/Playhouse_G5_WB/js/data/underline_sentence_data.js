@@ -6,7 +6,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p52/1.mp3',
+          'audiourl': '../audios/P52/1.mp3',
         },
         {
           'url': '',
@@ -25,11 +25,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "90px"},
-    "mainTitleAudio"        : "../audios/p52/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P52/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>1</span> Underline it! Underline the direct object in each sentence.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/p52/1_Underline_it!_Underline_the_direct_object_in_each_sentence.mp3",   
+    "subTitleAudio"         : "../audios/P52/1_Underline_it!_Underline_the_direct_object_in_each_sentence.mp3",   
     "select"                : "multiple", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p49/2.mp3',
+        'audiourl': '../audios/P49/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p49/WORD_POWER.mp3",
+    "mainTitleAudio"        : "../audios/P49/WORD_POWER.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> You do it! Fill in the blanks with the Word Power words.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p49/2_You_do_it!_Fill_in_the_blanks_with_the_Word_Power_words.mp3",
+    "subTitleAudio"         : "../audios/P49/2_You_do_it!_Fill_in_the_blanks_with_the_Word_Power_words.mp3",
     "image"                 : "",
     "imageposition"         : "back",// "front" (or) "back"
     "defaultAnswer"         : 1,

@@ -13,7 +13,7 @@
 
 .group_elm {
     width: 90%;
-    /* height: 100%; */
+    height: 100%;
     margin: 0px auto;
 }
 
@@ -53,8 +53,8 @@
 }
 
 .img_space {
-    width: 400px;
-    height: 429px;
+    width: 340px;
+    /* height: 429px; */
 }
 
 .img_space img {

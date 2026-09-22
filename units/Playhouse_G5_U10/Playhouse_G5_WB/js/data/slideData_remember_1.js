@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p51/Remember!_Indirect_Questions.mp3',
+        'audiourl': '../audios/P51/Remember!_Indirect_Questions.mp3',
       },
       {
         'url': '',
@@ -23,7 +23,7 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/grammer_main_title.png",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p51/GRAMMAR.mp3",
+    "mainTitleAudio": "../audios/P51/GRAMMAR.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],

@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p52/Remember!_Direct_Objects.mp3',
+        'audiourl': '../audios/P52/Remember!_Direct_Objects.mp3',
       },
       {
         'url': '',
@@ -23,11 +23,11 @@ var reading_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio": "../audios/p52/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio": "../audios/P52/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p52/under.mp3",
+    "subTitleAudio": "../audios/P52/under.mp3",
     "slides": [
     {
        

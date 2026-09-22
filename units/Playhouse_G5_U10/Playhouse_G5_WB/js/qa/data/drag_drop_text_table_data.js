@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p49/1.mp3',
+        'audiourl': '../audios/P49/1.mp3',
       },
       {
         'url': '',
@@ -24,11 +24,11 @@ var _activity_json =  {
   "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
   "mainTitleIcon"         : "",
   "mainTitleIconPos"      : {"right": "50px"},
-  "mainTitleAudio"        : "../audios/p49/WORD_POWER.mp3",
+  "mainTitleAudio"        : "../audios/P49/WORD_POWER.mp3",
   "subTitleTextLeft"      : "<span class='title-order'>1</span> Match it! Match each Word Power word in the box to its definition or picture description.",
   "subTitleTextRight"     : "",
   "subTitleIcons"         : [],
-  "subTitleAudio"         : "../audios/p49/1_Match_it!_Match_each_Word_Power_word_in_the_box_to_its_definition_or_picture_description.mp3",
+  "subTitleAudio"         : "../audios/P49/1_Match_it!_Match_each_Word_Power_word_in_the_box_to_its_definition_or_picture_description.mp3",
   "type"                  :"drag_drop_with_image",
   "numOfRow"              :3,
   "numOfCol"              :4,
@@ -52,15 +52,15 @@ var _activity_json =  {
     '<p style="min-width:210px">It can be a dish that has sugar and doesnt taste salty.</p> <span>___</span>',
     '<p style="min-width:210px">It is full of juice.</p> <span>___</span>',
 
-    '<div style="min-width:150px"><img src="../images/pages/activities/img-1.png"></div> <span>___</span>',
+    '<div style="min-width:150px"><img src="../images/pages/activities/img-1.PNG"></div> <span>___</span>',
     '<p style="min-width:210px">It has salt.</p> <span>___</span>',
-    '<div style="min-width:150px"><img src="../images/pages/activities/img-2.png"></div> <span>___</span>',
+    '<div style="min-width:150px"><img src="../images/pages/activities/img-2.PNG"></div> <span>___</span>',
     '<p style="min-width:210px">It has spices or is a little hot.</p> <span>___</span>',
 
     '<p style="min-width:210px">It is made with cream or has a lot of milk in it.</p> <span>___</span>',
-    '<div style="min-width:150px"><img src="../images/pages/activities/img-3.png"></div> <span>___</span>',
+    '<div style="min-width:150px"><img src="../images/pages/activities/img-3.PNG"></div> <span>___</span>',
     '<p style="min-width:210px">It takes a long time to chew or is hard to chew.</p> <span>___</span>',
-    '<div style="min-width:150px"><img src="../images/pages/activities/img-4.png"></div> <span>___</span>',
+    '<div style="min-width:150px"><img src="../images/pages/activities/img-4.PNG"></div> <span>___</span>',
 
     ],
   "options": ["bitter","spicy","creamy","burnt","crunchy","sour","chewy","raw","salty","juicy","sweet","sticky"],

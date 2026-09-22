@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/p52/2.mp3',
+        'audiourl': '../audios/P52/2.mp3',
       },
       {
         'url': '',
@@ -25,11 +25,11 @@ var fillin_data = {
     "mainTitle"             : "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/p52/LANGUAGE_BUILDING.mp3",
+    "mainTitleAudio"        : "../audios/P52/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> You do it! Write a direct object to complete each sentence.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p52/2_You_do_it!_Write_a_direct_object_to_complete_each_sentence.mp3",
+    "subTitleAudio"         : "../audios/P52/2_You_do_it!_Write_a_direct_object_to_complete_each_sentence.mp3",
     "image"                 : "../images/pages/activities/3-img-1.png",
     "imageposition"         : "front",// "front" (or) "back"
     "defaultAnswer"         : 1,
