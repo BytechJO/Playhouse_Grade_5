@@ -27,7 +27,7 @@ var fillin_data = {
   "subTitleTextLeft"      : '<span class="title-order">2</span> Read about it!',
   "subTitleTextRight"     : "There are different types of figurative language. Read about them below.",
   "subTitleIcons"         : [],
-  "subTitleAudio"         : "../audios/new/p137read.mp3",
+  "subTitleAudio"         : "../audios/new/p137read.MP3",
   "image"                 : "",
   "imageposition"         : "back",// "front" (or) "back"
   "numbering"             : "alphabet", // "alphabet" (or) "number"
